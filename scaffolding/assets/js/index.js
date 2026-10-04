@@ -83,7 +83,7 @@ function openProductModal(name, cat, desc, imgUrl, fallbackUrl) {
     }
 
     if (waBtn) {
-        waBtn.href = `https://wa.me/6282169169700?text=Halo%20Regina%20Al%20Barakah,%20saya%20tertarik%20untuk%20menyewa%20atau%20membeli%20produk%20*${encodeURIComponent(name)}*.%20Bisa%20tolong%20infokan%20ketersediaan%20stok%20dan%20harganya?`;
+        waBtn.href = `https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20tertarik%20untuk%20menyewa%20atau%20membeli%20produk%20*${encodeURIComponent(name)}*.%20Bisa%20tolong%20infokan%20ketersediaan%20stok%20dan%20harganya?`;
     }
     
     if (productModal) {
