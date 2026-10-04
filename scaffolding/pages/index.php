@@ -256,7 +256,7 @@ header_remove("X-Powered-By");
                     </div>
                     <div>
                         <h4 class="font-black text-slate-800 uppercase text-xs tracking-wider mb-1">Nomor Telepon / WA</h4>
-                        <p class="text-slate-600 text-sm font-bold">0821-6916-9700</p>
+                        <p class="text-slate-600 text-sm font-bold">0821-8825-3433</p>
                     </div>
                 </div>
 
@@ -278,7 +278,7 @@ header_remove("X-Powered-By");
                 <p class="text-slate-400 text-sm leading-relaxed mb-8 font-light">
                     Butuh penawaran harga khusus proyek skala besar atau tanya ketersediaan stok komponen scaffolding? Chat CS kami sekarang.
                 </p>
-                <a href="https://wa.me/6282169169700?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20mengenai%20sewa%20scaffolding" class="block bg-green-500 hover:bg-green-600 text-white py-4 px-6 rounded-xl font-black uppercase text-xs tracking-widest shadow-lg shadow-green-500/20 transition-all active:scale-95">
+                <a href="https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20mengenai%20sewa%20scaffolding" class="block bg-green-500 hover:bg-green-600 text-white py-4 px-6 rounded-xl font-black uppercase text-xs tracking-widest shadow-lg shadow-green-500/20 transition-all active:scale-95">
                     Mulai Chat Sekarang
                 </a>
             </div>
