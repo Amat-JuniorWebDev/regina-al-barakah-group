@@ -1,0 +1,102 @@
+/* --- CORE STYLES --- */
+html { 
+    scroll-behavior: smooth; 
+}
+body { 
+    overflow-x: hidden; 
+    width: 100%; 
+}
+
+/* --- NAVBAR STYLES --- */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.4s ease-in-out;
+}
+
+/* --- ANIMATIONS & EFFECTS --- */
+.macos-card {
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform, box-shadow;
+}
+@media (min-width: 1024px) {
+    .macos-card:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 40px 80px -15px rgba(30, 58, 138, 0.15);
+    }
+}
+
+.hero-zoom { 
+    animation: slowZoom 25s infinite alternate linear; 
+}
+@keyframes slowZoom { 
+    from { transform: scale(1); } 
+    to { transform: scale(1.1); } 
+}
+
+/* --- COMPONENTS STYLES --- */
+#mobile-menu {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(-110%);
+    opacity: 0;
+    pointer-events: none;
+}
+#mobile-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+}
+
+.wa-float {
+    position: fixed; 
+    bottom: 25px; 
+    right: 25px; 
+    background-color: #25d366; 
+    color: white;
+    width: 55px; 
+    height: 55px; 
+    border-radius: 50%; 
+    text-align: center; 
+    font-size: 28px;
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3); 
+    z-index: 1000; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    transition: all 0.4s ease; 
+    cursor: pointer;
+}
+.wa-float:hover { 
+    transform: scale(1.1) rotate(10deg); 
+}
+
+.stats-divider { 
+    border-left: 1px solid #f1f5f9; 
+    height: 60px; 
+    align-self: center; 
+}
+@media (max-width: 768px) { 
+    .stats-divider { display: none; } 
+}
+
+.footer-bg-overlay {
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.9));
+}
+
+/* FAQ Accordion Style */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+}
+.faq-item.active .faq-answer {
+    max-height: 1000px;
+    transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
+}
+.faq-chevron {
+    transition: transform 0.3s ease;
+}
+.faq-item.active .faq-chevron {
+    transform: rotate(180deg);
+}

@@ -1,0 +1,16 @@
+{
+  "functions": {
+    "pages/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/", "destination": "/pages/index.php" },
+    { "source": "/index", "destination": "/pages/index.php" },
+    { "source": "/about", "destination": "/pages/about.php" },
+    { "source": "/contact", "destination": "/pages/contact.php" },
+    { "source": "/product", "destination": "/pages/product.php" },
+    { "source": "/(.*).php", "destination": "/pages/$1.php" }
+  ]
+}

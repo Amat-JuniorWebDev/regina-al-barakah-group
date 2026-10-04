@@ -1,0 +1,56 @@
+html { scroll-behavior: smooth; }
+body { 
+    overflow-x: hidden; width: 100%; 
+    background-color: #ffffff; color: #1e293b;
+}
+
+/* --- NAVBAR (IDENTIK INDEX / CONTACT) --- */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.4s ease-in-out;
+}
+
+#mobile-menu {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(-110%);
+    opacity: 0;
+    pointer-events: none;
+}
+#mobile-menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* --- HERO BACKGROUND ANIMATION (IDENTIK CONTACT) --- */
+@keyframes subtleZoom { from { transform: scale(1); } to { transform: scale(1.1); } }
+.hero-img-bg {
+    animation: subtleZoom 25s infinite alternate ease-in-out;
+}
+.hero-image-overlay {
+    background: linear-gradient(0deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.7) 100%);
+}
+
+.choose-card {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.choose-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(37, 99, 235, 0.1);
+}
+
+/* --- FLOATING WA (IDENTIK CONTACT) --- */
+.wa-float {
+    position: fixed; bottom: 25px; right: 25px; background-color: #25d366; color: white;
+    width: 55px; height: 55px; border-radius: 50%; text-align: center; font-size: 28px;
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3); z-index: 1000; display: flex;
+    align-items: center; justify-content: center; transition: all 0.4s ease;
+}
+.wa-float:hover { transform: scale(1.1) rotate(10deg); }
+
+.footer-bg-overlay {
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.9));
+}
