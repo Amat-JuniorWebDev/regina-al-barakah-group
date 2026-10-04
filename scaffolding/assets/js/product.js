@@ -63,7 +63,7 @@ function openProductModal(name, cat, desc, imgSrc) {
         currentImgSrc = fallback; // Sinkronisasi jika error fallback
     };
 
-    document.getElementById('modal-wa-btn').href = `https://wa.me/6282169169700?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20tanya%20stok%20${encodeURIComponent(name)}`;
+    document.getElementById('modal-wa-btn').href = `https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20tanya%20stok%20${encodeURIComponent(name)}`;
 
     productModal.classList.remove('hidden');
     productModal.classList.add('flex');
