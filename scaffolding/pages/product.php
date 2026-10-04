@@ -30,7 +30,7 @@ header_remove("X-Powered-By");
             </div>
 
             <div class="flex items-center gap-3">
-                <a href="https://wa.me/6282169169700" class="hidden sm:inline-flex bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold hover:bg-blue-800 shadow-xl shadow-blue-200 text-sm transition-all active:scale-95">
+                <a href="https://wa.me/6282188253433" class="hidden sm:inline-flex bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold hover:bg-blue-800 shadow-xl shadow-blue-200 text-sm transition-all active:scale-95">
                     Hubungi Kami
                 </a>
                 <button id="menu-btn" class="md:hidden text-blue-800 text-2xl p-2.5 focus:outline-none transition-transform active:scale-90">
@@ -45,7 +45,7 @@ header_remove("X-Powered-By");
                 <a href="product.php" class="mobile-link py-3 border-b border-slate-100/70 text-blue-700">Product</a>
                 <a href="about.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">About Us</a>
                 <a href="contact.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">Contact</a>
-                <a href="https://wa.me/6282169169700" class="bg-blue-700 text-white p-4 rounded-xl text-center shadow-lg active:scale-95 transition-all">Hubungi Kami</a>
+                <a href="https://wa.me/6282188253433" class="bg-blue-700 text-white p-4 rounded-xl text-center shadow-lg active:scale-95 transition-all">Hubungi Kami</a>
             </div>
         </div>
     </nav>
@@ -215,7 +215,7 @@ header_remove("X-Powered-By");
                             <span class="font-bold">0821-6916-9700</span>
                         </li>
                     </ul>
-                    <a href="https://wa.me/6282169169700" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
+                    <a href="https://wa.me/6282188253433" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
                         <i class="fab fa-whatsapp text-base"></i> WHATSAPP KAMI
                     </a>
                 </div>
@@ -244,7 +244,7 @@ header_remove("X-Powered-By");
                     <p class="text-[10px] text-slate-400 font-medium">Layanan Utama</p>
                 </div>
             </a>
-            <a href="https://wa.me/6282169169700" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
+            <a href="https://wa.me/6282188253433" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
                 <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white text-sm"><i class="fas fa-user-cog"></i></div>
                 <div>
                     <h5 class="font-black text-xs text-slate-800 uppercase tracking-wide group-hover:text-green-600 transition">Admin 2</h5>
