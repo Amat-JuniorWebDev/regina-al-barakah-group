@@ -55,7 +55,7 @@ header_remove("X-Powered-By");
                 <a href="product.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">Product</a>
                 <a href="about.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">About Us</a>
                 <a href="contact.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">Contact</a>
-                <a href="https://wa.me/6282169169700" class="bg-blue-700 text-white p-4 rounded-xl text-center shadow-lg active:scale-95 transition-all">Hubungi Kami</a>
+                <a href="https://wa.me/6282188253433" class="bg-blue-700 text-white p-4 rounded-xl text-center shadow-lg active:scale-95 transition-all">Hubungi Kami</a>
             </div>
         </div>
     </nav>
