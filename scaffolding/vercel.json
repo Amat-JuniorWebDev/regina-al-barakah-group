@@ -1,16 +1,19 @@
 {
-  "functions": {
-    "pages/*.php": {
-      "runtime": "vercel-php@0.7.1"
-    }
-  },
-  "rewrites": [
-    { "source": "/assets/(.*)", "destination": "/assets/$1" },
-    { "source": "/", "destination": "/pages/index.php" },
-    { "source": "/index", "destination": "/pages/index.php" },
-    { "source": "/about", "destination": "/pages/about.php" },
-    { "source": "/contact", "destination": "/pages/contact.php" },
-    { "source": "/product", "destination": "/pages/product.php" },
-    { "source": "/(.*).php", "destination": "/pages/$1.php" }
+  "version": 2,
+  "builds": [
+    { "src": "pages/*.php", "use": "vercel-php@0.7.1" },
+    { "src": "assets/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/", "dest": "/pages/index.php" },
+    { "src": "/index", "dest": "/pages/index.php" },
+    { "src": "/index.php", "dest": "/pages/index.php" },
+    { "src": "/about", "dest": "/pages/about.php" },
+    { "src": "/about.php", "dest": "/pages/about.php" },
+    { "src": "/contact", "dest": "/pages/contact.php" },
+    { "src": "/contact.php", "dest": "/pages/contact.php" },
+    { "src": "/product", "dest": "/pages/product.php" },
+    { "src": "/product.php", "dest": "/pages/product.php" }
   ]
 }
