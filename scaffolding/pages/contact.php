@@ -191,7 +191,7 @@ header_remove("X-Powered-By");
                         </li>
                         <li class="flex gap-3">
                             <i class="fas fa-phone-alt text-blue-500 mt-1"></i>
-                            <span class="font-bold">0821-6916-9700</span>
+                            <span class="font-bold">0821-8825-3433</span>
                         </li>
                     </ul>
                     <a href="https://wa.me/6282188253433" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
