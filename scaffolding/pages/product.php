@@ -212,7 +212,7 @@ header_remove("X-Powered-By");
                         </li>
                         <li class="flex gap-3">
                             <i class="fas fa-phone-alt text-blue-500 mt-1"></i>
-                            <span class="font-bold">0821-6916-9700</span>
+                            <span class="font-bold">0821-8825-3433</span>
                         </li>
                     </ul>
                     <a href="https://wa.me/6282188253433" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
@@ -237,7 +237,7 @@ header_remove("X-Powered-By");
     <div id="wa-menu" class="fixed bottom-24 right-6 bg-white border border-slate-200/80 rounded-2xl shadow-2xl p-4 z-[1000] hidden w-64 transform transition-all duration-300 scale-95 opacity-0 origin-bottom-right">
         <p class="text-xs font-black text-slate-500 uppercase tracking-wider mb-3 px-1 italic">Pilih Admin Chat:</p>
         <div class="flex flex-col gap-2">
-            <a href="https://wa.me/6282169169700" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
+            <a href="https://wa.me/6282188253433" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
                 <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white text-sm"><i class="fas fa-user-tie"></i></div>
                 <div>
                     <h5 class="font-black text-xs text-slate-800 uppercase tracking-wide group-hover:text-green-600 transition">Admin 1</h5>
