@@ -130,7 +130,7 @@ header_remove("X-Powered-By");
                                 <span class="text-[9px] font-black uppercase tracking-widest text-blue-700 block mb-1">WhatsApp Center</span>
                                 <div class="space-y-0.5">
                                     <a href="https://wa.me/6282188253433" class="text-base font-black text-slate-900 italic hover:text-blue-700 block">+62 821-8825-3433</a>
-                                    <a href="https://wa.me/6281242207221" class="text-base font-black text-slate-900 italic hover:text-blue-700 block">+62 812-4220-7221</a>
+                                    <a href="https://wa.me/6282188253433" class="text-base font-black text-slate-900 italic hover:text-blue-700 block">+62 812-4220-7221</a>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ header_remove("X-Powered-By");
                             <span class="font-bold">0821-6916-9700</span>
                         </li>
                     </ul>
-                    <a href="https://wa.me/6282169169700" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
+                    <a href="https://wa.me/6282188253433" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
                         <i class="fab fa-whatsapp text-base"></i> WHATSAPP KAMI
                     </a>
                 </div>
@@ -223,7 +223,7 @@ header_remove("X-Powered-By");
                     <p class="text-[10px] text-slate-400 font-medium">Layanan Utama</p>
                 </div>
             </a>
-            <a href="https://wa.me/6281242207221" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
+            <a href="https://wa.me/6282188253433" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
                 <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white text-sm"><i class="fas fa-user-cog"></i></div>
                 <div>
                     <h5 class="font-black text-xs text-slate-800 uppercase tracking-wide group-hover:text-green-600 transition">Admin 2</h5>
