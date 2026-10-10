@@ -69,7 +69,7 @@ header_remove("X-Powered-By");
         </div>
     </nav>
 
-    <!-- HERO SECTION -->
+   <!-- HERO SECTION -->
     <section id="home" class="relative pt-32 lg:pt-40 pb-20 overflow-hidden min-h-[85vh] flex items-center">
         <!-- Background Gambar Kanan dengan Bentuk Melengkung -->
         <div class="absolute top-0 right-0 w-full lg:w-[60%] h-[50vh] lg:h-full z-0">
