@@ -17,13 +17,17 @@ header_remove("X-Powered-By");
 <body class="bg-[#f8fafc] text-slate-900 selection:bg-blue-600 selection:text-white font-sans overflow-x-hidden">
 
     <!-- NAVBAR -->
-    <nav class="glass-nav fixed w-full z-[100] top-0 border-b border-slate-200/50 bg-white/9onta">
+    <nav class="glass-nav fixed w-full z-[100] top-0 border-b border-slate-200/50 bg-white/90">
         <div class="max-w-7xl mx-auto px-5 md:px-10 h-20 flex items-center justify-between">
-            <div class="flex flex-col cursor-pointer transition-opacity hover:opacity-80" onclick="window.location.href='index.php'">
-                <span class="text-lg md:text-2xl font-black text-slate-900 leading-none tracking-tight uppercase flex items-center gap-2">
-                    <i class="fas fa-hard-hat text-blue-600"></i> REGINA AL BARAKAH
-                </span>
-                <span class="text-[9px] md:text-xs font-bold text-slate-500 tracking-[0.2em] uppercase ml-7">Group</span>
+            <!-- LOGO SECTION (DIPERBAIKI AGAR SEJAJAR & RAPI) -->
+            <div class="flex items-center gap-3 cursor-pointer transition-opacity hover:opacity-80" onclick="window.location.href='index.php'">
+                <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white text-lg shadow-md shadow-blue-200 shrink-0">
+                    <i class="fas fa-hard-hat"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-base md:text-xl font-black text-slate-900 leading-tight tracking-tight uppercase">REGINA AL BARAKAH</span>
+                    <span class="text-[9px] md:text-[10px] font-bold text-slate-500 tracking-[0.2em] uppercase leading-none">Group</span>
+                </div>
             </div>
 
             <!-- Menu Desktop -->
