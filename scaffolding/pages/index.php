@@ -73,7 +73,7 @@ header_remove("X-Powered-By");
     <section id="home" class="relative pt-32 lg:pt-40 pb-20 overflow-hidden min-h-[85vh] flex items-center">
         <!-- Background Gambar Kanan dengan Bentuk Melengkung -->
         <div class="absolute top-0 right-0 w-full lg:w-[60%] h-[50vh] lg:h-full z-0">
-            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover lg:rounded-bl-[5rem]" alt="Scaffolding Hero">
+            <img src="../assets/image/contractor.jpg" class="w-full h-full object-cover lg:rounded-bl-[5rem]" alt="Scaffolding Hero">
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 lg:from-slate-900/30 to-transparent lg:rounded-bl-[5rem]"></div>
         </div>
 
