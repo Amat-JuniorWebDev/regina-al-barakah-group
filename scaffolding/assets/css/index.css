@@ -1,10 +1,7 @@
-/* Custom Visual Stylesheets for Mobile/Tablet */
+/* --- BASE STYLING (MOBILE) --- */
 body {
-    background-color: #F8F9FB;
-    color: #1E293B;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
-    font-family: 'Inter', sans-serif;
 }
 
 .no-scrollbar::-webkit-scrollbar {
@@ -14,4 +11,23 @@ body {
 .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+/* --- GLASSMORPHISM & DESKTOP STYLING --- */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.glass-card-dark {
+    background: rgba(20, 26, 38, 0.68);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.subtle-shadow {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
 }
