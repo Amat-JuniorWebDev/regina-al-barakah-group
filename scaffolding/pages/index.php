@@ -236,7 +236,7 @@ header_remove("X-Powered-By");
             <div class="max-w-md mx-auto space-y-6">
                 <div>
                     <div class="flex items-center gap-2.5 mb-2.5">
-                        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white shadow-sm flex-shrink-0">
+                        <div class="w-9 h-9 rounded-xl bg-[#5084C4] flex items-center justify-center text-white shadow-sm flex-shrink-0">
                             <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
                         </div>
                         <span class="text-sm font-extrabold text-slate-900 tracking-tight font-display uppercase italic">REGINA AL BARAKAH GROUP</span>
@@ -320,14 +320,14 @@ header_remove("X-Powered-By");
                 <header class="relative z-20 px-5 sm:px-8 pt-5 sm:pt-6">
                     <div class="flex items-center justify-between gap-4">
                         <a class="flex items-center gap-3 group" href="#" title="Regina Al Barakah Group">
-                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-rose-600/30 flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#5084C4] flex items-center justify-center text-white font-black text-xl shadow-md flex-shrink-0">
                                 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
                                 </svg>
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight">REGINA AL BARAKAH</span>
-                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[10px] sm:text-xs font-medium text-blue-300 tracking-wider uppercase block">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
@@ -350,8 +350,8 @@ header_remove("X-Powered-By");
                 <!-- HeroContentAndCards Desktop -->
                 <div class="relative z-10 px-5 sm:px-8 py-8 sm:py-12 my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
                     <div class="lg:col-span-7 space-y-6">
-                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
-                            <span class="w-2 h-2 rounded-full bg-rose-400 animate-ping"></span>
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/20 border border-blue-500/40 text-blue-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
+                            <span class="w-2 h-2 rounded-full bg-blue-400 animate-ping"></span>
                             ● STOK READY 1.000+ SET SNI SIAP ANTAR
                         </div>
                         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12]">
@@ -376,12 +376,11 @@ header_remove("X-Powered-By");
                                 <div class="flex-1 min-w-0">
                                     <div class="flex items-center justify-between">
                                         <h2 class="font-bold text-sm sm:text-base text-white truncate">Bau-Bau ➔ Pasarwajo</h2>
-                                        <span class="text-[11px] font-semibold bg-[#E53935]/20 text-rose-300 px-2 py-0.5 rounded-md border border-[#E53935]/30">Armada Cepat</span>
+                                        <span class="text-[11px] font-semibold bg-[#5084C4]/20 text-blue-300 px-2 py-0.5 rounded-md border border-[#5084C4]/30">Armada Cepat</span>
                                     </div>
                                     <p class="text-xs text-slate-300 mt-0.5">Pengiriman Cepat Armada Mandiri</p>
-                                    <div class="mt-2 text-xs font-semibold text-rose-400 flex items-center gap-1.5">
-                                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                                        <span class="">Estimasi 1 - 2 Jam Tiba di Lokasi</span>
+                                    <div class="mt-2 text-xs font-semibold text-amber-300 flex items-center gap-1.5">
+                                        <span class="">⏱ Estimasi 1 - 2 Jam Tiba di Lokasi</span>
                                     </div>
                                 </div>
                             </div>
@@ -393,12 +392,11 @@ header_remove("X-Powered-By");
                                 <div class="flex-1 min-w-0">
                                     <div class="flex items-center justify-between">
                                         <h2 class="font-bold text-sm sm:text-base text-white truncate">Kawasan Proyek Buton</h2>
-                                        <span class="text-[11px] font-semibold bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded-md border border-blue-500/30">SNI Ready</span>
+                                        <span class="text-[11px] font-semibold bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-500/30">SNI Ready</span>
                                     </div>
                                     <p class="text-xs text-slate-300 mt-0.5">Unit Ready 1.000+ Set Lengkap</p>
                                     <div class="mt-2 text-xs font-semibold text-emerald-400 flex items-center gap-1.5">
-                                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                                        <span class="">Layanan Bongkar Pasang Ahli</span>
+                                        <span class="">✔ Layanan Bongkar Pasang Ahli</span>
                                     </div>
                                 </div>
                             </div>
@@ -420,7 +418,7 @@ header_remove("X-Powered-By");
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0 text-slate-700">
-                            <svg class="w-6 h-6 text-[#E53935]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E]">7+ Tahun</h2>
@@ -429,7 +427,7 @@ header_remove("X-Powered-By");
                     </div>
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0 text-slate-700">
-                            <svg class="w-6 h-6 text-[#E53935]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E]">1.000+ Unit</h2>
@@ -438,7 +436,7 @@ header_remove("X-Powered-By");
                     </div>
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0 text-slate-700">
-                            <svg class="w-6 h-6 text-[#E53935]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E]">Transparan</h2>
@@ -447,7 +445,7 @@ header_remove("X-Powered-By");
                     </div>
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center flex-shrink-0 text-slate-700">
-                            <svg class="w-6 h-6 text-[#E53935]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            <svg class="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E]">Standar K3</h2>
@@ -471,7 +469,7 @@ header_remove("X-Powered-By");
                         <div class="relative rounded-2xl overflow-hidden shadow-lg mt-4 group">
                             <img alt="Gudang Operasional Scaffolding" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
                             <div class="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl shadow-xl max-w-[210px] border border-slate-100">
-                                <div class="flex items-center gap-2 text-[#E53935] mb-1">
+                                <div class="flex items-center gap-2 text-emerald-600 mb-1">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
                                     <span class="text-xs font-bold text-[#1E1E1E]">Keamanan Teruji & Terawat</span>
                                 </div>
@@ -539,9 +537,13 @@ header_remove("X-Powered-By");
                         <div>
                             <div class="relative h-60 sm:h-64 bg-slate-800/40 p-4 flex items-center justify-center overflow-hidden">
                                 <img alt="Scaffolding Main Frame T170" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1V9gCLSJNAA3R2EejB2XAQL0X7FR4cj0r5kwSGlRpKveUncktc4J7GDwtjBFmOwR5lhHk3OucI8CvxvRrVi5yw-aQ7FhIUOyEOpYqOnXeKcepIeRBhQfi-2yZMB8sF3WA0WKzz2NalakMYCa9mH50cOR0xopt5IE_uVpghs7MTEPgnlvW-Kmup9JVZupxSy5xubGJDr6GLACqmOZ8Zew0NkzqJN4QcoULf6qp_GRDHMizUJZcyzUlkvoyXw">
+                                <div class="absolute top-4 left-4 flex gap-1.5 flex-wrap">
+                                    <span class="bg-black/60 backdrop-blur-md text-[11px] text-white px-2.5 py-1 rounded-full border border-white/20">Frame Utama</span>
+                                    <span class="bg-black/60 backdrop-blur-md text-[11px] text-emerald-300 px-2.5 py-1 rounded-full border border-emerald-500/30">Baja SNI</span>
+                                </div>
                             </div>
                             <div class="p-5">
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-rose-400 transition">Scaffolding Main Frame T170 / T190</h3>
+                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-blue-400 transition">Scaffolding Main Frame T170 / T190</h3>
                                 <p class="text-xs text-slate-400 mt-2 leading-relaxed">Pipa baja galvanis presisi, presisi sambungan tinggi untuk stabilitas beban konstruksi bertingkat.</p>
                             </div>
                         </div>
@@ -551,6 +553,10 @@ header_remove("X-Powered-By");
                         <div>
                             <div class="relative h-60 sm:h-64 bg-slate-800/40 p-4 flex items-center justify-center overflow-hidden">
                                 <img alt="Catwalk Plat Pijakan Besi" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                                <div class="absolute top-4 left-4 flex gap-1.5 flex-wrap">
+                                    <span class="bg-black/60 backdrop-blur-md text-[11px] text-white px-2.5 py-1 rounded-full border border-white/20">Platform Kerja</span>
+                                    <span class="bg-black/60 backdrop-blur-md text-[11px] text-amber-300 px-2.5 py-1 rounded-full border border-amber-500/30">Anti-Slip</span>
+                                </div>
                             </div>
                             <div class="p-5">
                                 <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-blue-400 transition">Catwalk Plat Pijakan Besi</h3>
@@ -563,6 +569,10 @@ header_remove("X-Powered-By");
                         <div>
                             <div class="relative h-60 sm:h-64 bg-slate-800/40 p-4 flex items-center justify-center overflow-hidden">
                                 <img alt="Roda Caster Scaffolding Heavy Duty" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VM7yA82kNuE6pGkc22kBGWxihZjwX1KKvVC4lgL-T4NSd35dWNmi5RQN65jl8VuDdXUgnOiInOUO1z33qsr7mDfrBRuuM-FSkksGhSvMtZCO_oP3ofTpCqQgJnn8eX5ybOBuwVEHd4PyWusrzeqJvfXKwL4R8nShRvOCgpkoNYV7M7oaBOICavzkiXPhQjBNHJ_oJc4rESiTNELVBbKezsDWoM-wTRJBjanOK_mWJASdN5GjCPTZ1b79cY">
+                                <div class="absolute top-4 left-4 flex gap-1.5 flex-wrap">
+                                    <span class="bg-black/60 backdrop-blur-md text-[11px] text-white px-2.5 py-1 rounded-full border border-white/20">Aksesoris Mobile</span>
+                                    <span class="bg-black/60 backdrop-blur-md text-[11px] text-rose-300 px-2.5 py-1 rounded-full border border-rose-500/30">Brake Lock</span>
+                                </div>
                             </div>
                             <div class="p-5">
                                 <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition">Roda Caster 6" & Jack Base Ulir</h3>
@@ -584,7 +594,7 @@ header_remove("X-Powered-By");
                         <details class="group bg-[#F4F5F7] rounded-2xl border border-slate-200/80 p-5 sm:p-6 transition-all duration-300 open:bg-white open:shadow-md open:border-[#5084C4]/40" open="">
                             <summary class="flex items-center justify-between cursor-pointer list-none gap-4 font-bold text-sm sm:text-base text-[#1E1E1E] select-none">
                                 <span class="flex items-center gap-3.5">
-                                    <span class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-[#E53935] flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg></span>
+                                    <span class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg></span>
                                     <span>Bagaimana sistem pembayaran sewa scaffolding di sini?</span>
                                 </span>
                             </summary>
@@ -594,7 +604,7 @@ header_remove("X-Powered-By");
                         <details class="group bg-[#F4F5F7] rounded-2xl border border-slate-200/80 p-5 sm:p-6 transition-all duration-300 open:bg-white open:shadow-md open:border-[#5084C4]/40">
                             <summary class="flex items-center justify-between cursor-pointer list-none gap-4 font-bold text-sm sm:text-base text-[#1E1E1E] select-none">
                                 <span class="flex items-center gap-3.5">
-                                    <span class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-[#5084C4] flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg></span>
+                                    <span class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg></span>
                                     <span>Apakah melayani pengantaran material langsung ke proyek?</span>
                                 </span>
                             </summary>
@@ -604,7 +614,7 @@ header_remove("X-Powered-By");
                         <details class="group bg-[#F4F5F7] rounded-2xl border border-slate-200/80 p-5 sm:p-6 transition-all duration-300 open:bg-white open:shadow-md open:border-[#5084C4]/40">
                             <summary class="flex items-center justify-between cursor-pointer list-none gap-4 font-bold text-sm sm:text-base text-[#1E1E1E] select-none">
                                 <span class="flex items-center gap-3.5">
-                                    <span class="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center text-emerald-600 flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg></span>
+                                    <span class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center text-purple-600 flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg></span>
                                     <span>Apakah ada batas minimal durasi sewa atau kuantitas set?</span>
                                 </span>
                             </summary>
@@ -616,10 +626,10 @@ header_remove("X-Powered-By");
 
             <!-- BEGIN: MainFooter Desktop (Diubah sesuai gambar referensi) -->
             <footer class="bg-white rounded-[32px] p-8 sm:p-10 border border-[#E0E0E0] subtle-shadow text-[#757575] text-sm" id="kontak">
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-8 pb-8 border-b border-slate-100">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-6">
                     <div class="md:col-span-5 space-y-4">
                         <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white shadow-md flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#5084C4] flex items-center justify-center text-white shadow-md flex-shrink-0">
                                 <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
                             </div>
                             <span class="font-extrabold text-base sm:text-lg tracking-tight text-[#1E1E1E] uppercase italic">REGINA AL BARAKAH GROUP</span>
@@ -644,10 +654,10 @@ header_remove("X-Powered-By");
                     <div class="md:col-span-3 space-y-3">
                         <h4 class="font-bold text-[#5084C4] text-xs sm:text-sm uppercase tracking-wider">MENU UTAMA</h4>
                         <ul class="text-xs sm:text-sm space-y-2 text-[#757575] font-medium">
-                            <li class=""><a class="hover:text-[#E53935] transition inline-block" href="index.php">Beranda</a></li>
-                            <li class=""><a class="hover:text-[#E53935] transition inline-block" href="product.php">Produk</a></li>
-                            <li class=""><a class="hover:text-[#E53935] transition inline-block" href="about.php">Tentang Kami</a></li>
-                            <li class=""><a class="hover:text-[#E53935] transition inline-block" href="contact.php">Kontak</a></li>
+                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="index.php">Beranda</a></li>
+                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="product.php">Produk</a></li>
+                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="about.php">Tentang Kami</a></li>
+                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="contact.php">Kontak</a></li>
                         </ul>
                     </div>
 
@@ -671,7 +681,7 @@ header_remove("X-Powered-By");
                     </div>
                 </div>
                 
-                <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-[#757575] gap-2 pt-1 border-t border-slate-100">
+                <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-[#757575] gap-2 pt-6 border-t border-slate-100">
                     <p class="">© 2026 Regina Al Barakah Group</p>
                     <p class="text-[11px]">Layanan Scaffolding Terpercaya di Sulawesi Tenggara.</p>
                 </div>
