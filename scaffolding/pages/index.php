@@ -353,10 +353,10 @@ header_remove("X-Powered-By");
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-[#5084C4] mb-3 font-display">MENU UTAMA</h4>
                     <ul class="space-y-2 text-xs font-medium text-slate-600">
-                        <li class=""><a href="#" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
-                        <li class=""><a href="#" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
-                        <li class=""><a href="#" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
-                        <li class=""><a href="#" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
+                        <li class=""><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
+                        <li class=""><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
+                        <li class=""><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
+                        <li class=""><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
                     </ul>
                 </div>
 
@@ -378,7 +378,7 @@ header_remove("X-Powered-By");
                         <span class="">WHATSAPP KAMI</span>
                     </a>
                 </div>
-
+                
                 <div class="border-t border-slate-100 pt-4 text-[10px] text-slate-400 flex flex-col gap-1 text-center mt-6">
                     <p class="font-medium text-slate-600">© 2026 Regina Al Barakah Group</p>
                     <p class="">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
@@ -680,7 +680,7 @@ header_remove("X-Powered-By");
                 </div>
             </section>
 
-            <!-- FAQ Desktop Section -->
+            <!-- FAQ Desktop Section (Ditambahkan ikon Chevron/panah) -->
             <section class="bg-white rounded-[32px] p-6 sm:p-10 lg:p-12 border border-[#E0E0E0] subtle-shadow" id="faq">
                 <div class="max-w-4xl mx-auto space-y-8">
                     <div class="text-center space-y-3">
@@ -694,8 +694,12 @@ header_remove("X-Powered-By");
                                     <span class="w-10 h-10 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#E53935] flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
                                     <span class="font-display">Bagaimana sistem pembayaran sewa scaffolding di sini?</span>
                                 </span>
+                                <!-- Tambahan Ikon Chevron (Panah) -->
+                                <span class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-[#E53935] transition-transform duration-300 flex-shrink-0">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
                             </summary>
-                            <p class="mt-4 pl-0 sm:pl-[54px] text-xs sm:text-sm text-[#757575] leading-relaxed">Sistem pembayaran sangat fleksibel (bisa per periode harian, mingguan, atau bulanan). Pembayaran dapat dilakukan via transfer bank resmi perusahaan dengan invoice dan kwitansi sah.</p>
+                            <p class="mt-4 pl-0 sm:pl-[54px] text-xs sm:text-sm text-[#757575] leading-relaxed pr-10">Sistem pembayaran sangat fleksibel (bisa per periode harian, mingguan, atau bulanan). Pembayaran dapat dilakukan via transfer bank resmi perusahaan dengan invoice dan kwitansi sah.</p>
                         </details>
 
                         <details class="group bg-[#F4F5F7] rounded-2xl border border-slate-200/80 p-5 sm:p-6 transition-all duration-300 open:bg-white open:shadow-md open:border-blue-500/20">
@@ -704,8 +708,12 @@ header_remove("X-Powered-By");
                                     <span class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-[#5084C4] flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
                                     <span class="font-display">Apakah melayani pengantaran material langsung ke proyek?</span>
                                 </span>
+                                <!-- Tambahan Ikon Chevron (Panah) -->
+                                <span class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-[#5084C4] transition-transform duration-300 flex-shrink-0">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
                             </summary>
-                            <p class="mt-4 pl-0 sm:pl-[54px] text-xs sm:text-sm text-[#757575] leading-relaxed">Ya, kami memiliki armada truk khusus untuk drop barang tepat waktu ke seluruh area Kota Bau-Bau, Kabupaten Buton, Pasarwajo, Muna, dan sekitarnya.</p>
+                            <p class="mt-4 pl-0 sm:pl-[54px] text-xs sm:text-sm text-[#757575] leading-relaxed pr-10">Ya, kami memiliki armada truk khusus untuk drop barang tepat waktu ke seluruh area Kota Bau-Bau, Kabupaten Buton, Pasarwajo, Muna, dan sekitarnya.</p>
                         </details>
 
                         <details class="group bg-[#F4F5F7] rounded-2xl border border-slate-200/80 p-5 sm:p-6 transition-all duration-300 open:bg-white open:shadow-md open:border-emerald-500/20">
@@ -714,8 +722,12 @@ header_remove("X-Powered-By");
                                     <span class="w-10 h-10 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-600 flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
                                     <span class="font-display">Apakah ada batas minimal durasi sewa atau kuantitas set?</span>
                                 </span>
+                                <!-- Tambahan Ikon Chevron (Panah) -->
+                                <span class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-emerald-600 transition-transform duration-300 flex-shrink-0">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
                             </summary>
-                            <p class="mt-4 pl-0 sm:pl-[54px] text-xs sm:text-sm text-[#757575] leading-relaxed">Tidak ada batas memberatkan. Kami melayani mulai dari renovasi rumah tinggal (beberapa set saja) hingga proyek tender infrastruktur bertingkat ratusan set.</p>
+                            <p class="mt-4 pl-0 sm:pl-[54px] text-xs sm:text-sm text-[#757575] leading-relaxed pr-10">Tidak ada batas memberatkan. Kami melayani mulai dari renovasi rumah tinggal (beberapa set saja) hingga proyek tender infrastruktur bertingkat ratusan set.</p>
                         </details>
                     </div>
                 </div>
@@ -751,10 +763,10 @@ header_remove("X-Powered-By");
                     <div class="md:col-span-3 space-y-3">
                         <h4 class="font-bold text-[#5084C4] text-xs sm:text-sm uppercase tracking-wider font-display">MENU UTAMA</h4>
                         <ul class="text-xs sm:text-sm space-y-2 text-[#757575] font-medium">
-                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="index.php">Beranda</a></li>
-                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="product.php">Produk</a></li>
-                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="about.php">Tentang Kami</a></li>
-                            <li class=""><a class="hover:text-brand-blue transition-colors block py-0.5" href="contact.php">Kontak</a></li>
+                            <li class=""><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
+                            <li class=""><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
+                            <li class=""><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
+                            <li class=""><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
                         </ul>
                     </div>
 
