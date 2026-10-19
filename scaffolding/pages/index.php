@@ -10,7 +10,7 @@ header_remove("X-Powered-By");
     
     <meta content="Penyedia sewa dan jual scaffolding standar industri terpercaya di Bau-Bau, Buton dan sekitarnya. Unit ready 1000+ set pipa baja SNI, pengiriman cepat dan aman." name="description">
     
-    <!-- Google Fonts: Plus Jakarta Sans for Headings, Inter for Body -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -29,13 +29,13 @@ header_remove("X-Powered-By");
     <!-- 📱 TAMPILAN MOBILE & TABLET (Sembunyi di Desktop) -->
     <!-- ============================================================== -->
     <div class="block lg:hidden">
-        <!-- Hero Section -->
         <section class="pt-24 pb-8 px-4 bg-[#1E1E1E] text-white relative rounded-b-[2rem] overflow-hidden max-w-md mx-auto border-x border-b border-slate-800 shadow-2xl">
             <div class="absolute -top-10 -right-10 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
             <div class="absolute bottom-0 -left-12 w-48 h-48 bg-[#db322f]/15 rounded-full blur-3xl pointer-events-none"></div>
             
             <header class="fixed top-3 left-1/2 -translate-x-1/2 w-[calc(100%-1.5rem)] max-w-[400px] z-50">
-                <div class="bg-[#1E1E1E] border border-white/20 rounded-full px-4 py-2.5 flex items-center justify-between shadow-xl">
+                <!-- Baris Navbar -->
+                <div class="bg-[#1E1E1E] border border-white/20 rounded-full px-4 py-2.5 flex items-center justify-between shadow-xl relative z-50">
                     <a class="flex items-center space-x-2.5" href="#">
                         <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center flex-shrink-0 text-white shadow-sm">
                             <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24"><path d="M19 2H9c-1.1 0-2 .9-2 2v3H5c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM5 9h2v2H5V9zm0 4h2v2H5v-2zm0 4h2v2H5v-2zm14 2H9v-2h2v-2H9v-2h2v-2H9V9h2V7H9V4h10v15zm-6-8h2v2h-2v-2zm0 4h2v2h-2v-2zm0-8h2v2h-2V7zm4 0h2v2h-2V7zm0 4h2v2h-2v-2zm0 4h2v2h-2v-2z"></path></svg>
@@ -46,13 +46,31 @@ header_remove("X-Powered-By");
                         </div>
                     </a>
                     <div class="flex items-center space-x-2.5">
-                        <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm font-display" href="https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20sewa%20scaffolding">
+                        <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm font-display" href="https://wa.me/6281242207221">
                             <span class="">Sewa</span>
                             <svg class="w-3 h-3 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
                         </a>
-                        <button aria-label="Buka Menu" class="w-8 h-8 rounded-full flex items-center justify-center text-white hover:bg-white/10 active:scale-95 transition-all" type="button">
+                        
+                        <!-- TOMBOL MOBILE MENU DENGAN ID mobile-menu-btn -->
+                        <button id="mobile-menu-btn" aria-label="Buka Menu" class="w-8 h-8 rounded-full flex items-center justify-center text-white hover:bg-white/10 active:scale-95 transition-all" type="button">
                             <span class="w-5 h-0.5 bg-white rounded-full block relative my-1 before:content-[''] before:absolute before:-top-1.5 before:left-0 before:w-5 before:h-0.5 before:bg-white before:rounded-full after:content-[''] after:absolute after:top-1.5 after:left-0 after:w-5 after:h-0.5 after:bg-white after:rounded-full"></span>
                         </button>
+                    </div>
+                </div>
+
+                <!-- DROPDOWN MENU MOBILE (Tersembunyi secara default) -->
+                <div id="mobile-menu" class="hidden absolute top-14 left-0 w-full bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden transform transition-all font-display z-40 mt-2">
+                    <div class="flex flex-col">
+                        <a href="index.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Beranda <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                        <a href="product.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Produk & Komponen <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                        <a href="about.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Tentang Kami <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                        <a href="contact.php" class="px-5 py-4 text-sm font-bold text-slate-900 flex items-center justify-between hover:bg-slate-50">Kontak <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                    </div>
+                    <div class="p-4 bg-slate-50 border-t border-slate-100">
+                        <a href="https://wa.me/6281242207221" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
+                            WHATSAPP KAMI
+                        </a>
                     </div>
                 </div>
             </header>
@@ -326,7 +344,7 @@ header_remove("X-Powered-By");
         </section>
 
         <!-- BEGIN: Mobile Footer -->
-        <footer class="bg-white text-slate-600 border-t border-slate-200 pt-8 pb-24 px-4">
+        <footer class="bg-white text-slate-600 border-t border-slate-200 pt-8 pb-24 px-4" id="kontak-mobile">
             <div class="max-w-md mx-auto space-y-6">
                 <div>
                     <div class="flex items-center gap-2.5 mb-2.5">
@@ -336,27 +354,15 @@ header_remove("X-Powered-By");
                         <span class="text-sm font-extrabold text-slate-900 tracking-tight font-display uppercase italic">REGINA AL BARAKAH GROUP</span>
                     </div>
                     <p class="text-xs text-slate-500 leading-relaxed mb-3.5">Pusat persewaan scaffolding terbesar dan terlengkap di wilayah Kabupaten Buton.</p>
-                    
-                    <div class="flex items-center gap-2">
-                        <a href="#" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors" aria-label="TikTok">
-                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98v7.92a7.61 7.61 0 01-3.69 6.55 7.63 7.63 0 01-8.79-.82A7.58 7.58 0 012.3 14.5a7.63 7.63 0 018.25-7.59v4.06c-1.89-.37-3.92.51-4.7 2.22a3.67 3.67 0 001.37 4.54c1.47 1.05 3.59.88 4.88-.38.45-.44.73-1.02.73-1.64V.02h-.31z"></path></svg>
-                        </a>
-                        <a href="#" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors" aria-label="Instagram">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path></svg>
-                        </a>
-                        <a href="#" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors" aria-label="YouTube">
-                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
-                        </a>
-                    </div>
                 </div>
 
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-[#5084C4] mb-3 font-display">MENU UTAMA</h4>
                     <ul class="space-y-2 text-xs font-medium text-slate-600">
-                        <li class=""><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
-                        <li class=""><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
-                        <li class=""><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
-                        <li class=""><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
+                        <li><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
+                        <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
+                        <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
+                        <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
                     </ul>
                 </div>
 
@@ -373,13 +379,13 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <a href="https://wa.me/6281242207221" class="w-fit mt-3 py-2.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-500 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all font-display">
+                    <a href="https://wa.me/6281242207221" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2">
                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
                         <span class="">WHATSAPP KAMI</span>
                     </a>
                 </div>
-                
-                <div class="border-t border-slate-100 pt-4 text-[10px] text-slate-400 flex flex-col gap-1 text-center mt-6">
+
+                <div class="border-t border-slate-100 pt-4 text-[10px] text-slate-400 flex flex-col gap-1 text-center mt-4">
                     <p class="font-medium text-slate-600">© 2026 Regina Al Barakah Group</p>
                     <p class="">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
                 </div>
@@ -387,8 +393,8 @@ header_remove("X-Powered-By");
         </footer>
 
         <!-- Mobile Premium Floating WhatsApp -->
-        <aside class="fixed bottom-4 z-50 max-w-md flex right-4">
-            <a class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-xs tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20butuh%20info%20ketersediaan%20scaffolding">
+        <aside class="fixed bottom-4 right-4 z-50">
+            <a class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-xs tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221">
                 <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
                 <svg class="w-4 h-4 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
@@ -398,15 +404,14 @@ header_remove("X-Powered-By");
         </aside>
     </div>
 
-
     <!-- ============================================================== -->
     <!-- 💻 TAMPILAN DESKTOP (Sembunyi di Mobile & Tablet) -->
     <!-- ============================================================== -->
     <div class="hidden lg:block">
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
-            <!-- Hero Banner Desktop -->
-            <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl">
+            <!-- Hero Banner Desktop (SAMA PERSIS DENGAN INDEX.PHP UNTUK MENGHINDARI LOMPATAN) -->
+            <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
                 <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30 z-[1]"></div>
@@ -422,19 +427,19 @@ header_remove("X-Powered-By");
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
                         <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
-                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="index.php">Home</a>
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="product.php">Product</a>
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="index.php">Home</a>
+                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="product.php">Product</a>
                             <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="about.php">About Us</a>
                             <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="contact.php">Contact</a>
                         </nav>
                         
                         <div class="flex items-center gap-2">
-                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank">
+                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221" target="_blank">
                                 <span class="">Konsultasi / Sewa</span>
                                 <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
                             </a>
@@ -511,15 +516,15 @@ header_remove("X-Powered-By");
             </section>
 
             <!-- Features Desktop (Premium Icons & Consistent Red Color) -->
-            <section class="py-2">
+            <section class="py-2 mb-16">
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center flex-shrink-0 text-[#E53935] shadow-sm">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </div>
                         <div>
-                            <h2 class="font-bold text-sm text-[#1E1E1E] font-display">7+ Tahun</h2>
-                            <p class="text-xs text-[#757575] mt-1 leading-snug">Pengalaman Proyek</p>
+                            <h2 class="font-bold text-sm text-[#1E1E1E] font-display">10+ Tahun</h2>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Pengalaman Proyek Sipil</p>
                         </div>
                     </div>
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
@@ -527,8 +532,8 @@ header_remove("X-Powered-By");
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </div>
                         <div>
-                            <h2 class="font-bold text-sm text-[#1E1E1E] font-display">1.000+ Unit</h2>
-                            <p class="text-xs text-[#757575] mt-1 leading-snug">Ready Stock Gudang</p>
+                            <h2 class="font-bold text-sm text-[#1E1E1E] font-display">Full Cycle</h2>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Sewa, Pasang & Bongkar</p>
                         </div>
                     </div>
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
@@ -537,7 +542,7 @@ header_remove("X-Powered-By");
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E] font-display">Transparan</h2>
-                            <p class="text-xs text-[#757575] mt-1 leading-snug">Tanpa Biaya Siluman</p>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Tanpa Biaya Tersembunyi</p>
                         </div>
                     </div>
                     <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
@@ -552,136 +557,170 @@ header_remove("X-Powered-By");
                 </div>
             </section>
 
-            <!-- Desktop Process Workflow -->
-            <section class="bg-white rounded-[32px] p-6 sm:p-10 lg:p-12 border border-[#E0E0E0] subtle-shadow" id="alur">
-                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-                    <div class="lg:col-span-5 space-y-6">
-                        <div class="inline-block px-3.5 py-1 rounded-full bg-rose-50 border border-rose-100 text-[#E53935] text-xs font-semibold tracking-wide uppercase font-display">ALUR SEWA & LAYANAN</div>
-                        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#1E1E1E] tracking-tight leading-tight font-display">
-                            Proses Sewa Cepat & Transparan
-                        </h2>
-                        <p class="text-[#757575] text-sm sm:text-base leading-relaxed">
-                            Kami mudahkan manajemen perancah agar proyek Anda berjalan aman tepat waktu.
-                        </p>
-                        <div class="relative rounded-2xl overflow-hidden shadow-lg mt-4 group">
-                            <img alt="Gudang Operasional Scaffolding" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
-                            <div class="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl shadow-xl max-w-[210px] border border-slate-100">
-                                <div class="flex items-center gap-2 text-emerald-600 mb-1">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                                    <span class="text-xs font-bold text-[#1E1E1E] font-display">Keamanan Teruji & Terawat</span>
-                                </div>
-                                <p class="text-[11px] text-[#757575] leading-tight">
-                                    Inspeksi fisik ketat sebelum material dikirim ke proyek
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="lg:col-span-7 flex flex-col divide-y divide-slate-100">
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
-                            <div class="flex items-start gap-4 sm:gap-6">
-                                <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">01</span>
-                                <div>
-                                    <h3 class="text-base sm:text-lg font-bold text-[#1E1E1E] font-display">Konsultasi Kebutuhan & Sewa</h3>
-                                    <p class="text-xs sm:text-sm text-[#757575] mt-1 max-w-md">Diskusikan ketinggian, beban, serta jumlah main frame yang pas.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
-                            <div class="flex items-start gap-4 sm:gap-6">
-                                <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">02</span>
-                                <div>
-                                    <h3 class="text-base sm:text-lg font-bold text-[#1E1E1E] font-display">Pengecekan Stok & Kontrak Sewa</h3>
-                                    <p class="text-xs sm:text-sm text-[#757575] mt-1 max-w-md">Kunci unit di gudang dengan kesepakatan durasi sewa yang fleksibel.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
-                            <div class="flex items-start gap-4 sm:gap-6">
-                                <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">03</span>
-                                <div>
-                                    <h3 class="text-base sm:text-lg font-bold text-[#1E1E1E] font-display">Pengiriman Langsung ke Proyek</h3>
-                                    <p class="text-xs sm:text-sm text-[#757575] mt-1 max-w-md">Diantar armada khusus tepat jadwal ke Bau-Bau & sekitarnya.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
-                            <div class="flex items-start gap-4 sm:gap-6">
-                                <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">04</span>
-                                <div>
-                                    <h3 class="text-base sm:text-lg font-bold text-[#1E1E1E] font-display">Pendampingan & Jemput Bongkar</h3>
-                                    <p class="text-xs sm:text-sm text-[#757575] mt-1 max-w-md">Setelah proyek tuntas, tim logistik siap jemput material kembali.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Dark Catalog Cards Section Desktop -->
-            <section class="bg-[#1E1E1E] rounded-[32px] p-6 sm:p-10 lg:p-12 text-white shadow-2xl" id="katalog">
+            <!-- White Catalog Cards Section Desktop -->
+            <section class="mb-24" id="katalog">
                 <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
                     <div>
-                        <div class="inline-block px-3.5 py-1 rounded-full bg-white/10 text-white border border-white/10 text-xs font-semibold tracking-wide mb-3 uppercase font-display">Katalog Produk & Komponen</div>
-                        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white font-display">Koleksi Scaffolding Utama</h2>
-                        <p class="text-slate-400 text-sm mt-1 max-w-xl">
-                            Material kokoh berstandar tinggi untuk perlindungan maksimal pekerjaan elevasi.
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-50 border border-rose-100 text-[#E53935] text-xs font-semibold tracking-wide mb-3 uppercase font-display">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <span class="">INVENTARIS SCAFFOLDING</span>
+                        </div>
+                        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-[#1E1E1E] font-display">Katalog Produk & Spesifikasi Komponen</h2>
+                        <p class="text-[#757575] text-sm mt-1 max-w-xl">
+                            Peralatan konstruksi modular teruji standar keselamatan kerja (K3) dengan perawatan berkala.
                         </p>
                     </div>
+                    <div class="flex items-center gap-2 text-xs font-semibold text-[#757575] bg-slate-50 px-4 py-2.5 rounded-full border border-slate-200 shadow-sm">
+                        <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <span class="">Menampilkan <strong class="text-[#1E1E1E] font-bold font-display" id="product-count-desktop">7</strong> Komponen Siap Pakai</span>
+                    </div>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
-                        <div>
-                            <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Scaffolding Main Frame T170" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1V9gCLSJNAA3R2EejB2XAQL0X7FR4cj0r5kwSGlRpKveUncktc4J7GDwtjBFmOwR5lhHk3OucI8CvxvRrVi5yw-aQ7FhIUOyEOpYqOnXeKcepIeRBhQfi-2yZMB8sF3WA0WKzz2NalakMYCa9mH50cOR0xopt5IE_uVpghs7MTEPgnlvW-Kmup9JVZupxSy5xubGJDr6GLACqmOZ8Zew0NkzqJN4QcoULf6qp_GRDHMizUJZcyzUlkvoyXw">
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap gap-1.5 mb-3">
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30">Frame Utama</span>
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30">Baja SNI</span>
-                                </div>
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-rose-400 transition font-display">Scaffolding Main Frame T170 / T190</h3>
-                                <p class="text-xs text-slate-400 mt-2 leading-relaxed">Pipa baja galvanis presisi, presisi sambungan tinggi untuk stabilitas beban konstruksi bertingkat.</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
-                        <div>
-                            <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Catwalk Plat Pijakan Besi" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap gap-1.5 mb-3">
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Platform Kerja</span>
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Anti-Slip</span>
-                                </div>
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-blue-400 transition font-display">Catwalk Plat Pijakan Besi</h3>
-                                <p class="text-xs text-slate-400 mt-2 leading-relaxed">Lantai pijakan baja berlubang perforasi anti selip, dilengkapi pengait kunci aman antar frame.</p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Filters -->
+                <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none" id="category-filters-desktop">
+                    <button class="filter-btn-desktop active-filter px-5 py-2.5 rounded-full text-sm font-semibold transition-all bg-[#1E1E1E] text-white shadow-sm flex-shrink-0 font-display border border-[#1E1E1E]" data-filter="all">Semua Produk</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Frame Utama">Frame Utama</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Aksesoris Kaki">Aksesoris Kaki</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Platform">Platform</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Aksesoris Mobilisasi">Aksesoris Mobilisasi</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Frame Tambahan">Frame Tambahan</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Aksesoris Atas">Aksesoris Atas</button>
+                    <button class="filter-btn-desktop px-5 py-2.5 rounded-full text-sm font-medium text-slate-500 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 transition-all flex-shrink-0 font-display" data-filter="Penyangga Tunggal">Penyangga Tunggal</button>
+                </div>
 
-                    <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
-                        <div>
-                            <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Roda Caster Scaffolding Heavy Duty" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VM7yA82kNuE6pGkc22kBGWxihZjwX1KKvVC4lgL-T4NSd35dWNmi5RQN65jl8VuDdXUgnOiInOUO1z33qsr7mDfrBRuuM-FSkksGhSvMtZCO_oP3ofTpCqQgJnn8eX5ybOBuwVEHd4PyWusrzeqJvfXKwL4R8nShRvOCgpkoNYV7M7oaBOICavzkiXPhQjBNHJ_oJc4rESiTNELVBbKezsDWoM-wTRJBjanOK_mWJASdN5GjCPTZ1b79cY">
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap gap-1.5 mb-3">
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Aksesoris Mobile</span>
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Brake Lock</span>
-                                </div>
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition font-display">Roda Caster 6" & Jack Base Ulir</h3>
-                                <p class="text-xs text-slate-400 mt-2 leading-relaxed">Mobilitas tinggi untuk pengerjaan plafon/dinding serta penyesuaian level elevasi kontur tanah miring.</p>
+                <!-- Product Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="product-grid-desktop">
+                    
+                    <!-- Card 1 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Kaki" data-desc="Dudukan kaki scaffolding ukuran 60cm yang dapat diatur ketinggiannya untuk meratakan posisi pada lantai miring." data-img="https://lh3.googleusercontent.com/aida/AEtjO1VGYQiEAJ-HoWhRDCo2h0xhx_YfcyiMREYqkHxfzYcGV-jHEZCaj50eGjy1IO9S8qplMW0WSWUP2mGEwxm2S0sM_gXvT27kFb2phnczFpjrRoaPFT3lIFcPXLn7TomZMYrDZv0eJg0koaRHiW_M5cJRgBTtaqnHNQ6WsBC3mgUodsu6qDJ9pLWz52J2Mt13N2Sx-lsTV1rjleBNUsh_VZzKUJqk6ganwEDUxn0velSAjONH3yDKcC6Ioaws" data-title="Jack Base T60">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#5084C4] border border-[#5084C4]/20 shadow-sm font-display">Aksesoris Kaki</span>
+                            <img alt="Jack Base T60" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VGYQiEAJ-HoWhRDCo2h0xhx_YfcyiMREYqkHxfzYcGV-jHEZCaj50eGjy1IO9S8qplMW0WSWUP2mGEwxm2S0sM_gXvT27kFb2phnczFpjrRoaPFT3lIFcPXLn7TomZMYrDZv0eJg0koaRHiW_M5cJRgBTtaqnHNQ6WsBC3mgUodsu6qDJ9pLWz52J2Mt13N2Sx-lsTV1rjleBNUsh_VZzKUJqk6ganwEDUxn0velSAjONH3yDKcC6Ioaws">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#5084C4] transition-colors font-display">Jack Base T60</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Dudukan kaki scaffolding ukuran 60cm yang dapat diatur ketinggiannya untuk meratakan posisi pada lantai miring.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#5084C4] hover:text-white border border-slate-200 hover:border-[#5084C4] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
                             </div>
                         </div>
-                    </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#E53935]/40 transition-all duration-300 flex flex-col" data-category="Frame Utama" data-desc="Main frame scaffolding dengan tinggi 170cm. Komponen utama penahan beban yang sangat kokoh standar industri." data-img="https://lh3.googleusercontent.com/aida/AEtjO1V9gCLSJNAA3R2EejB2XAQL0X7FR4cj0r5kwSGlRpKveUncktc4J7GDwtjBFmOwR5lhHk3OucI8CvxvRrVi5yw-aQ7FhIUOyEOpYqOnXeKcepIeRBhQfi-2yZMB8sF3WA0WKzz2NalakMYCa9mH50cOR0xopt5IE_uVpghs7MTEPgnlvW-Kmup9JVZupxSy5xubGJDr6GLACqmOZ8Zew0NkzqJN4QcoULf6qp_GRDHMizUJZcyzUlkvoyXw" data-title="Scaffolding T170">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#E53935] border border-[#E53935]/20 shadow-sm font-display">Frame Utama</span>
+                            <img alt="Scaffolding T170" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1V9gCLSJNAA3R2EejB2XAQL0X7FR4cj0r5kwSGlRpKveUncktc4J7GDwtjBFmOwR5lhHk3OucI8CvxvRrVi5yw-aQ7FhIUOyEOpYqOnXeKcepIeRBhQfi-2yZMB8sF3WA0WKzz2NalakMYCa9mH50cOR0xopt5IE_uVpghs7MTEPgnlvW-Kmup9JVZupxSy5xubGJDr6GLACqmOZ8Zew0NkzqJN4QcoULf6qp_GRDHMizUJZcyzUlkvoyXw">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#E53935] transition-colors font-display">Scaffolding T170</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Main frame scaffolding dengan tinggi 170cm. Komponen utama penahan beban yang sangat kokoh standar industri.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#E53935] hover:text-white border border-slate-200 hover:border-[#E53935] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-blue-500/40 transition-all duration-300 flex flex-col" data-category="Platform" data-desc="Lantai pijakan besi anti-slip yang dipasang pada frame sebagai tempat berdiri pekerja dengan aman di area ketinggian." data-img="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU" data-title="Catwalk">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-blue-500 border border-blue-500/20 shadow-sm font-display">Platform</span>
+                            <img alt="Catwalk" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-500 transition-colors font-display">Catwalk</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Lantai pijakan besi anti-slip yang dipasang pada frame sebagai tempat berdiri pekerja dengan aman di area ketinggian.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-blue-500 hover:text-white border border-slate-200 hover:border-blue-500 text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Mobilisasi" data-desc="Roda berbahan nylon berukuran 6 inci yang dilengkapi pengunci untuk mempermudah pemindahan rangkaian scaffolding." data-img="https://lh3.googleusercontent.com/aida/AEtjO1VM7yA82kNuE6pGkc22kBGWxihZjwX1KKvVC4lgL-T4NSd35dWNmi5RQN65jl8VuDdXUgnOiInOUO1z33qsr7mDfrBRuuM-FSkksGhSvMtZCO_oP3ofTpCqQgJnn8eX5ybOBuwVEHd4PyWusrzeqJvfXKwL4R8nShRvOCgpkoNYV7M7oaBOICavzkiXPhQjBNHJ_oJc4rESiTNELVBbKezsDWoM-wTRJBjanOK_mWJASdN5GjCPTZ1b79cY" data-title="Roda Nylon 6 Inch">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-emerald-600 border border-emerald-500/20 shadow-sm font-display">Aksesoris Mobilisasi</span>
+                            <img alt="Roda Nylon 6 Inch" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VM7yA82kNuE6pGkc22kBGWxihZjwX1KKvVC4lgL-T4NSd35dWNmi5RQN65jl8VuDdXUgnOiInOUO1z33qsr7mDfrBRuuM-FSkksGhSvMtZCO_oP3ofTpCqQgJnn8eX5ybOBuwVEHd4PyWusrzeqJvfXKwL4R8nShRvOCgpkoNYV7M7oaBOICavzkiXPhQjBNHJ_oJc4rESiTNELVBbKezsDWoM-wTRJBjanOK_mWJASdN5GjCPTZ1b79cY">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors font-display">Roda Nylon 6 Inch</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Roda berbahan nylon berukuran 6 inci yang dilengkapi pengunci untuk mempermudah pemindahan rangkaian scaffolding.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-emerald-500 hover:text-white border border-slate-200 hover:border-emerald-500 text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Frame Tambahan" data-desc="Frame tambahan setinggi 90cm yang berfungsi sebagai tangga akses vertikal naik turun bagi para pekerja." data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuBFFVz7CGFG-9k3iUycI5aNf9oKYjCLBeecoGYWG265obC0DiCO_x29HWoLU6FnGnDgbmC31qdryNOXPClNYZa1YlvZjBd41i1Uhwic6bwyewpzVSG_irxVQ7GBlAyolPB4o0i2RQBkhj347Z-BqJ5Dhe0Rdh-sTPkuHja5hRkCPXo05bOePHXkScuwZEABVV5gs0MKG-mq76_5-JFUYhFXkABxbXmi-t_v1vGHrwjVGFThBTGUfHnQZA" data-title="Ladder Frame T90">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#5084C4] border border-[#5084C4]/20 shadow-sm font-display">Frame Tambahan</span>
+                            <img alt="Ladder Frame T90" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFFVz7CGFG-9k3iUycI5aNf9oKYjCLBeecoGYWG265obC0DiCO_x29HWoLU6FnGnDgbmC31qdryNOXPClNYZa1YlvZjBd41i1Uhwic6bwyewpzVSG_irxVQ7GBlAyolPB4o0i2RQBkhj347Z-BqJ5Dhe0Rdh-sTPkuHja5hRkCPXo05bOePHXkScuwZEABVV5gs0MKG-mq76_5-JFUYhFXkABxbXmi-t_v1vGHrwjVGFThBTGUfHnQZA">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#5084C4] transition-colors font-display">Ladder Frame T90</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Frame tambahan setinggi 90cm yang berfungsi sebagai tangga akses vertikal naik turun bagi para pekerja.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#5084C4] hover:text-white border border-slate-200 hover:border-[#5084C4] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 6 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#E53935]/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Atas" data-desc="Penyangga bagian atas ukuran 60cm berbentuk U untuk menahan gelagar balok kayu atau hollow pada cetakan beton." data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuBRXhrzaaQ59pFQMeSpXylFfDTC8S1cxjxZ2LrRIJCj-Vp_UiJAZlF157B_8ziQALzukee-BrtH4GeRv61WYlzhxNV5PrwuYPegXS20lwDK6_FMLjSGU-4IGHbYELnnUxAZD7lGUWqvm8P84eZDV0mJTwUVPzi-mumQJfVQyl76RPXC6Z9ayZSv7MlbUxUdp2BBcPZvllzGwy8-iOwD44UxhopcrCbhzPqpE3YDO9_pDUesU33GlDYKiQ" data-title="U-Head T60">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#E53935] border border-[#E53935]/20 shadow-sm font-display">Aksesoris Atas</span>
+                            <img alt="U-Head T60" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRXhrzaaQ59pFQMeSpXylFfDTC8S1cxjxZ2LrRIJCj-Vp_UiJAZlF157B_8ziQALzukee-BrtH4GeRv61WYlzhxNV5PrwuYPegXS20lwDK6_FMLjSGU-4IGHbYELnnUxAZD7lGUWqvm8P84eZDV0mJTwUVPzi-mumQJfVQyl76RPXC6Z9ayZSv7MlbUxUdp2BBcPZvllzGwy8-iOwD44UxhopcrCbhzPqpE3YDO9_pDUesU33GlDYKiQ">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#E53935] transition-colors font-display">U-Head T60</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Penyangga bagian atas ukuran 60cm berbentuk U untuk menahan gelagar balok kayu atau hollow pada cetakan beton.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#E53935] hover:text-white border border-slate-200 hover:border-[#E53935] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 7 -->
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Penyangga Tunggal" data-desc="Tiang penyangga tunggal besi (shoring pipe) yang dapat disetel tinggi-rendahnya untuk menyokong bekisting atau dak lantai." data-img="https://lh3.googleusercontent.com/aida-public/AB6AXuC0NjkSgrTnAiIPwo1_81FjaTmDQJ5YWEja7oA75qwS_eRUmEEsz708XYWlHMp9jb4OaTTerOh4XjuI4P6sWiW6oSqjMTwfZgG-P6RtWcgcWk9Eoy0oas1zul8_p98ibTo64NQcT-Py08IrwhanfmeHbv4pvQSXadXYUeNEp9hM0Xt4sqVuyDGFJq6WqBHFHWqgvo_AS49AtZPNcrbf8vvrisJeH_s3XHGsaY-iVLFF52VOAnWStgBp8A" data-title="Pipe Support Ts-90">
+                        <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
+                            <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#5084C4] border border-[#5084C4]/20 shadow-sm font-display">Penyangga Tunggal</span>
+                            <img alt="Pipe Support Ts-90" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0NjkSgrTnAiIPwo1_81FjaTmDQJ5YWEja7oA75qwS_eRUmEEsz708XYWlHMp9jb4OaTTerOh4XjuI4P6sWiW6oSqjMTwfZgG-P6RtWcgcWk9Eoy0oas1zul8_p98ibTo64NQcT-Py08IrwhanfmeHbv4pvQSXadXYUeNEp9hM0Xt4sqVuyDGFJq6WqBHFHWqgvo_AS49AtZPNcrbf8vvrisJeH_s3XHGsaY-iVLFF52VOAnWStgBp8A">
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#5084C4] transition-colors font-display">Pipe Support Ts-90</h3>
+                            <p class="text-sm text-slate-500 mt-2 line-clamp-2 flex-grow leading-relaxed">Tiang penyangga tunggal besi (shoring pipe) yang dapat disetel tinggi-rendahnya untuk menyokong bekisting atau dak lantai.</p>
+                            <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
+                                <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
+                                <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#5084C4] hover:text-white border border-slate-200 hover:border-[#5084C4] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
+                                    Lihat Detail <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </section>
 
-            <!-- FAQ Desktop Section (Ditambahkan ikon Chevron/panah) -->
-            <section class="bg-white rounded-[32px] p-6 sm:p-10 lg:p-12 border border-[#E0E0E0] subtle-shadow" id="faq">
+            <!-- FAQ Desktop Section -->
+            <section class="bg-white rounded-[32px] p-6 sm:p-10 lg:p-12 border border-[#E0E0E0] subtle-shadow max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 mb-24" id="faq">
                 <div class="max-w-4xl mx-auto space-y-8">
                     <div class="text-center space-y-3">
                         <div class="inline-block px-3.5 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-semibold tracking-wide border border-slate-200 uppercase font-display">INFORMASI & FAQ</div>
@@ -694,7 +733,6 @@ header_remove("X-Powered-By");
                                     <span class="w-10 h-10 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center text-[#E53935] flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
                                     <span class="font-display">Bagaimana sistem pembayaran sewa scaffolding di sini?</span>
                                 </span>
-                                <!-- Tambahan Ikon Chevron (Panah) -->
                                 <span class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-[#E53935] transition-transform duration-300 flex-shrink-0">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
                                 </span>
@@ -708,7 +746,6 @@ header_remove("X-Powered-By");
                                     <span class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-[#5084C4] flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
                                     <span class="font-display">Apakah melayani pengantaran material langsung ke proyek?</span>
                                 </span>
-                                <!-- Tambahan Ikon Chevron (Panah) -->
                                 <span class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-[#5084C4] transition-transform duration-300 flex-shrink-0">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
                                 </span>
@@ -722,7 +759,6 @@ header_remove("X-Powered-By");
                                     <span class="w-10 h-10 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-600 flex-shrink-0 shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
                                     <span class="font-display">Apakah ada batas minimal durasi sewa atau kuantitas set?</span>
                                 </span>
-                                <!-- Tambahan Ikon Chevron (Panah) -->
                                 <span class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-500 group-open:rotate-180 group-open:text-emerald-600 transition-transform duration-300 flex-shrink-0">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
                                 </span>
@@ -733,12 +769,39 @@ header_remove("X-Powered-By");
                 </div>
             </section>
 
+            <!-- Product Modal Desktop -->
+            <div class="fixed inset-0 z-[100] hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4" id="product-modal-desktop">
+                <div class="bg-white rounded-[24px] max-w-2xl w-full overflow-hidden shadow-2xl border border-slate-200 transform transition-all">
+                    <div class="relative bg-[#F4F5F7] aspect-[16/9] flex items-center justify-center p-8 border-b border-slate-100">
+                        <button aria-label="Tutup" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-slate-700 hover:bg-white shadow-sm transition-all border border-slate-200" onclick="closeModalDesktop()">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </button>
+                        <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase bg-[#1E1E1E] text-white shadow-sm font-display" id="modal-category-desktop">Kategori</span>
+                        <img alt="Detail Produk" class="max-h-full max-w-full object-contain" id="modal-img-desktop" src="">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl text-slate-900 font-extrabold font-display" id="modal-title-desktop">Nama Komponen</h3>
+                        <p class="text-sm text-slate-500 mt-3 leading-relaxed" id="modal-desc-desktop">Deskripsi komponen spesifikasi lengkap dan rekomendasi penggunaan scaffolding standar.</p>
+                        <div class="mt-6 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <button class="w-full sm:w-auto px-6 py-2.5 rounded-full border border-slate-200 text-slate-600 hover:bg-slate-50 text-xs font-bold transition-colors font-display shadow-sm" onclick="closeModalDesktop()">
+                                Tutup
+                            </button>
+                            <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-2.5 rounded-full bg-[#1E1E1E] text-white hover:bg-slate-800 text-xs font-bold transition-all shadow-md group font-display" href="#" id="modal-wa-link-desktop" target="_blank">
+                                <svg class="w-4 h-4 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
+                                <span class="">Pesan via WhatsApp</span>
+                                <svg class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- BEGIN: MainFooter Desktop -->
-            <footer class="bg-white rounded-[32px] p-8 sm:p-10 border border-[#E0E0E0] subtle-shadow text-[#757575] text-sm" id="kontak">
+            <footer class="bg-white rounded-[32px] p-8 sm:p-10 border border-[#E0E0E0] subtle-shadow text-[#757575] text-sm" id="kontak-desktop">
                 <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-6">
                     <div class="md:col-span-5 space-y-4">
                         <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white shadow-md flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#db322f] flex items-center justify-center text-white shadow-md flex-shrink-0">
                                 <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
                             </div>
                             <span class="font-extrabold text-base sm:text-lg tracking-tight text-[#1E1E1E] uppercase italic font-display">REGINA AL BARAKAH GROUP</span>
