@@ -13,19 +13,11 @@ body {
     scrollbar-width: none;
 }
 
-/* --- GLASSMORPHISM & DESKTOP STYLING --- */
 .glass-nav {
     background: rgba(255, 255, 255, 0.16);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid rgba(255, 255, 255, 0.24);
-}
-
-.glass-card-dark {
-    background: rgba(20, 26, 38, 0.68);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .subtle-shadow {
