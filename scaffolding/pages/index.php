@@ -410,7 +410,7 @@ header_remove("X-Powered-By");
                     <div class="lg:col-span-7 space-y-6">
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm font-display">
                             <span class="w-2 h-2 rounded-full bg-rose-400 animate-ping"></span>
-                            ● STOK READY 1.000+ SET SNI SIAP ANTAR
+                            STOK READY 1.000+ SET SNI SIAP ANTAR
                         </div>
                         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
                             Sewa & Jual Scaffolding <br class="hidden sm:inline">
