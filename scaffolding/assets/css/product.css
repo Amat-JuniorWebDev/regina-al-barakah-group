@@ -1,55 +1,40 @@
-html { scroll-behavior: smooth; }
-body { overflow-x: hidden; width: 100%; }
+/* --- BASE STYLING (MOBILE & DESKTOP) --- */
+body {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+}
 
-/* Navigasi Glassmorphism */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+/* --- GLASSMORPHISM & DESKTOP STYLING --- */
 .glass-nav {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    transition: all 0.4s ease-in-out;
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-.macos-card {
-    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-    will-change: transform, box-shadow;
-}
-@media (min-width: 1024px) {
-    .macos-card:hover {
-        transform: translateY(-12px);
-        box-shadow: 0 40px 80px -15px rgba(30, 58, 138, 0.15);
-    }
+.glass-card-dark {
+    background: rgba(20, 26, 38, 0.68);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-#mobile-menu {
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(-110%);
-    opacity: 0;
-    pointer-events: none;
+.subtle-shadow {
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
 }
-#mobile-menu.active {
-    transform: translateY(0);
-    opacity: 1;
-    pointer-events: all;
-}
-
-/* Floating Buttons Style dari index.php */
-.wa-float {
-    position: fixed; bottom: 25px; right: 25px; background-color: #25d366; color: white;
-    width: 55px; height: 55px; border-radius: 50%; text-align: center; font-size: 28px;
-    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3); z-index: 1000; display: flex;
-    align-items: center; justify-content: center; transition: all 0.4s ease; cursor: pointer;
-}
-.wa-float:hover { transform: scale(1.1) rotate(10deg); }
-
-/* Khusus Halaman Produk */
-.product-image {
-    transition: transform 1.2s cubic-bezier(0.2, 1, 0.3, 1);
-}
-.hero-catalog-overlay {
-    background: linear-gradient(0deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.7) 100%);
-}
-.footer-bg-overlay {
-    background: linear-gradient(to top, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.9));
-}
-.hero-zoom { animation: slowZoom 25s infinite alternate linear; }
-@keyframes slowZoom { from { transform: scale(1); } to { transform: scale(1.1); } }
