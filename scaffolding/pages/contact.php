@@ -527,7 +527,7 @@ header_remove("X-Powered-By");
                         
                         <div class="relative w-full h-[380px] md:h-[400px] rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
                             <!-- Peta (Lazy Loaded) -->
-                            <iframe class="w-full h-full border-0 filter contrast-[1.05]" loading="lazy" src="https://maps.google.com/maps?q=Jl.+Pahlawan+Blk.+A+No.+11,+BTN+Medy+Brata,+Wolio,+Bau-Bau+93711&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Peta Lokasi Workshop Scaffolding Bau-Bau"></iframe>
+                            <iframe class="w-full h-full border-0 filter contrast-[1.05]" loading="lazy" src="https://share.google/T9dtfMndDo0w3B9JC" title="Peta Lokasi Workshop Scaffolding Bau-Bau"></iframe>
                             
                             <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-lg border border-slate-200 flex items-center gap-3">
                                 <div class="w-10 h-10 rounded-full bg-[#E53935] flex items-center justify-center text-white">
