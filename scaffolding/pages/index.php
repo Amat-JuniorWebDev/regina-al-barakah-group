@@ -17,7 +17,7 @@ header_remove("X-Powered-By");
     <link rel="preconnect" href="https://lh3.googleusercontent.com">
 
     <!-- OPTIMASI PERFORMA: Preload gambar hero HANYA untuk desktop (Mobile memakai gradient CSS murni sebagai LCP) -->
-    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" media="(min-width: 1024px)" fetchpriority="high">
+    <link rel="preload" as="image" href="../assets/image/kantor.jpg" media="(min-width: 1024px)" fetchpriority="high">
 
     <!-- OPTIMASI PERFORMA: Google Fonts Non-blocking -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
@@ -98,8 +98,8 @@ header_remove("X-Powered-By");
                     <!-- Glass Card Mobile 1 -->
                     <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
                         <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
-                            <!-- OPTIMASI PERFORMA: Explicit Width/Height & Lazy -->
-                            <img src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U" alt="Armada Cepat Bau-Bau Pasarwajo" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                            <!-- OPTIMASI PERFORMA: Diperbarui dengan aset gambar lokal -->
+                            <img src="../assets/image/kantor.jpg" alt="Armada Cepat Bau-Bau Pasarwajo" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1 min-w-0">
                             <div class="flex items-center justify-between gap-1 mb-0.5">
@@ -116,8 +116,8 @@ header_remove("X-Powered-By");
                     <!-- Glass Card Mobile 2 -->
                     <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
                         <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
-                            <!-- OPTIMASI PERFORMA: Explicit Width/Height & Lazy -->
-                            <img src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" alt="Kawasan Proyek Buton Unit Ready" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
+                            <!-- OPTIMASI PERFORMA: Diperbarui dengan aset gambar lokal -->
+                            <img src="../assets/image/mf17.jpg" alt="Kawasan Proyek Buton Unit Ready" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1 min-w-0">
                             <div class="flex items-center justify-between gap-1 mb-0.5">
@@ -250,7 +250,7 @@ header_remove("X-Powered-By");
                 </div>
                 
                 <div class="space-y-4">
-                    <!-- Produk 1: Diganti ke mf17.jpg -->
+                    <!-- Produk 1: Menggunakan mf17.jpg -->
                     <div class="bg-white/[0.05] border border-white/10 rounded-2xl p-3.5">
                         <div class="w-full h-44 rounded-xl overflow-hidden bg-white mb-3 flex items-center justify-center p-2">
                             <img alt="Scaffolding Main Frame T170" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="../assets/image/mf17.jpg">
@@ -262,10 +262,10 @@ header_remove("X-Powered-By");
                         <p class="text-[11px] text-slate-300 leading-normal mb-3">Pipa baja galvanis presisi, presisi sambungan tinggi untuk stabilitas beban konstruksi bertingkat.</p>
                         <a class="w-full py-2.5 px-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors border border-white/10 font-display" href="product.php" aria-label="Lihat Selengkapnya Produk Utama">Selengkapnya ↗</a>
                     </div>
-                    <!-- Produk 2 -->
+                    <!-- Produk 2: Menggunakan catwalk.jpg -->
                     <div class="bg-white/[0.05] border border-white/10 rounded-2xl p-3.5">
                         <div class="w-full h-44 rounded-xl overflow-hidden bg-white mb-3 flex items-center justify-center p-2">
-                            <img alt="Catwalk Plat Pijakan Besi" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                            <img alt="Catwalk Plat Pijakan Besi" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="../assets/image/catwalk.jpg">
                         </div>
                         <div class="flex flex-wrap gap-1.5 mb-2">
                             <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Platform Kerja</span>
@@ -358,7 +358,7 @@ header_remove("X-Powered-By");
                         <li><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
                         <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
                         <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
-                        <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
+                        <li><a href="contact.php" class="text-[#E53935] font-bold block py-0.5">Kontak</a></li>
                     </ul>
                 </div>
 
@@ -406,27 +406,29 @@ header_remove("X-Powered-By");
     <div class="hidden lg:block">
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
-            <!-- Hero Banner Desktop -->
-            <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
-                <picture class="contents">
-                    <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
-                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                </picture>
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
-                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30 z-[1]"></div>
-
+            <!-- Hero Banner Desktop (IDENTIK 100% DENGAN INDEX.PHP & ABOUT.PHP UNTUK MENCEGAH LOMPATAN) -->
+            <section class="relative overflow-hidden rounded-[32px] bg-[#0A0F1C] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl border border-white/5" id="hero">
+                <div class="absolute inset-0 z-0 pointer-events-none">
+                    <picture class="contents">
+                        <!-- Menggunakan aset lokal sesuai instruksi -->
+                        <source media="(min-width: 1024px)" srcset="../assets/image/kantor.jpg">
+                        <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                    </picture>
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#0A0F1C] via-[#0A0F1C]/90 to-[#0A0F1C]/60 z-[1]"></div>
+                </div>
+                
                 <!-- NavigationBar Desktop -->
                 <header class="relative z-20 px-5 sm:px-8 pt-5 sm:pt-6">
                     <div class="flex items-center justify-between gap-4">
                         <a class="flex items-center gap-3 group" href="index.php" title="Regina Al Barakah Group" aria-label="Beranda Regina Al Barakah">
-                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-rose-600/30 flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#E53935] flex items-center justify-center text-white shadow-lg shadow-red-600/30 flex-shrink-0">
                                 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
                                 </svg>
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
@@ -438,41 +440,46 @@ header_remove("X-Powered-By");
                         </nav>
                         
                         <div class="flex items-center gap-2">
-                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
+                            <a class="inline-flex items-center gap-2.5 bg-white text-slate-900 px-5 py-2.5 rounded-full font-bold text-sm shadow-lg hover:bg-slate-100 transition-all group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
                                 <span>Konsultasi / Sewa</span>
-                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
+                                <span class="w-5 h-5 bg-[#1E1E1E] text-white rounded-full flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+                                </span>
                             </a>
                         </div>
                     </div>
                 </header>
 
-                <div class="relative z-10 px-5 sm:px-8 py-8 sm:py-12 my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
-                    <div class="lg:col-span-7 space-y-6">
+                <div class="relative z-10 px-5 sm:px-8 py-12 lg:py-16 my-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center flex-grow">
+                    <!-- Text Area (Left) -->
+                    <div class="lg:col-span-7 flex flex-col items-start gap-6">
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm font-display">
                             <span class="w-2 h-2 rounded-full bg-rose-400 animate-ping"></span>
                             ● STOK READY 1.000+ SET SNI SIAP ANTAR
                         </div>
-                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
+                        <h1 class="text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
                             Sewa & Jual Scaffolding <br class="hidden sm:inline">
                             <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-100 to-[#E53935]">Standar Industri</span>
                         </h1>
-                        <p class="text-slate-200 text-sm sm:text-base md:text-lg max-w-xl font-normal leading-relaxed">
+                        <p class="text-slate-300 text-base md:text-lg max-w-2xl leading-relaxed italic border-l-2 border-[#5084C4] pl-4">
                             Penyedia perancah pipa baja berkualitas untuk keamanan infrastruktur dan efisiensi proyek Anda di wilayah Kota Bau-Bau, Kabupaten Buton, dan sekitarnya.
                         </p>
-                        <div class="pt-2">
-                            <a class="inline-flex items-center gap-3 bg-white text-[#1E1E1E] font-bold px-7 py-3.5 rounded-full text-sm sm:text-base hover:bg-slate-100 transition shadow-2xl group font-display" href="#katalog" aria-label="Jelajahi Katalog Scaffolding">
-                                <span>Jelajahi Katalog</span>
-                                <span class="w-6 h-6 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-xs group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">↗</span>
+                        <div class="flex flex-wrap items-center gap-4 pt-3">
+                            <a class="flex items-center gap-2 bg-white text-slate-900 px-7 py-3.5 rounded-full text-sm font-bold hover:bg-slate-100 hover:shadow-xl transition-all duration-200 font-display group" href="#katalog" aria-label="Jelajahi Katalog Scaffolding">
+                                <span class="">Jelajahi Katalog</span>
+                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:-rotate-45 transition-transform duration-300">↗</span>
                             </a>
                         </div>
                     </div>
 
+                    <!-- Trust Point Spec Card (Right) -->
                     <div class="lg:col-span-5 relative w-full">
                         <div class="space-y-3 relative">
                             <!-- Floating Card 1 -->
                             <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
                                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10">
-                                    <img alt="Armada Truk Pengiriman" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
+                                    <!-- Menggunakan gambar lokal kantor.jpg sesuai instruksi -->
+                                    <img alt="Armada Truk Pengiriman" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="../assets/image/kantor.jpg">
                                 </div>
                                 <div class="flex-1 min-w-0">
                                     <div class="flex items-center justify-between">
@@ -486,10 +493,12 @@ header_remove("X-Powered-By");
                                     </div>
                                 </div>
                             </div>
+                            
                             <!-- Floating Card 2 -->
                             <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
                                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10">
-                                    <img alt="Unit Main Frame Proyek" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
+                                    <!-- Menggunakan gambar lokal mf17.jpg sesuai instruksi -->
+                                    <img alt="Unit Main Frame Proyek" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="../assets/image/mf17.jpg">
                                 </div>
                                 <div class="flex-1 min-w-0">
                                     <div class="flex items-center justify-between">
@@ -570,7 +579,7 @@ header_remove("X-Powered-By");
                             Kami mudahkan manajemen perancah agar proyek Anda berjalan aman tepat waktu.
                         </p>
                         <div class="relative rounded-2xl overflow-hidden shadow-lg mt-4 group">
-                            <!-- OPTIMASI: Ganti Gambar Kantor Sesuai Instruksi -->
+                            <!-- Menggunakan gambar lokal kantor.jpg sesuai instruksi -->
                             <img alt="Gudang Operasional Scaffolding" width="600" height="400" loading="lazy" decoding="async" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition duration-500" src="../assets/image/kantor.jpg">
                             <div class="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl shadow-xl max-w-[210px] border border-slate-100">
                                 <div class="flex items-center gap-2 text-emerald-600 mb-1">
@@ -651,10 +660,11 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
+                    <!-- Produk 2: Menggunakan catwalk.jpg (Aset lokal) -->
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="../assets/image/catwalk.jpg">
                             </div>
                             <div class="p-5">
                                 <div class="flex flex-wrap gap-1.5 mb-3">
