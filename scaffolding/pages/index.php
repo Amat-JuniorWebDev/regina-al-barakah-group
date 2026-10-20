@@ -98,7 +98,7 @@ header_remove("X-Powered-By");
                     <!-- Glass Card Mobile 1 -->
                     <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
                         <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
-                            <!-- DIKEMBALIKAN KE LH3 GOOGLE USER CONTENT -->
+                            <!-- OPTIMASI PERFORMA: Explicit Width/Height & Lazy -->
                             <img src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U" alt="Armada Cepat Bau-Bau Pasarwajo" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1 min-w-0">
@@ -116,7 +116,7 @@ header_remove("X-Powered-By");
                     <!-- Glass Card Mobile 2 -->
                     <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
                         <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
-                            <!-- DIKEMBALIKAN KE LH3 GOOGLE USER CONTENT -->
+                            <!-- OPTIMASI PERFORMA: Explicit Width/Height & Lazy -->
                             <img src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" alt="Kawasan Proyek Buton Unit Ready" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1 min-w-0">
@@ -186,6 +186,7 @@ header_remove("X-Powered-By");
             
             <div class="relative w-full rounded-2xl overflow-hidden mb-6 border border-slate-200 shadow-sm">
                 <div class="w-full h-44 sm:h-52">
+                    <!-- OPTIMASI PERFORMA: Menggunakan gambar kantor.jpg sesuai instruksi -->
                     <img alt="Gudang & Armada Regina Al Barakah" width="400" height="200" loading="lazy" decoding="async" class="w-full h-full object-cover" src="../assets/image/kantor.jpg">
                 </div>
                 <div class="absolute bottom-2.5 right-2.5 max-w-[190px] bg-white/95 backdrop-blur-md p-2 rounded-lg border border-slate-200 shadow-md flex items-start gap-1.5 z-10">
@@ -249,7 +250,7 @@ header_remove("X-Powered-By");
                 </div>
                 
                 <div class="space-y-4">
-                    <!-- Produk 1 -->
+                    <!-- Produk 1: Diganti ke mf17.jpg -->
                     <div class="bg-white/[0.05] border border-white/10 rounded-2xl p-3.5">
                         <div class="w-full h-44 rounded-xl overflow-hidden bg-white mb-3 flex items-center justify-center p-2">
                             <img alt="Scaffolding Main Frame T170" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="../assets/image/mf17.jpg">
@@ -357,7 +358,7 @@ header_remove("X-Powered-By");
                         <li><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
                         <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
                         <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
-                        <li><a href="contact.php" class="text-[#E53935] font-bold block py-0.5">Kontak</a></li>
+                        <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
                     </ul>
                 </div>
 
@@ -388,13 +389,13 @@ header_remove("X-Powered-By");
         </footer>
 
         <!-- Mobile Premium Floating WhatsApp -->
-        <aside class="fixed bottom-4 right-4 z-50">
-            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-xs tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221">
+        <aside class="fixed bottom-6 right-6 z-50">
+            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
                 <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
-                <svg class="w-4 h-4 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
                 </svg>
-                <span class="text-xs font-bold tracking-wide z-10 relative">Tanya Sewa Cepat</span>
+                <span class="z-10 relative">Tanya Sewa Cepat</span>
             </a>
         </aside>
     </div>
@@ -407,9 +408,10 @@ header_remove("X-Powered-By");
             
             <!-- Hero Banner Desktop -->
             <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
-                <!-- DIKEMBALIKAN KE LH3 GOOGLE USER CONTENT TANPA TAG PICTURE AGAR TIDAK ERROR -->
-                <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
-                
+                <picture class="contents">
+                    <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
+                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                </picture>
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30 z-[1]"></div>
 
@@ -424,7 +426,7 @@ header_remove("X-Powered-By");
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-rose-300 text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
@@ -438,7 +440,7 @@ header_remove("X-Powered-By");
                         <div class="flex items-center gap-2">
                             <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
                                 <span>Konsultasi / Sewa</span>
-                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">↗</span>
+                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
                             </a>
                         </div>
                     </div>
@@ -470,7 +472,6 @@ header_remove("X-Powered-By");
                             <!-- Floating Card 1 -->
                             <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
                                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10">
-                                    <!-- DIKEMBALIKAN KE LH3 GOOGLE USER CONTENT -->
                                     <img alt="Armada Truk Pengiriman" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
                                 </div>
                                 <div class="flex-1 min-w-0">
@@ -488,7 +489,6 @@ header_remove("X-Powered-By");
                             <!-- Floating Card 2 -->
                             <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
                                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10">
-                                    <!-- DIKEMBALIKAN KE LH3 GOOGLE USER CONTENT -->
                                     <img alt="Unit Main Frame Proyek" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
                                 </div>
                                 <div class="flex-1 min-w-0">
@@ -570,6 +570,7 @@ header_remove("X-Powered-By");
                             Kami mudahkan manajemen perancah agar proyek Anda berjalan aman tepat waktu.
                         </p>
                         <div class="relative rounded-2xl overflow-hidden shadow-lg mt-4 group">
+                            <!-- OPTIMASI: Ganti Gambar Kantor Sesuai Instruksi -->
                             <img alt="Gudang Operasional Scaffolding" width="600" height="400" loading="lazy" decoding="async" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition duration-500" src="../assets/image/kantor.jpg">
                             <div class="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl shadow-xl max-w-[210px] border border-slate-100">
                                 <div class="flex items-center gap-2 text-emerald-600 mb-1">
@@ -633,7 +634,7 @@ header_remove("X-Powered-By");
                     </div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Produk 1 -->
+                    <!-- Produk 1: Menggunakan mf17.jpg -->
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
@@ -650,7 +651,6 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <!-- Produk 2 -->
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
@@ -667,7 +667,7 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <!-- Produk 3 -->
+                    <!-- Produk 3: Menggunakan roda6.jpg -->
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
