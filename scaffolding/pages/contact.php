@@ -544,7 +544,7 @@ header_remove("X-Powered-By");
                             <svg class="w-6 h-6 text-[#5084C4] mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             <div>
                                 <p class="text-sm font-bold text-slate-900 font-display">Alamat Lengkap Depot Logistik</p>
-                                <p class="text-[13px] text-slate-600 mt-1 leading-relaxed">Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711 (<a href="https://share.google/IsgymSdhtia7GD1qG" target="_blank" class="text-[#5084C4] hover:underline font-bold inline-flex items-center gap-1" rel="noopener noreferrer">Buka Peta ↗</a>)</p>
+                                <p class="text-[13px] text-slate-600 mt-1 leading-relaxed">Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711 (<a href="https://share.google/T9dtfMndDo0w3B9JC" target="_blank" class="text-[#5084C4] hover:underline font-bold inline-flex items-center gap-1" rel="noopener noreferrer">Buka Peta ↗</a>)</p>
                             </div>
                         </div>
                     </div>
