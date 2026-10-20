@@ -38,7 +38,7 @@ header_remove("X-Powered-By");
     <!-- ============================================================== -->
     <div class="block lg:hidden flex justify-center w-full bg-[#F8F9FB] min-h-screen relative flex-col overflow-x-hidden">
         
-        <!-- Header & Hamburger Menu Mobile -->
+        <!-- Header & Hamburger Menu Mobile (IDENTIK DENGAN INDEX.PHP) -->
         <header class="fixed top-3 left-1/2 -translate-x-1/2 w-[calc(100%-1.5rem)] max-w-[400px] z-50">
             <div class="bg-[#1E1E1E] border border-white/20 rounded-full px-4 py-2.5 flex items-center justify-between shadow-xl relative z-50">
                 <a class="flex items-center space-x-2.5" href="index.php" aria-label="Beranda Regina Al Barakah">
@@ -46,15 +46,16 @@ header_remove("X-Powered-By");
                         <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 2H9c-1.1 0-2 .9-2 2v3H5c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM5 9h2v2H5V9zm0 4h2v2H5v-2zm0 4h2v2H5v-2zm14 2H9v-2h2v-2H9v-2h2v-2H9V9h2V7H9V4h10v15zm-6-8h2v2h-2v-2zm0 4h2v2h-2v-2zm0-8h2v2h-2V7zm4 0h2v2h-2V7zm0 4h2v2h-2v-2zm0 4h2v2h-2v-2z"></path></svg>
                     </div>
                     <div class="flex flex-col">
-                        <span class="text-white font-display text-[13px] tracking-tight leading-none font-bold">REGINA AL BARAKAH</span>
-                        <span class="text-slate-400 font-sans text-[9px] tracking-wider uppercase leading-tight mt-1">SCAFFOLDING & KONSTRUKSI</span>
+                        <span class="text-white text-[13px] tracking-tight leading-none font-bold font-display">REGINA AL BARAKAH</span>
+                        <span class="text-slate-300 text-[9px] tracking-wider uppercase leading-tight mt-1 font-sans">SCAFFOLDING & KONSTRUKSI</span>
                     </div>
                 </a>
                 <div class="flex items-center space-x-2.5">
-                    <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full font-display text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm" href="https://wa.me/6281242207221" aria-label="Hubungi WhatsApp">
+                    <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm font-display" href="https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20sewa%20scaffolding" aria-label="Sewa Scaffolding via WhatsApp">
                         <span>Sewa</span>
                         <svg class="w-3 h-3 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
                     </a>
+                    
                     <button id="mobile-menu-btn" aria-label="Buka Menu Navigasi" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white/20 active:scale-95 transition-all" type="button">
                         <div class="flex flex-col space-y-1">
                             <span class="w-4 h-0.5 bg-white rounded-full"></span>
@@ -103,84 +104,26 @@ header_remove("X-Powered-By");
                 <div class="mt-4 p-4 rounded-3xl bg-white/[0.04] backdrop-blur-md border border-white/10 shadow-inner relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
                     <div class="grid grid-cols-2 gap-3 relative z-10">
-                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                            </div>
-                            <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">24/7 Siaga</h3>
-                                <p class="text-[10px] text-slate-400 mt-0.5">Layanan darurat</p>
-                            </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl text-center">
+                            <svg class="w-6 h-6 text-[#5084C4] mx-auto mb-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <div class="font-display text-xl font-bold text-white tracking-tight mb-0.5">24/7 Siaga</div>
+                            <div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Layanan Darurat</div>
                         </div>
-                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                            </div>
-                            <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">100% SNI</h3>
-                                <p class="text-[10px] text-slate-400 mt-0.5">Uji kekuatan pipa</p>
-                            </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl text-center">
+                            <svg class="w-6 h-6 text-emerald-400 mx-auto mb-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            <div class="font-display text-xl font-bold text-white tracking-tight mb-0.5">100% SNI</div>
+                            <div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Uji Kekuatan Pipa</div>
                         </div>
-                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
-                            </div>
-                            <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">Armada</h3>
-                                <p class="text-[10px] text-slate-400 mt-0.5">Kirim tepat waktu</p>
-                            </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl text-center">
+                            <svg class="w-6 h-6 text-amber-400 mx-auto mb-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                            <div class="font-display text-xl font-bold text-white tracking-tight mb-0.5">Armada</div>
+                            <div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Kirim Tepat Waktu</div>
                         </div>
-                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                            </div>
-                            <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">&lt; 15 Menit</h3>
-                                <p class="text-[10px] text-slate-400 mt-0.5">Respon CS cepat</p>
-                            </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl text-center">
+                            <svg class="w-6 h-6 text-[#E53935] mx-auto mb-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            <div class="font-display text-xl font-bold text-white tracking-tight mb-0.5">&lt; 15 Menit</div>
+                            <div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Respon CS Cepat</div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Value Pillars (Mobile) -->
-        <section class="max-w-md mx-auto px-4 relative z-20 mt-4">
-            <div class="grid grid-cols-2 gap-2.5">
-                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div class="w-9 h-9 rounded-xl bg-[#5084C4]/10 border border-[#5084C4]/20 flex items-center justify-center text-[#5084C4] mb-2.5 shadow-sm">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-                    </div>
-                    <div>
-                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Stok > 15.000 Set</span>
-                        <span class="text-[10px] text-slate-500 font-medium">Tersedia lengkap</span>
-                    </div>
-                </div>
-                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div class="w-9 h-9 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-600 mb-2.5 shadow-sm">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                    </div>
-                    <div>
-                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Aman Sertifikasi</span>
-                        <span class="text-[10px] text-slate-500 font-medium">Aman untuk high-rise</span>
-                    </div>
-                </div>
-                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div class="w-9 h-9 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-600 mb-2.5 shadow-sm">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    </div>
-                    <div>
-                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Harga Fleksibel</span>
-                        <span class="text-[10px] text-slate-500 font-medium">Harian, bulanan & kontrak</span>
-                    </div>
-                </div>
-                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div class="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-600 mb-2.5 shadow-sm">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                    </div>
-                    <div>
-                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Konsultasi Gratis</span>
-                        <span class="text-[10px] text-slate-500 font-medium">Bantuan hitung kubikasi</span>
                     </div>
                 </div>
             </div>
@@ -196,7 +139,7 @@ header_remove("X-Powered-By");
                 <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">Kunjungi kantor dan workshop utama kami atau hubungi administrator melalui telepon dan WhatsApp.</p>
             </div>
             
-            <!-- Peta -->
+            <!-- Peta (Lazy Load) -->
             <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
                 <div class="relative w-full h-48 bg-slate-200">
                     <iframe class="w-full h-full border-0 filter contrast-[1.05]" loading="lazy" src="https://maps.google.com/maps?q=Jl.+Pahlawan+Blk.+A+No.+11,+BTN+Medy+Brata,+Wolio,+Bau-Bau+93711&t=&z=14&ie=UTF8&iwloc=&output=embed" title="Peta Lokasi Gudang Scaffolding Bau-Bau"></iframe>
@@ -335,7 +278,7 @@ header_remove("X-Powered-By");
                     </div>
                     <div>
                         <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Kebutuhan Komponen Modul</label>
-                        <textarea class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame, Catwalk, dsb..." rows="3"></textarea>
+                        <textarea class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame 1.7m, Catwalk, U-Head, dsb..." rows="3"></textarea>
                     </div>
                     <button class="w-full bg-[#1E1E1E] text-white font-display text-[13px] font-bold py-3.5 rounded-full text-center flex items-center justify-center gap-2 hover:bg-slate-800 active:scale-95 transition-all shadow-md mt-1" type="submit">
                         <span class="">Kirim Konsultasi Sewa</span>
@@ -355,27 +298,27 @@ header_remove("X-Powered-By");
                 <p class="text-[12px] text-slate-300 mb-5">Kami siap memobilisasi peralatan perancah ke berbagai lokasi proyek strategis di seluruh Sultra.</p>
                 
                 <div class="flex flex-wrap gap-2 mb-6">
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kota Bau-Bau</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kab. Buton</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Buton Selatan</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Buton Tengah</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kab. Muna</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>Kota Bau-Bau</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>Kab. Buton</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>Buton Selatan</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>Buton Tengah</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>Kab. Muna</span>
                     <span class="px-3 py-1.5 rounded-full bg-[#5084C4]/40 border border-[#5084C4] text-[#a3c9ff] text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg>Seluruh Sulawesi Tenggara</span>
                 </div>
                 
                 <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md">
                     <div class="flex items-center gap-3 mb-3">
                         <div class="w-10 h-10 rounded-xl bg-[#5084C4] flex items-center justify-center text-white shrink-0 shadow-sm">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                         </div>
                         <div>
                             <div class="font-display text-[14px] font-bold text-white">Mulai Sewa Hari Ini</div>
                             <div class="text-[11px] text-slate-300">Konsultasi cepat via WhatsApp</div>
                         </div>
                     </div>
-                    <a class="w-full bg-[#059669] hover:bg-emerald-500 text-white font-bold py-3 rounded-full text-[13px] flex items-center justify-center gap-2 transition-transform active:scale-95 font-display shadow-lg" href="tel:081242207221">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                        <span class="">Hotline: 0812-4220-7221</span>
+                    <a class="w-full bg-white hover:bg-slate-100 text-slate-900 font-bold py-3 rounded-full text-[13px] flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                        <span>Hubungi Hotline 0821-8825-3433</span>
+                        <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </a>
                 </div>
             </div>
@@ -460,25 +403,27 @@ header_remove("X-Powered-By");
     <div class="hidden lg:block">
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
-            <!-- Hero Banner Desktop -->
-            <section class="relative overflow-hidden rounded-[32px] bg-[#0A0F1C] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl border border-white/5" id="hero">
-                <div class="absolute inset-0 z-0 pointer-events-none">
-                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
-                    <div class="absolute inset-0 bg-gradient-to-r from-[#0A0F1C] via-[#0A0F1C]/90 to-[#0A0F1C]/60 z-[1]"></div>
-                </div>
-                
+            <!-- Hero Banner Desktop (IDENTIK 100% DENGAN INDEX.PHP) -->
+            <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
+                <picture class="contents">
+                    <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
+                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                </picture>
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30 z-[1]"></div>
+
                 <!-- NavigationBar Desktop -->
                 <header class="relative z-20 px-5 sm:px-8 pt-5 sm:pt-6">
                     <div class="flex items-center justify-between gap-4">
                         <a class="flex items-center gap-3 group" href="index.php" title="Regina Al Barakah Group" aria-label="Beranda Regina Al Barakah">
-                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#E53935] flex items-center justify-center text-white shadow-lg shadow-red-600/30 flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-rose-600/30 flex-shrink-0">
                                 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
                                 </svg>
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
@@ -490,11 +435,9 @@ header_remove("X-Powered-By");
                         </nav>
                         
                         <div class="flex items-center gap-2">
-                            <a class="inline-flex items-center gap-2.5 bg-white text-slate-900 px-5 py-2.5 rounded-full font-bold text-sm shadow-lg hover:bg-slate-100 transition-all group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
+                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
                                 <span>Konsultasi / Sewa</span>
-                                <span class="w-5 h-5 bg-[#1E1E1E] text-white rounded-full flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">
-                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
-                                </span>
+                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
                             </a>
                         </div>
                     </div>
@@ -503,62 +446,55 @@ header_remove("X-Powered-By");
                 <div class="relative z-10 px-5 sm:px-8 py-12 lg:py-16 my-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                     <!-- Text Area (Left) -->
                     <div class="lg:col-span-7 flex flex-col items-start gap-6">
-                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
-                            <span class="w-2 h-2 rounded-full bg-[#E53935] animate-pulse"></span>
-                            <span class="text-[11px] font-semibold tracking-wider text-slate-300 uppercase font-display">HUBUNGI KAMI • LAYANAN CEPAT & RESPONSIF</span>
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm font-display">
+                            <span class="w-2 h-2 rounded-full bg-rose-400 animate-ping"></span>
+                            HUBUNGI KAMI • LAYANAN CEPAT & RESPONSIF
                         </div>
-                        <h1 class="text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
+                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
                             Hubungi Layanan Persewaan Scaffolding Terpercaya Buton
                         </h1>
-                        <p class="text-slate-300 text-base md:text-lg max-w-2xl leading-relaxed italic border-l-2 border-[#5084C4] pl-4">
-                            “Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya.”
+                        <p class="text-slate-200 text-sm sm:text-base md:text-lg max-w-xl font-normal leading-relaxed">
+                            Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya. Konsultasikan kebutuhan proyek konstruksi Anda langsung dengan tim spesialis kami.
                         </p>
                         <div class="flex flex-wrap items-center gap-4 pt-3">
-                            <a class="flex items-center gap-2 bg-white text-slate-900 px-7 py-3.5 rounded-full text-sm font-bold hover:bg-slate-100 hover:shadow-xl transition-all duration-200 font-display group" href="#channels">
+                            <a class="inline-flex items-center gap-3 bg-white text-[#1E1E1E] font-bold px-7 py-3.5 rounded-full text-sm sm:text-base hover:bg-slate-100 transition shadow-2xl group font-display" href="#channels">
                                 <span class="">Pusat Bantuan</span>
-                                <svg class="w-4 h-4 text-slate-900 group-hover:translate-y-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m0 0l-4-4m4 4l4-4"></path></svg>
+                                <span class="w-6 h-6 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-xs group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">↗</span>
                             </a>
-                            <a class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-7 py-3.5 rounded-full text-sm font-semibold text-white backdrop-blur-md transition-all duration-200 font-display group" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
-                                <span class="">Konsultasi WhatsApp</span>
-                                <svg class="w-4 h-4 text-white group-hover:translate-x-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"></path></svg>
+                            <a class="inline-flex items-center gap-2 bg-transparent text-white border border-white/30 px-7 py-3.5 rounded-full text-sm sm:text-base font-bold hover:bg-white/10 transition-all font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                                Konsultasi WhatsApp
                             </a>
                         </div>
                     </div>
 
                     <!-- Trust Point Spec Card (Right) -->
                     <div class="lg:col-span-5 relative w-full">
-                        <div class="bg-[#16202e]/90 backdrop-blur-xl border border-white/10 rounded-3xl p-7 shadow-2xl relative overflow-hidden">
-                            <div class="relative z-10">
-                                <div class="flex items-center justify-between pb-5 border-b border-white/10">
-                                    <div class="flex items-center gap-3.5">
-                                        <div class="w-12 h-12 rounded-2xl bg-[#5084C4] flex items-center justify-center text-white shadow-md">
-                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                        </div>
-                                        <div>
-                                            <h2 class="text-[15px] font-bold text-white font-display">24/7 Siaga Proyek</h2>
-                                            <p class="text-[12px] text-slate-400 mt-0.5">Layanan darurat teknis</p>
-                                        </div>
-                                    </div>
-                                    <span class="px-3 py-1 rounded-full bg-[#5084C4]/20 text-[#a3c9ff] text-[11px] font-semibold border border-[#5084C4]/40">Fast Response</span>
+                        <div class="space-y-3 relative">
+                            <!-- Floating Card 1 -->
+                            <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
+                                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-white/5">
+                                    <svg class="w-8 h-8 text-[#5084C4]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                 </div>
-
-                                <div class="grid grid-cols-2 gap-3.5 pt-5">
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-emerald-400 block font-display leading-none">100%</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">STANDAR SNI</p>
+                                <div class="flex-1 min-w-0">
+                                    <div class="flex items-center justify-between">
+                                        <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">24/7 Siaga Proyek</h2>
+                                        <span class="text-[11px] font-semibold bg-[#E53935]/20 text-rose-300 px-2 py-0.5 rounded-md border border-[#E53935]/30">Fast Response</span>
                                     </div>
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-white block font-display leading-none">Mandiri</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">ARMADA TRUK</p>
+                                    <p class="text-xs text-slate-300 mt-0.5">Layanan darurat teknis dan keluhan</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Floating Card 2 -->
+                            <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
+                                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-white/5">
+                                    <svg class="w-8 h-8 text-emerald-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <div class="flex items-center justify-between">
+                                        <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">100% Standar SNI</h2>
+                                        <span class="text-[11px] font-semibold bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-500/30">Pipa Uji Kuat</span>
                                     </div>
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-amber-400 block font-display leading-none">< 15 Mnt</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">RESPON CS</p>
-                                    </div>
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-[#E53935] block font-display leading-none">Gratis</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">KONSULTASI BOQ</p>
-                                    </div>
+                                    <p class="text-xs text-slate-300 mt-0.5">Semua material lolos seleksi kelayakan</p>
                                 </div>
                             </div>
                         </div>
@@ -567,7 +503,7 @@ header_remove("X-Powered-By");
             </section>
 
             <!-- Direktori Pusat Bantuan Desktop -->
-            <section class="mb-24 scroll-mt-24 mt-16" id="channels">
+            <section class="mb-24 mt-16" id="channels">
                 <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
                     <div>
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 mb-3">
@@ -583,7 +519,7 @@ header_remove("X-Powered-By");
                     <div class="lg:col-span-6 bg-white rounded-3xl p-6 md:p-8 border border-slate-200 shadow-sm flex flex-col h-full">
                         <div class="flex items-center justify-between mb-5">
                             <div class="flex items-center gap-3">
-                                <svg class="w-6 h-6 text-[#5084C4]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path></svg>
+                                <svg class="w-6 h-6 text-[#5084C4]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                                 <h3 class="text-xl font-bold text-slate-900 font-display">Kantor & Workshop Utama</h3>
                             </div>
                             <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-500 text-xs font-semibold">Sulawesi Tenggara</span>
@@ -595,7 +531,7 @@ header_remove("X-Powered-By");
                             
                             <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-lg border border-slate-200 flex items-center gap-3">
                                 <div class="w-10 h-10 rounded-full bg-[#E53935] flex items-center justify-center text-white">
-                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                                 </div>
                                 <div>
                                     <p class="text-[13px] font-bold text-slate-900 font-display">Regina Al Barakah Yard</p>
@@ -620,7 +556,7 @@ header_remove("X-Powered-By");
                             <div class="flex items-center justify-between mb-6">
                                 <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3 font-display">
                                     <span class="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center">
-                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
                                     </span>
                                     <span class="">WhatsApp Customer Service</span>
                                 </h3>
@@ -844,7 +780,7 @@ header_remove("X-Powered-By");
                     <div class="lg:col-span-5 bg-[#2C2C2C] border border-white/10 rounded-2xl p-6 shadow-xl space-y-5">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 rounded-xl bg-[#5084C4] flex items-center justify-center text-white">
-                                <!-- Location Tick SVG seperti screenshot referensi -->
+                                <!-- Location Tick SVG -->
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                             </div>
                             <div>
