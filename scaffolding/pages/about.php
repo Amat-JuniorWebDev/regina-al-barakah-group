@@ -420,13 +420,13 @@ header_remove("X-Powered-By");
         </footer>
 
         <!-- Mobile Premium Floating WhatsApp -->
-        <aside class="fixed bottom-4 right-4 z-50">
-            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-xs tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+        <aside class="fixed bottom-6 right-6 z-50">
+            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
                 <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
-                <svg class="w-4 h-4 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
                 </svg>
-                <span class="text-xs font-bold tracking-wide z-10 relative">Tanya Sewa Cepat</span>
+                <span class="z-10 relative">Tanya Sewa Cepat</span>
             </a>
         </aside>
     </div>
@@ -438,15 +438,17 @@ header_remove("X-Powered-By");
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
             <!-- Hero Banner Desktop -->
-            <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
-                <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0 mix-blend-luminosity opacity-40" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-900/85 to-slate-950/75 z-[1]"></div>
+            <section class="relative overflow-hidden rounded-[32px] bg-[#0A0F1C] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl border border-white/5" id="hero">
+                <div class="absolute inset-0 z-0 pointer-events-none">
+                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#0A0F1C] via-[#0A0F1C]/90 to-[#0A0F1C]/60 z-[1]"></div>
+                </div>
                 
                 <!-- NavigationBar Desktop -->
                 <header class="relative z-20 px-5 sm:px-8 pt-5 sm:pt-6">
                     <div class="flex items-center justify-between gap-4">
                         <a class="flex items-center gap-3 group" href="index.php" title="Regina Al Barakah Group" aria-label="Beranda Regina Al Barakah">
-                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-rose-600/30 flex-shrink-0">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#E53935] flex items-center justify-center text-white shadow-lg shadow-red-600/30 flex-shrink-0">
                                 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
                                 </svg>
@@ -457,82 +459,82 @@ header_remove("X-Powered-By");
                             </div>
                         </a>
                         
-                        <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="index.php">Home</a>
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="product.php">Product</a>
-                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="about.php" aria-current="page">About Us</a>
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="contact.php">Contact</a>
+                        <nav class="hidden lg:flex items-center bg-[#1e293b]/80 backdrop-blur-md border border-white/10 rounded-full p-1.5 space-x-1 shadow-inner font-display">
+                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="index.php">Home</a>
+                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="product.php">Product</a>
+                            <a class="px-5 py-2 text-sm font-semibold text-white bg-slate-700/80 rounded-full shadow-sm" href="about.php" aria-current="page">About Us</a>
+                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="contact.php">Contact</a>
                         </nav>
                         
                         <div class="flex items-center gap-2">
-                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
+                            <a class="inline-flex items-center gap-2.5 bg-white text-slate-900 px-5 py-2.5 rounded-full font-bold text-sm shadow-lg hover:bg-slate-100 transition-all group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
                                 <span>Konsultasi / Sewa</span>
-                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
+                                <span class="w-5 h-5 bg-[#1E1E1E] text-white rounded-full flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+                                </span>
                             </a>
                         </div>
                     </div>
                 </header>
 
-                <div class="relative z-10 px-5 sm:px-8 py-8 sm:py-12 my-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-end flex-grow">
+                <div class="relative z-10 px-5 sm:px-8 py-12 lg:py-16 my-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                     <!-- Text Area (Left) -->
-                    <div class="lg:col-span-7 space-y-6">
-                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15 backdrop-blur-md">
+                    <div class="lg:col-span-7 flex flex-col items-start gap-6">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
                             <span class="w-2 h-2 rounded-full bg-[#E53935] animate-pulse"></span>
-                            <span class="text-xs font-semibold tracking-wider text-slate-200 uppercase font-display">TENTANG KAMI • SEJAK 2021</span>
+                            <span class="text-[11px] font-semibold tracking-wider text-slate-300 uppercase font-display">TENTANG KAMI • SEJAK 2021</span>
                         </div>
-                        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
+                        <h1 class="text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
                             Dedikasi Nyata Mendukung Pembangunan Sulawesi Tenggara
                         </h1>
-                        <p class="text-slate-300 text-sm sm:text-base md:text-lg max-w-2xl leading-relaxed italic border-l-2 border-[#5084C4] pl-4">
+                        <p class="text-slate-300 text-base md:text-lg max-w-2xl leading-relaxed italic border-l-2 border-[#5084C4] pl-4">
                             “Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya.”
                         </p>
-                        <div class="pt-2 flex flex-wrap items-center gap-4">
-                            <a class="flex items-center gap-2 bg-white text-slate-900 px-7 py-3.5 rounded-full text-sm sm:text-base font-bold hover:bg-slate-100 hover:shadow-xl transition-all duration-200 group font-display" href="#profil">
+                        <div class="flex flex-wrap items-center gap-4 pt-3">
+                            <a class="flex items-center gap-2 bg-white text-slate-900 px-7 py-3.5 rounded-full text-sm font-bold hover:bg-slate-100 hover:shadow-xl transition-all duration-200 font-display group" href="#profil">
                                 <span class="">Dedikasi Kami</span>
-                                <svg class="w-4 h-4 text-slate-900 group-hover:translate-y-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <svg class="w-4 h-4 text-slate-900 group-hover:translate-y-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m0 0l-4-4m4 4l4-4"></path></svg>
                             </a>
-                            <a class="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 px-7 py-3.5 rounded-full text-sm sm:text-base font-semibold text-white backdrop-blur-md transition-all duration-200 font-display" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
+                            <a class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-7 py-3.5 rounded-full text-sm font-semibold text-white backdrop-blur-md transition-all duration-200 font-display group" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
                                 <span class="">Hubungi WhatsApp</span>
-                                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <svg class="w-4 h-4 text-white group-hover:translate-x-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"></path></svg>
                             </a>
                         </div>
                     </div>
 
-                    <!-- Trust Point Matrix Desktop (Glass Smoke Background) -->
+                    <!-- Trust Point Spec Card (Right) -->
                     <div class="lg:col-span-5 relative w-full">
-                        <div class="bg-white/[0.04] backdrop-blur-xl border border-white/10 rounded-[2rem] p-6 md:p-8 shadow-2xl relative overflow-hidden">
-                            <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-50 pointer-events-none"></div>
-                            
+                        <div class="bg-[#16202e]/90 backdrop-blur-xl border border-white/10 rounded-3xl p-7 shadow-2xl relative overflow-hidden">
                             <div class="relative z-10">
                                 <div class="flex items-center justify-between pb-5 border-b border-white/10">
                                     <div class="flex items-center gap-3.5">
-                                        <div class="w-11 h-11 rounded-2xl bg-[#5084C4] flex items-center justify-center text-white shadow-md">
+                                        <div class="w-12 h-12 rounded-2xl bg-[#235e9b] flex items-center justify-center text-white shadow-md">
                                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                                         </div>
                                         <div>
-                                            <h2 class="text-base font-bold text-white font-display">Keandalan Logistik</h2>
-                                            <p class="text-xs text-slate-300">Kab. Buton & Kepulauan</p>
+                                            <h2 class="text-[15px] font-bold text-white font-display">Keandalan Logistik</h2>
+                                            <p class="text-[12px] text-slate-400 mt-0.5">Kab. Buton & Kepulauan</p>
                                         </div>
                                     </div>
-                                    <span class="px-3 py-1 rounded-full bg-blue-500/20 text-[#5084C4] text-xs font-bold border border-blue-400/30">Ready 24/7</span>
+                                    <span class="px-3 py-1 rounded-full bg-[#235e9b]/20 text-[#a3c9ff] text-[11px] font-semibold border border-[#235e9b]/40">Ready 24/7</span>
                                 </div>
 
                                 <div class="grid grid-cols-2 gap-3.5 pt-5">
-                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
-                                        <span class="text-2xl md:text-3xl font-bold text-white block font-display">5+ Tahun</span>
-                                        <p class="text-xs text-slate-400 mt-1 uppercase font-semibold">Operasional</p>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-white block font-display leading-none">5+ Tahun</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">OPERASIONAL</p>
                                     </div>
-                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
-                                        <span class="text-2xl md:text-3xl font-bold text-emerald-400 block font-display">100%</span>
-                                        <p class="text-xs text-slate-400 mt-1 uppercase font-semibold">Beban SNI</p>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-emerald-400 block font-display leading-none">100%</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">BEBAN SNI</p>
                                     </div>
-                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
-                                        <span class="text-2xl md:text-3xl font-bold text-amber-400 block font-display">1.000+</span>
-                                        <p class="text-xs text-slate-400 mt-1 uppercase font-semibold">Set Ready</p>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-amber-400 block font-display leading-none">1.000+</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">SET READY</p>
                                     </div>
-                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
-                                        <span class="text-2xl md:text-3xl font-bold text-[#E53935] block font-display">0 Kasus</span>
-                                        <p class="text-xs text-slate-400 mt-1 uppercase font-semibold">Insiden</p>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-[#E53935] block font-display leading-none">0 Kasus</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">INSIDEN</p>
                                     </div>
                                 </div>
                             </div>
@@ -922,7 +924,7 @@ header_remove("X-Powered-By");
                 <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
                 </svg>
-                <span class="text-xs font-bold tracking-wide z-10 relative">Tanya Sewa Cepat</span>
+                <span class="z-10 relative">Tanya Sewa Cepat</span>
             </a>
         </aside>
     </div>
