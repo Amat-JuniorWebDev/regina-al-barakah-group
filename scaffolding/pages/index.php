@@ -17,7 +17,7 @@ header_remove("X-Powered-By");
     <link rel="preconnect" href="https://lh3.googleusercontent.com">
 
     <!-- OPTIMASI PERFORMA: Preload gambar hero HANYA untuk desktop (Mobile memakai gradient CSS murni sebagai LCP) -->
-    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" media="(min-width: 1024px)" fetchpriority="high">
+    <link rel="preload" as="image" href="../assets/image/hero-section.jpg" media="(min-width: 1024px)" fetchpriority="high">
 
     <!-- OPTIMASI PERFORMA: Google Fonts Non-blocking -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
@@ -264,7 +264,7 @@ header_remove("X-Powered-By");
                     <!-- Produk 2 -->
                     <div class="bg-white/[0.05] border border-white/10 rounded-2xl p-3.5">
                         <div class="w-full h-44 rounded-xl overflow-hidden bg-white mb-3 flex items-center justify-center p-2">
-                            <img alt="Catwalk Plat Pijakan Besi" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                            <img alt="Catwalk Plat Pijakan Besi" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="../assets/image/catwalk.jpg">
                         </div>
                         <div class="flex flex-wrap gap-1.5 mb-2">
                             <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Platform Kerja</span>
@@ -355,16 +355,16 @@ header_remove("X-Powered-By");
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-[#5084C4] mb-3 font-display">MENU UTAMA</h4>
                     <ul class="space-y-2 text-xs font-medium text-slate-600">
-                        <li><a href="index.php" class="text-[#E53935] font-bold block py-0.5">Beranda</a></li> <!-- DIPERBAIKI: STATUS AKTIF DI SINI -->
+                        <li><a href="index.php" class="text-[#E53935] font-bold block py-0.5">Beranda</a></li> <!-- STATUS AKTIF DI SINI -->
                         <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
                         <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
-                        <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li> <!-- DIPERBAIKI: STATUS AKTIF DIHAPUS DARI SINI -->
+                        <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li> <!-- STATUS AKTIF DIHAPUS DARI SINI -->
                     </ul>
                 </div>
 
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3 font-display">HUBUNGI KAMI</h4>
-                    <div class="space-y-2.5 mb-4 text-xs text-slate-600">
+                    <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
                         <div class="flex items-start gap-2.5">
                             <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                             <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
@@ -375,14 +375,15 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2">
+                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2" rel="noopener noreferrer" target="_blank">
                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
                         <span>WHATSAPP KAMI</span>
                     </a>
                 </div>
-
-                <div class="border-t border-slate-100 pt-4 text-[10px] text-slate-500 flex justify-between items-center w-full mt-4">
+                
+                <div class="flex justify-between items-center w-full pt-6 border-t border-slate-100 mt-4 text-[10px] text-slate-500 gap-2">
                     <p class="font-medium text-slate-700">© 2026 Regina Al Barakah Group</p>
+                    <p class="text-right">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
                 </div>
             </div>
         </footer>
@@ -422,7 +423,7 @@ header_remove("X-Powered-By");
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
@@ -436,7 +437,7 @@ header_remove("X-Powered-By");
                         <div class="flex items-center gap-2">
                             <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
                                 <span>Konsultasi / Sewa</span>
-                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">↗</span>
+                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
                             </a>
                         </div>
                     </div>
@@ -650,7 +651,7 @@ header_remove("X-Powered-By");
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="../assets/image/catwalk.jpg">
+                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
                             </div>
                             <div class="p-5">
                                 <div class="flex flex-wrap gap-1.5 mb-3">
@@ -750,9 +751,8 @@ header_remove("X-Powered-By");
                             <a aria-label="TikTok" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
                                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"></path></svg>
                             </a>
-                            <!-- IKON INSTAGRAM DIPERBAIKI -->
                             <a aria-label="Instagram" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
-                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 2.163c-3.15 0-3.526.012-4.767.068-2.316.106-3.418 1.218-3.524 3.524-.056 1.241-.068 1.617-.068 4.767 0 3.15.012 3.526.068 4.768.106 2.305 1.208 3.417 3.524 3.523 1.241.056 1.617.069 4.767.069 3.15 0 3.526-.013 4.768-.069 2.316-.106 3.418-1.218 3.524-3.523.056-1.242.068-1.618.068-4.768 0-3.15-.012-3.526-.068-4.767-.106-2.306-1.208-3.418-3.524-3.524-1.242-.056-1.618-.068-4.768-.068zm0 4.148a5.526 5.526 0 100 11.052 5.526 5.526 0 000-11.052zm0 8.889a3.363 3.363 0 110-6.726 3.363 3.363 0 010 6.726zm5.226-9.068a1.44 1.44 0 10-2.88 0 1.44 1.44 0 002.88 0z"></path></svg>
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 2.163c-3.15 0-3.526.012-4.767.068-2.316.106-3.418 1.218-3.524 3.524-.056 1.241-.068 1.617-.068 4.767 0 3.15.012 3.526.068 4.768.106 2.305 1.208 3.417 3.524 3.523 1.241.056 1.617.069 4.767.069 3.15 0 3.526-.013 4.768-.069 2.316-.106 3.418-1.218 3.524-3.523.056-1.242.068-1.618.068-4.768-.068zm0 4.148a5.526 5.526 0 100 11.052 5.526 5.526 0 000-11.052zm0 8.889a3.363 3.363 0 110-6.726 3.363 3.363 0 010 6.726zm5.226-9.068a1.44 1.44 0 10-2.88 0 1.44 1.44 0 002.88 0z"></path></svg>
                             </a>
                             <a aria-label="YouTube" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
                                 <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
@@ -763,10 +763,10 @@ header_remove("X-Powered-By");
                     <div class="md:col-span-3 space-y-3">
                         <h4 class="font-bold text-[#5084C4] text-xs sm:text-sm uppercase tracking-wider font-display">MENU UTAMA</h4>
                         <ul class="text-xs sm:text-sm space-y-2 text-slate-600 font-medium">
-                            <li><a href="index.php" class="text-[#E53935] font-bold block py-0.5">Beranda</a></li> <!-- DIPERBAIKI: STATUS AKTIF DI SINI -->
+                            <li><a href="index.php" class="text-[#E53935] font-bold block py-0.5">Beranda</a></li>
                             <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
                             <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
-                            <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li> <!-- DIPERBAIKI: STATUS AKTIF DIHAPUS DARI SINI -->
+                            <li><a href="contact.php" class="hover:text-brand-blue transition-colors block py-0.5">Kontak</a></li>
                         </ul>
                     </div>
 
@@ -774,7 +774,7 @@ header_remove("X-Powered-By");
                         <h4 class="font-bold text-[#1E1E1E] text-xs sm:text-sm uppercase tracking-wider font-display">HUBUNGI KAMI</h4>
                         <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
                             <div class="flex items-start gap-2.5">
-                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                                 <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
                             </div>
                             <div class="flex items-center gap-2.5">
