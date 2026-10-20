@@ -2,241 +2,858 @@
 header_remove("X-Powered-By");
 ?>
 <!DOCTYPE html>
-<html lang="id">
+<html class="scroll-smooth" lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Contact Us | Regina Al Barakah Group</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0" name="viewport">
+    <title>Kontak Kami — Regina Al Barakah Group</title>
+    
+    <meta content="Hubungi kami untuk konsultasi kebutuhan sewa scaffolding di Bau-Bau dan sekitarnya. Respon cepat, harga transparan, dan pengiriman tepat waktu." name="description">
+    
+    <!-- OPTIMASI PERFORMA: Preconnect -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://lh3.googleusercontent.com">
+
+    <!-- OPTIMASI PERFORMA: Preload gambar hero HANYA untuk desktop -->
+    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" media="(min-width: 1024px)" fetchpriority="high">
+
+    <!-- Google Fonts dengan strategi Non-Blocking -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"></noscript>
+
+    <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- LINK FILE CSS EKSTERNAL -->
-   <link rel="stylesheet" href="../assets/css/contact.css">
+
+    <!-- JS & CSS lokal -->
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <script src="../assets/js/contact.js" defer></script>
 </head>
-<body class="selection:bg-blue-600 selection:text-white">
 
-    <nav class="glass-nav fixed w-full z-[100] top-0 border-b border-slate-200/60">
-        <div class="max-w-7xl mx-auto px-5 md:px-6 h-16 md:h-20 flex items-center justify-between">
-            <div class="flex flex-col cursor-pointer transition-opacity hover:opacity-80" onclick="window.location.href='index.php'">
-                <span class="text-lg md:text-2xl font-black text-blue-800 leading-none tracking-tight uppercase">REGINA AL BARAKAH</span>
-                <span class="text-[9px] md:text-xs font-bold text-slate-500 tracking-[0.2em] uppercase">Group</span>
-            </div>
+<body class="antialiased font-sans selection:bg-brand-blue lg:selection:bg-[#E53935] selection:text-white bg-[#F8F9FB] lg:bg-[#F4F5F7] text-slate-800 lg:text-[#1E1E1E] pb-24 lg:pb-0 overflow-x-hidden">
 
-            <div class="hidden md:flex space-x-9 font-bold text-slate-600">
-                <a href="index.php" class="hover:text-blue-700 transition text-sm">Home</a>
-                <a href="product.php" class="hover:text-blue-700 transition text-sm">Product</a>
-                <a href="about.php" class="hover:text-blue-700 transition text-sm">About Us</a>
-                <a href="contact.php" class="text-blue-700 transition text-sm">Contact</a>
-            </div>
-
-            <div class="flex items-center gap-3">
-                <a href="https://wa.me/6282188253433" class="hidden sm:inline-flex bg-blue-700 text-white px-5 py-2.5 rounded-xl font-bold hover:bg-blue-800 shadow-xl shadow-blue-200 text-sm transition-all active:scale-95">
-                    Hubungi Kami
-                </a>
-                <button id="menu-btn" class="md:hidden text-blue-800 text-2xl p-2.5 focus:outline-none transition-transform active:scale-90">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-
-        <div id="mobile-menu" class="absolute top-16 left-0 w-full bg-white border-b border-slate-200 shadow-2xl md:hidden overflow-hidden">
-            <div class="flex flex-col p-6 space-y-4 font-bold text-slate-700">
-                <a href="index.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">Home</a>
-                <a href="product.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">Product</a>
-                <a href="about.php" class="mobile-link py-3 border-b border-slate-100/70 hover:text-blue-700">About Us</a>
-                <a href="contact.php" class="mobile-link py-3 border-b border-slate-100/70 text-blue-700">Contact</a>
-                <a href="https://wa.me/6282169169700" class="bg-blue-700 text-white p-4 rounded-xl text-center shadow-lg active:scale-95 transition-all">Hubungi Kami</a>
-            </div>
-        </div>
-    </nav>
-
-    <section class="relative pt-32 md:pt-44 pb-24 md:pb-36 px-5 overflow-hidden bg-slate-900 min-h-[92vh] flex items-center justify-center text-center">
-        <div class="absolute inset-0 z-0">
-            <div class="w-full h-full bg-cover bg-center hero-img-bg" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=2070&auto=format&fit=crop');"></div>
-            <div class="absolute inset-0 hero-image-overlay"></div>
-        </div>
+    <!-- ============================================================== -->
+    <!-- 📱 TAMPILAN MOBILE & TABLET (Sembunyi di Desktop) -->
+    <!-- ============================================================== -->
+    <div class="block lg:hidden flex justify-center w-full bg-[#F8F9FB] min-h-screen relative flex-col overflow-x-hidden">
         
-        <div class="max-w-4xl mx-auto relative z-10 w-full flex flex-col items-center" data-aos="fade-up">
-            <div class="text-white w-full" data-aos="fade-up" data-aos-delay="100">
-                <div class="inline-block px-3 py-1 bg-blue-600/30 border border-blue-500/30 rounded-full text-blue-300 text-[9px] md:text-[11px] font-black mb-6 uppercase tracking-widest mx-auto">
-                    Contact Us
+        <!-- Header & Hamburger Menu Mobile -->
+        <header class="fixed top-3 left-1/2 -translate-x-1/2 w-[calc(100%-1.5rem)] max-w-[400px] z-50">
+            <div class="bg-[#1E1E1E] border border-white/20 rounded-full px-4 py-2.5 flex items-center justify-between shadow-xl relative z-50">
+                <a class="flex items-center space-x-2.5" href="index.php" aria-label="Beranda Regina Al Barakah">
+                    <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center flex-shrink-0 text-white shadow-sm">
+                        <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 2H9c-1.1 0-2 .9-2 2v3H5c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM5 9h2v2H5V9zm0 4h2v2H5v-2zm0 4h2v2H5v-2zm14 2H9v-2h2v-2H9v-2h2v-2H9V9h2V7H9V4h10v15zm-6-8h2v2h-2v-2zm0 4h2v2h-2v-2zm0-8h2v2h-2V7zm4 0h2v2h-2V7zm0 4h2v2h-2v-2zm0 4h2v2h-2v-2z"></path></svg>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-white font-display text-[13px] tracking-tight leading-none font-bold">REGINA AL BARAKAH</span>
+                        <span class="text-slate-400 font-sans text-[9px] tracking-wider uppercase leading-tight mt-1">SCAFFOLDING & KONSTRUKSI</span>
+                    </div>
+                </a>
+                <div class="flex items-center space-x-2.5">
+                    <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full font-display text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm" href="https://wa.me/6281242207221" aria-label="Hubungi WhatsApp">
+                        <span>Sewa</span>
+                        <svg class="w-3 h-3 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+                    </a>
+                    <button id="mobile-menu-btn" aria-label="Buka Menu Navigasi" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white/20 active:scale-95 transition-all" type="button">
+                        <div class="flex flex-col space-y-1">
+                            <span class="w-4 h-0.5 bg-white rounded-full"></span>
+                            <span class="w-4 h-0.5 bg-white rounded-full"></span>
+                            <span class="w-4 h-0.5 bg-white rounded-full"></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dropdown Menu Mobile -->
+            <div id="mobile-menu" class="hidden absolute top-14 left-0 w-full bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden transform transition-all font-display z-40 mt-2">
+                <div class="flex flex-col">
+                    <a href="index.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Beranda <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                    <a href="product.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Produk & Komponen <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                    <a href="about.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Tentang Kami <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                    <!-- Menu Kontak Aktif -->
+                    <a href="contact.php" class="px-5 py-4 text-sm font-extrabold text-[#E53935] bg-rose-50 border-b border-slate-100 flex items-center justify-between" aria-current="page">Kontak <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Hero Section (Kontak & Lokasi) -->
+        <section class="pt-24 pb-8 px-4 bg-[#1E1E1E] text-white relative rounded-b-[2rem] overflow-hidden">
+            <div class="absolute -top-10 -right-10 w-52 h-52 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 -left-12 w-48 h-48 bg-[#E53935]/10 rounded-full blur-3xl pointer-events-none"></div>
+            
+            <div class="relative z-10 flex flex-col space-y-4">
+                <div class="inline-flex items-center space-x-2 px-3 py-1 bg-white/10 border border-white/15 rounded-full w-fit backdrop-blur-md">
+                    <span class="w-2 h-2 rounded-full bg-[#E53935] animate-pulse"></span>
+                    <span class="text-white font-display text-[11px] tracking-wide font-medium uppercase">HUBUNGI KAMI • LAYANAN CEPAT & RESPONSIF</span>
                 </div>
                 
-                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 uppercase italic tracking-tight text-white px-2 leading-none">
-                    REGINA AL <span class="text-blue-500">BARAKAH</span> GROUP
-                </h1>
+                <h1 class="text-white font-display font-extrabold text-[32px] leading-[40px] tracking-tight">Hubungi Layanan Persewaan Scaffolding Terpercaya Buton</h1>
                 
-                <p class="text-sm md:text-base text-slate-300 mb-8 max-w-2xl mx-auto leading-relaxed font-light px-4 italic opacity-90">
-                    "Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya."
-                </p>
-
-                <div class="flex flex-col gap-3.5 max-w-md mx-auto w-full px-6 mb-8">
-                    <a href="#contact-start" class="group bg-blue-600 hover:bg-blue-700 text-white py-3.5 px-6 rounded-xl font-bold transition-all shadow-lg shadow-blue-600/20 active:scale-95 text-sm md:text-base flex items-center justify-center gap-2">
-                        HUBUNGI PUSAT
-                        <i class="fas fa-arrow-down ml-1 text-xs transition-transform duration-300 group-hover:translate-y-1"></i>
+                <p class="text-slate-300 text-[13px] leading-relaxed">Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya. Konsultasikan kebutuhan proyek konstruksi Anda langsung dengan tim spesialis kami.</p>
+                
+                <div class="pt-2 flex flex-col space-y-3">
+                    <a class="w-full bg-white text-slate-900 py-3.5 px-6 rounded-full font-bold text-[14px] flex items-center justify-center space-x-2 shadow-md hover:bg-slate-100 active:scale-95 transition-all tracking-wide uppercase font-display" href="#channels">
+                        <span>HUBUNGI PUSAT</span>
+                        <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </a>
                 </div>
 
-                <p class="text-[11px] md:text-xs text-slate-400 font-medium tracking-wide">
-                    Melayani wilayah: Kabupaten Buton • Bau-Bau • dan sekitarnya
-                </p>
-                
-                <a href="#contact-start" class="mt-8 block animate-bounce text-slate-400 hover:text-white transition-colors">
-                    <i class="fas fa-chevron-down text-lg"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact-start" class="scroll-mt-24">
-        <div class="contact-container">
-            <div class="premium-card" data-aos="fade-up">
-                <div class="min-h-[400px] bg-slate-100">
-                    <iframe 
-                        src="https://maps.google.com/maps?q=Bau-Bau,%20Buton&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
-                    </iframe>
+                <!-- Keunggulan Layanan Cepat (Mobile Grid) -->
+                <div class="mt-4 p-4 rounded-3xl bg-white/[0.04] backdrop-blur-md border border-white/10 shadow-inner relative overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
+                    <div class="grid grid-cols-1 gap-3 relative z-10">
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">24/7 Siaga Proyek</h3>
+                                <p class="text-[11px] text-slate-400 mt-0.5">Layanan darurat teknis</p>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">100% Standar SNI</h3>
+                                <p class="text-[11px] text-slate-400 mt-0.5">Pipa baja uji kekuatan</p>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">Armada Mandiri</h3>
+                                <p class="text-[11px] text-slate-400 mt-0.5">Pengiriman tepat waktu</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="info-pane">
-                    <div class="mb-8">
-                        <h2 class="text-2xl font-black italic uppercase tracking-tighter text-slate-900 leading-none">Informasi Pusat</h2>
-                        <div class="w-8 h-1 bg-blue-500 mt-3"></div>
+        <!-- Value Pillars (Mobile) -->
+        <section class="max-w-md mx-auto px-4 relative z-20 mt-4">
+            <div class="grid grid-cols-2 gap-2.5">
+                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div class="w-9 h-9 rounded-xl bg-[#5084C4]/10 border border-[#5084C4]/20 flex items-center justify-center text-[#5084C4] mb-2.5 shadow-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                    </div>
+                    <div>
+                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Stok > 15.000 Set</span>
+                        <span class="text-[10px] text-slate-500 font-medium">Tersedia lengkap</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div class="w-9 h-9 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-600 mb-2.5 shadow-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <div>
+                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Aman Sertifikasi</span>
+                        <span class="text-[10px] text-slate-500 font-medium">Aman untuk high-rise</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div class="w-9 h-9 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-600 mb-2.5 shadow-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <div>
+                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Harga Fleksibel</span>
+                        <span class="text-[10px] text-slate-500 font-medium">Harian, bulanan & kontrak</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
+                    <div class="w-9 h-9 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-600 mb-2.5 shadow-sm">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <div>
+                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Konsultasi BOQ Gratis</span>
+                        <span class="text-[10px] text-slate-500 font-medium">Bantuan hitung kubikasi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informasi Pusat & Peta (Mobile) -->
+        <section class="px-4 py-8 flex flex-col gap-5 max-w-md mx-auto" id="channels">
+            <div>
+                <div class="inline-flex items-center gap-1.5 bg-[#5084C4]/10 text-[#5084C4] border border-[#5084C4]/20 px-3 py-1 rounded-full font-bold text-[10px] tracking-wider uppercase font-display mb-2">
+                    <span class="">Pusat Operasional</span>
+                </div>
+                <h2 class="text-xl font-extrabold text-slate-900 font-display">Informasi Pusat & Saluran Kontak Resmi</h2>
+                <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">Kunjungi kantor dan workshop utama kami atau hubungi administrator melalui telepon dan WhatsApp.</p>
+            </div>
+            
+            <!-- Peta -->
+            <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+                <div class="relative w-full h-48 bg-slate-200">
+                    <iframe class="w-full h-full border-0 filter contrast-[1.05]" loading="lazy" src="https://maps.google.com/maps?q=Jl.+Pahlawan+Blk.+A+No.+11,+BTN+Medy+Brata,+Wolio,+Bau-Bau+93711&t=&z=14&ie=UTF8&iwloc=&output=embed" title="Peta Lokasi Gudang Scaffolding Bau-Bau"></iframe>
+                    <div class="absolute top-2.5 left-2.5 right-2.5 bg-[#1E1E1E]/90 backdrop-blur-md text-white px-3 py-2 rounded-xl border border-white/20 flex items-center gap-2 shadow-lg">
+                        <svg class="w-5 h-5 text-rose-500 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                        <div class="font-display text-[11px] font-bold truncate">Regina Al Barakah Yard - Akses 24 Jam</div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col gap-2 bg-slate-50">
+                    <div class="flex items-start gap-2.5">
+                        <svg class="w-5 h-5 text-[#5084C4] mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                        <p class="text-xs text-slate-900 leading-snug font-medium"><strong class="font-bold block">Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</strong><span class="block text-slate-500 text-[11px] mt-1">Lokasi strategis dekat pelabuhan bongkar muat logistik.</span></p>
+                    </div>
+                    <a class="mt-1 w-full text-center py-2 border border-slate-200 rounded-xl text-[#5084C4] text-[11px] font-bold hover:bg-slate-100 transition-colors flex items-center justify-center gap-1.5" href="https://share.google/IsgymSdhtia7GD1qG" target="_blank" rel="noopener noreferrer">
+                        <span class="">Buka Petunjuk Arah Google Maps ↗</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Kartu Admin WhatsApp (Mobile) -->
+            <div class="flex flex-col gap-3">
+                <div class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm flex flex-col gap-3">
+                    <div class="flex items-center justify-between border-b border-slate-100 pb-2.5">
+                        <div class="flex items-center gap-2">
+                            <span class="w-6 h-6 rounded-full bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-bold text-[10px]">WA</span>
+                            <span class="font-display text-[13px] font-bold text-slate-900">WhatsApp Customer Service</span>
+                        </div>
+                        <span class="bg-emerald-50 text-emerald-700 border border-emerald-200 text-[9px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Online</span>
                     </div>
                     
-                    <div class="space-y-2">
-                        <div class="info-item">
-                            <div class="icon-luxury"><i class="fas fa-map-marker-alt"></i></div>
-                            <div>
-                                <span class="text-[9px] font-black uppercase tracking-widest text-blue-700 block mb-1">Alamat Kantor</span>
-                                <p class="text-[13px] font-bold text-slate-800 italic leading-snug">
-                                    Jl. Raya Trans Sulawesi, Bau-Bau,<br>
-                                    Buton, Sulawesi Tenggara.
-                                </p>
+                    <a class="p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#5084C4] transition-all flex items-center justify-between group" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                        <div class="flex flex-col gap-0.5">
+                            <div class="flex items-center gap-1.5">
+                                <span class="font-display text-[11px] font-bold text-slate-900">Admin 1 (Konsultasi Sewa)</span>
+                                <span class="bg-rose-50 text-[#E53935] text-[9px] font-bold px-1.5 py-0.5 rounded border border-rose-100">Prioritas</span>
                             </div>
+                            <div class="font-display text-[13px] font-bold text-[#5084C4] tracking-wide">+62 812-4220-7221</div>
+                            <div class="text-[10px] text-slate-500 mt-0.5">Surat Penawaran Harga & Faktur Proyek</div>
                         </div>
+                        <span class="w-6 h-6 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 text-[10px] font-bold flex-shrink-0 shadow-sm">↗</span>
+                    </a>
+                    
+                    <a class="p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-[#5084C4] transition-all flex items-center justify-between group" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
+                        <div class="flex flex-col gap-0.5">
+                            <span class="font-display text-[11px] font-bold text-slate-900">Admin 2 (Teknis & Armada Lapangan)</span>
+                            <div class="font-display text-[13px] font-bold text-slate-800 tracking-wide">+62 821-8825-3433</div>
+                            <div class="text-[10px] text-slate-500 mt-0.5">Jadwal Pengiriman & Penjemputan Alat</div>
+                        </div>
+                        <span class="w-6 h-6 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 text-[10px] font-bold flex-shrink-0 shadow-sm">↗</span>
+                    </a>
+                </div>
 
-                        <div class="info-item">
-                            <div class="icon-luxury"><i class="fas fa-envelope"></i></div>
-                            <div>
-                                <span class="text-[9px] font-black uppercase tracking-widest text-blue-700 block mb-1">Email Support</span>
-                                <p class="text-[13px] font-black text-blue-800 italic">info@reginaalbarakah.com</p>
+                <div class="grid grid-cols-1 gap-2.5">
+                    <div class="bg-white rounded-xl border border-slate-200 p-3.5 flex items-center gap-3 shadow-sm">
+                        <span class="w-9 h-9 rounded-xl bg-rose-50 text-[#E53935] flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="text-[9px] font-bold uppercase tracking-wider text-slate-400">EMAIL RESMI PERUSAHAAN</span>
+                            <a class="font-display text-[12px] font-bold text-slate-900" href="mailto:rulbtn5@gmail.com">rulbtn5@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl border border-slate-200 p-3.5 flex items-center gap-3 shadow-sm">
+                        <span class="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="text-[9px] font-bold uppercase tracking-wider text-slate-400">JAM OPERASIONAL GUDANG</span>
+                            <span class="font-display text-[12px] font-bold text-slate-900">Senin - Sabtu | 08:00 - 17:00 WITA</span>
+                            <span class="text-[9px] text-emerald-600 font-semibold mt-0.5">Emergency Proyek: 24 Jam</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulir Konsultasi Mobile -->
+        <section class="px-4 py-8 bg-slate-50 border-y border-slate-200" id="form-sewa">
+            <div class="max-w-md mx-auto flex flex-col gap-4">
+                <div>
+                    <div class="inline-flex items-center gap-1.5 bg-white text-[#5084C4] border border-slate-200 px-3 py-1 rounded-full font-bold text-[10px] uppercase tracking-wider mb-2 shadow-sm font-display">Konsultasi Sewa & Pemesanan</div>
+                    <h2 class="font-display text-xl font-extrabold text-slate-900 tracking-tight">Formulir Konsultasi Sewa Scaffolding</h2>
+                    <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">Kirimkan spesifikasi proyek Anda. Tim teknis kami akan membantu menyusun rincian kebutuhan sewa secara gratis.</p>
+                </div>
+                
+                <div class="bg-white rounded-xl p-3 border border-slate-200 flex items-center justify-between text-center shadow-sm">
+                    <div class="flex flex-col items-center flex-1">
+                        <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white text-[10px] font-bold flex items-center justify-center mb-1">1</span>
+                        <span class="text-[10px] font-semibold text-slate-900 leading-tight">Isi Rincian Proyek</span>
+                    </div>
+                    <span class="text-slate-300 text-xs">→</span>
+                    <div class="flex flex-col items-center flex-1">
+                        <span class="w-5 h-5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold flex items-center justify-center mb-1">2</span>
+                        <span class="text-[10px] font-semibold text-slate-500 leading-tight">Terima Estimasi WA</span>
+                    </div>
+                    <span class="text-slate-300 text-xs">→</span>
+                    <div class="flex flex-col items-center flex-1">
+                        <span class="w-5 h-5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold flex items-center justify-center mb-1">3</span>
+                        <span class="text-[10px] font-semibold text-slate-500 leading-tight">Kirim Armada</span>
+                    </div>
+                </div>
+                
+                <form class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm flex flex-col gap-3.5" onsubmit="event.preventDefault(); alert('Permintaan Anda terkirim! Admin akan membalas di WhatsApp Anda.');">
+                    <div>
+                        <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Nama Pemesan / Perusahaan *</label>
+                        <input class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Contoh: Bpk. Hendra / PT. Karya" required="" type="text">
+                    </div>
+                    <div>
+                        <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Nomor WhatsApp Aktif *</label>
+                        <input class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="08xxxxxxxxxx" required="" type="tel">
+                    </div>
+                    <div class="grid grid-cols-2 gap-2.5">
+                        <div>
+                            <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Jenis Proyek</label>
+                            <select class="w-full h-11 px-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50">
+                                <option>Gedung / Ruko</option>
+                                <option>Infrastruktur</option>
+                                <option>Rumah Tinggal</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Durasi Sewa</label>
+                            <select class="w-full h-11 px-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50">
+                                <option>1 Bulan (Reguler)</option>
+                                <option>> 2 Bulan</option>
+                                <option>Harian/Mingguan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Kebutuhan Komponen Modul</label>
+                        <textarea class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame 1.7m, Catwalk, U-Head, dsb..." rows="3"></textarea>
+                    </div>
+                    <button class="w-full bg-[#1E1E1E] text-white font-display text-[13px] font-bold py-3.5 rounded-full text-center flex items-center justify-center gap-2 hover:bg-slate-800 active:scale-95 transition-all shadow-md mt-1" type="submit">
+                        <span class="">Kirim Konsultasi Sewa</span>
+                        <span class="text-sm">↗</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Area Operasional (Mobile) - Menggunakan Ikon SVG Premium Pin Lokasi & Truk -->
+        <section class="bg-[#1E1E1E] text-white py-8 px-4 max-w-md mx-auto rounded-3xl mt-8 mb-8 relative overflow-hidden shadow-2xl">
+            <div class="absolute -right-20 -bottom-20 w-64 h-64 rounded-full bg-[#5084C4]/20 blur-3xl pointer-events-none"></div>
+            
+            <div class="relative z-10">
+                <span class="inline-block px-3 py-1 rounded-full text-[9px] font-bold uppercase tracking-wider bg-white/10 border border-white/20 text-[#5084C4] mb-3 font-display">JANGKAUAN LOGISTIK</span>
+                <h2 class="text-xl font-extrabold text-white font-display leading-tight mb-2">Wilayah Operasional Regina Al Barakah</h2>
+                <p class="text-[12px] text-slate-300 mb-5">Kami siap memobilisasi peralatan perancah ke berbagai lokasi proyek strategis di seluruh Sultra.</p>
+                
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kota Bau-Bau</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kab. Buton</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Buton Selatan</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Buton Tengah</span>
+                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kab. Muna</span>
+                    <span class="px-3 py-1.5 rounded-full bg-[#5084C4]/40 border border-[#5084C4] text-[#a3c9ff] text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg>Seluruh Sulawesi Tenggara</span>
+                </div>
+                
+                <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md">
+                    <div class="flex items-center gap-3 mb-3">
+                        <div class="w-10 h-10 rounded-xl bg-[#5084C4] flex items-center justify-center text-white shrink-0 shadow-sm">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                        </div>
+                        <div>
+                            <div class="font-display text-[14px] font-bold text-white">Mulai Sewa Hari Ini</div>
+                            <div class="text-[11px] text-slate-300">Konsultasi cepat via WhatsApp</div>
+                        </div>
+                    </div>
+                    <a class="w-full bg-white hover:bg-slate-100 text-slate-900 font-bold py-3 rounded-full text-[13px] flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                        <span>Hubungi Hotline 0821-8825-3433</span>
+                        <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile Footer -->
+        <footer class="bg-white text-slate-600 border-t border-slate-200 pt-8 pb-24 px-4" id="kontak-mobile">
+            <div class="max-w-md mx-auto space-y-6">
+                <div>
+                    <div class="flex items-center gap-2.5 mb-2.5">
+                        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white shadow-sm flex-shrink-0">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
+                        </div>
+                        <span class="text-sm font-extrabold text-slate-900 tracking-tight font-display uppercase italic">REGINA AL BARAKAH GROUP</span>
+                    </div>
+                    <p class="text-xs text-slate-500 leading-relaxed mb-3.5">Pusat persewaan scaffolding terbesar dan terlengkap di wilayah Kabupaten Buton.</p>
+                    
+                    <div class="flex items-center gap-2">
+                        <a href="#" aria-label="Ikuti kami di TikTok" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98v7.92a7.61 7.61 0 01-3.69 6.55 7.63 7.63 0 01-8.79-.82A7.58 7.58 0 012.3 14.5a7.63 7.63 0 018.25-7.59v4.06c-1.89-.37-3.92.51-4.7 2.22a3.67 3.67 0 001.37 4.54c1.47 1.05 3.59.88 4.88-.38.45-.44.73-1.02.73-1.64V.02h-.31z"></path></svg>
+                        </a>
+                        <a href="#" aria-label="Ikuti kami di Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path></svg>
+                        </a>
+                        <a href="#" aria-label="Tonton video kami di YouTube" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-100 pt-4">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-[#5084C4] mb-3 font-display">MENU UTAMA</h4>
+                    <ul class="space-y-2 text-xs font-medium text-slate-600">
+                        <li><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
+                        <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
+                        <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
+                        <li><a href="contact.php" class="text-[#E53935] font-bold block py-0.5">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <div class="border-t border-slate-100 pt-4">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3 font-display">HUBUNGI KAMI</h4>
+                    <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
+                        <div class="flex items-start gap-2.5">
+                            <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                            <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
+                        </div>
+                        <div class="flex items-center gap-2.5">
+                            <svg class="w-4 h-4 text-[#E53935] flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <a class="font-bold text-slate-900" href="tel:081242207221">0812-4220-7221 (Admin 1)</a>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2" rel="noopener noreferrer" target="_blank">
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
+                        <span>WHATSAPP KAMI</span>
+                    </a>
+                </div>
+                
+                <div class="flex justify-between items-center w-full pt-6 border-t border-slate-100 mt-4 text-[10px] text-slate-500 gap-2">
+                    <p class="font-medium text-slate-700">© 2026 Regina Al Barakah Group</p>
+                    <p class="text-right">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Mobile Premium Floating WhatsApp -->
+        <aside class="fixed bottom-6 right-6 z-50">
+            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
+                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
+                </svg>
+                <span class="z-10 relative">Tanya Sewa Cepat</span>
+            </a>
+        </aside>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- 💻 TAMPILAN DESKTOP (Sembunyi di Mobile & Tablet) -->
+    <!-- ============================================================== -->
+    <div class="hidden lg:block">
+        <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
+            
+            <!-- Hero Banner Desktop (Dark Aesthetic Identik dengan Laman Lain) -->
+            <section class="relative overflow-hidden rounded-[32px] bg-[#0A0F1C] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl border border-white/5" id="hero">
+                <div class="absolute inset-0 z-0 pointer-events-none">
+                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
+                    <div class="absolute inset-0 bg-gradient-to-r from-[#0A0F1C] via-[#0A0F1C]/90 to-[#0A0F1C]/60 z-[1]"></div>
+                </div>
+                
+                <!-- NavigationBar Desktop -->
+                <header class="relative z-20 px-5 sm:px-8 pt-5 sm:pt-6">
+                    <div class="flex items-center justify-between gap-4">
+                        <a class="flex items-center gap-3 group" href="index.php" title="Regina Al Barakah Group" aria-label="Beranda Regina Al Barakah">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-[#E53935] flex items-center justify-center text-white shadow-lg shadow-red-600/30 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
+                                </svg>
                             </div>
-                        </div>
-
-                        <div class="info-item">
-                            <div class="icon-luxury"><i class="fab fa-whatsapp"></i></div>
                             <div>
-                                <span class="text-[9px] font-black uppercase tracking-widest text-blue-700 block mb-1">WhatsApp Center</span>
-                                <div class="space-y-0.5">
-                                    <a href="https://wa.me/6282188253433" class="text-base font-black text-slate-900 italic hover:text-blue-700 block">+62 821-8825-3433</a>
-                                    <a href="https://wa.me/6282188253433" class="text-base font-black text-slate-900 italic hover:text-blue-700 block">+62 812-4220-7221</a>
+                                <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
+                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                            </div>
+                        </a>
+                        
+                        <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="index.php">Home</a>
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="product.php">Product</a>
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="about.php">About Us</a>
+                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="contact.php" aria-current="page">Contact</a>
+                        </nav>
+                        
+                        <div class="flex items-center gap-2">
+                            <a class="inline-flex items-center gap-2.5 bg-white text-slate-900 px-5 py-2.5 rounded-full font-bold text-sm shadow-lg hover:bg-slate-100 transition-all group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
+                                <span>Konsultasi / Sewa</span>
+                                <span class="w-5 h-5 bg-[#1E1E1E] text-white rounded-full flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="relative z-10 px-5 sm:px-8 py-12 lg:py-16 my-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                    <!-- Text Area (Left) -->
+                    <div class="lg:col-span-7 flex flex-col items-start gap-6">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
+                            <span class="w-2 h-2 rounded-full bg-[#E53935] animate-pulse"></span>
+                            <span class="text-[11px] font-semibold tracking-wider text-slate-300 uppercase font-display">HUBUNGI KAMI • LAYANAN CEPAT & RESPONSIF</span>
+                        </div>
+                        <h1 class="text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
+                            Hubungi Layanan Persewaan Scaffolding Terpercaya Buton
+                        </h1>
+                        <p class="text-slate-300 text-base md:text-lg max-w-2xl leading-relaxed italic border-l-2 border-[#5084C4] pl-4">
+                            “Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya.”
+                        </p>
+                        <div class="flex flex-wrap items-center gap-4 pt-3">
+                            <a class="flex items-center gap-2 bg-white text-slate-900 px-7 py-3.5 rounded-full text-sm font-bold hover:bg-slate-100 hover:shadow-xl transition-all duration-200 font-display group" href="#channels">
+                                <span class="">Pusat Bantuan</span>
+                                <svg class="w-4 h-4 text-slate-900 group-hover:translate-y-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m0 0l-4-4m4 4l4-4"></path></svg>
+                            </a>
+                            <a class="flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 px-7 py-3.5 rounded-full text-sm font-semibold text-white backdrop-blur-md transition-all duration-200 font-display group" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                                <span class="">Konsultasi WhatsApp</span>
+                                <svg class="w-4 h-4 text-white group-hover:translate-x-0.5 transition-transform duration-150" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-7-7l7 7-7 7"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Trust Point Spec Card (Right) -->
+                    <div class="lg:col-span-5 relative w-full">
+                        <div class="bg-[#16202e]/90 backdrop-blur-xl border border-white/10 rounded-3xl p-7 shadow-2xl relative overflow-hidden">
+                            <div class="relative z-10">
+                                <div class="flex items-center justify-between pb-5 border-b border-white/10">
+                                    <div class="flex items-center gap-3.5">
+                                        <div class="w-12 h-12 rounded-2xl bg-[#5084C4] flex items-center justify-center text-white shadow-md">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="text-[15px] font-bold text-white font-display">24/7 Siaga Proyek</h2>
+                                            <p class="text-[12px] text-slate-400 mt-0.5">Layanan darurat teknis</p>
+                                        </div>
+                                    </div>
+                                    <span class="px-3 py-1 rounded-full bg-[#5084C4]/20 text-[#a3c9ff] text-[11px] font-semibold border border-[#5084C4]/40">Fast Response</span>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-3.5 pt-5">
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-emerald-400 block font-display leading-none">100%</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">STANDAR SNI</p>
+                                    </div>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-white block font-display leading-none">Mandiri</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">ARMADA TRUK</p>
+                                    </div>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-amber-400 block font-display leading-none">< 15 Mnt</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">RESPON CS</p>
+                                    </div>
+                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
+                                        <span class="text-2xl lg:text-[26px] font-bold text-[#E53935] block font-display leading-none">Gratis</span>
+                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">KONSULTASI BOQ</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
 
-                        <div class="mt-6 pt-6 border-t border-slate-100">
+            <!-- Direktori Pusat Bantuan Desktop -->
+            <section class="mb-24 scroll-mt-24 mt-16" id="channels">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 mb-3">
+                            <span class="text-[12px] font-semibold text-[#5084C4] uppercase font-display">PUSAT OPERASIONAL</span>
+                        </div>
+                        <h2 class="text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight font-display">Informasi Pusat & Saluran Kontak Resmi</h2>
+                    </div>
+                    <p class="text-[15px] text-slate-500 max-w-md">Kunjungi kantor dan workshop utama kami atau hubungi administrator resmi melalui saluran telepon dan WhatsApp.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <!-- Left: Interactive Map Container -->
+                    <div class="lg:col-span-6 bg-white rounded-3xl p-6 md:p-8 border border-slate-200 shadow-sm flex flex-col h-full">
+                        <div class="flex items-center justify-between mb-5">
                             <div class="flex items-center gap-3">
-                                <span class="text-[9px] font-bold text-slate-400 uppercase tracking-widest italic">Operational:</span>
-                                <span class="text-[10px] font-black text-blue-900 uppercase">Senin - Sabtu | 08:00 - 17:00 WITA</span>
+                                <svg class="w-6 h-6 text-[#5084C4]" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path></svg>
+                                <h3 class="text-xl font-bold text-slate-900 font-display">Kantor & Workshop Utama</h3>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-500 text-xs font-semibold">Sulawesi Tenggara</span>
+                        </div>
+                        
+                        <div class="relative w-full h-[380px] md:h-[400px] rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
+                            <!-- Peta -->
+                            <iframe class="w-full h-full border-0 filter contrast-[1.05]" loading="lazy" src="https://maps.google.com/maps?q=Jl.+Pahlawan+Blk.+A+No.+11,+BTN+Medy+Brata,+Wolio,+Bau-Bau+93711&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Peta Lokasi Workshop Scaffolding Bau-Bau"></iframe>
+                            
+                            <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-lg border border-slate-200 flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-[#E53935] flex items-center justify-center text-white">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                                </div>
+                                <div>
+                                    <p class="text-[13px] font-bold text-slate-900 font-display">Regina Al Barakah Yard</p>
+                                    <p class="text-[11px] text-slate-500">Akses Truk & Tronton 24 Jam</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-5 p-5 rounded-2xl bg-slate-50 border border-slate-200 flex items-start gap-4">
+                            <svg class="w-6 h-6 text-[#5084C4] mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                            <div>
+                                <p class="text-sm font-bold text-slate-900 font-display">Alamat Lengkap Depot Logistik</p>
+                                <p class="text-[13px] text-slate-600 mt-1 leading-relaxed">Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711 (<a href="https://share.google/IsgymSdhtia7GD1qG" target="_blank" class="text-[#5084C4] hover:underline font-bold inline-flex items-center gap-1">Buka Peta ↗</a>)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Official Contact Directory -->
+                    <div class="lg:col-span-6 flex flex-col gap-6">
+                        <!-- WhatsApp Admin Channels -->
+                        <div class="bg-white rounded-3xl p-6 md:p-8 border border-slate-200 shadow-sm flex-grow">
+                            <div class="flex items-center justify-between mb-6">
+                                <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3 font-display">
+                                    <span class="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                                    </span>
+                                    <span class="">WhatsApp Customer Service</span>
+                                </h3>
+                                <span class="text-[11px] text-emerald-700 font-bold bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200 flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Online</span>
+                            </div>
+                            
+                            <div class="space-y-4">
+                                <!-- Admin 1 -->
+                                <a class="group block p-5 rounded-2xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-[#5084C4] hover:shadow-md transition-all" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-4">
+                                            <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center group-hover:scale-105 transition-transform shadow-sm">
+                                                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                                            </div>
+                                            <div>
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <span class="text-[14px] font-bold text-slate-900 font-display">Admin 1 (Konsultasi Sewa Utama)</span>
+                                                    <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-50 text-[#E53935] border border-rose-100">Prioritas</span>
+                                                </div>
+                                                <p class="text-[16px] font-bold text-[#5084C4] tracking-wide">+62 812-4220-7221</p>
+                                                <p class="text-[12px] text-slate-500 mt-0.5">Surat Penawaran Harga, Kontrak Proyek, & Faktur</p>
+                                            </div>
+                                        </div>
+                                        <span class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 group-hover:bg-[#5084C4] group-hover:text-white group-hover:border-[#5084C4] transition-colors shadow-sm">↗</span>
+                                    </div>
+                                </a>
+                                
+                                <!-- Admin 2 -->
+                                <a class="group block p-5 rounded-2xl border border-slate-200 bg-slate-50 hover:bg-white hover:border-[#5084C4] hover:shadow-md transition-all" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-4">
+                                            <div class="w-14 h-14 rounded-2xl bg-[#1E1E1E] text-white flex items-center justify-center group-hover:scale-105 transition-transform shadow-sm">
+                                                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                                            </div>
+                                            <div>
+                                                <div class="flex items-center gap-2 mb-1">
+                                                    <span class="text-[14px] font-bold text-slate-900 font-display">Admin 2 (Teknis & Armada Lapangan)</span>
+                                                </div>
+                                                <p class="text-[16px] font-bold text-slate-800 tracking-wide">+62 821-8825-3433</p>
+                                                <p class="text-[12px] text-slate-500 mt-0.5">Jadwal Pengiriman, Mobilisasi Armada, & Retur Alat</p>
+                                            </div>
+                                        </div>
+                                        <span class="w-10 h-10 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 group-hover:bg-[#5084C4] group-hover:text-white group-hover:border-[#5084C4] transition-colors shadow-sm">↗</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Secondary Operational Attributes Grid -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-rose-50 flex items-center justify-center text-[#E53935] shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <div>
+                                    <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider mb-1">Email Resmi Perusahaan</p>
+                                    <a class="text-[15px] font-bold text-slate-900 hover:text-[#5084C4] transition-colors font-display" href="mailto:rulbtn5@gmail.com">rulbtn5@gmail.com</a>
+                                    <p class="text-[12px] text-slate-500 mt-1">Tender & Dokumen Legalitas</p>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white rounded-3xl p-6 border border-slate-200 shadow-sm flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center text-amber-600 shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                </div>
+                                <div>
+                                    <p class="text-[10px] text-slate-400 uppercase font-bold tracking-wider mb-1">Jam Operasional Gudang</p>
+                                    <p class="text-[14px] font-bold text-slate-900 font-display">Senin - Sabtu | 08:00 - 17:00</p>
+                                    <p class="text-[12px] text-emerald-600 font-semibold mt-1">Emergency Proyek: Siaga 24 Jam</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <footer class="relative bg-slate-900 overflow-hidden text-white mt-20">
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=1600" class="w-full h-full object-cover opacity-20" alt="Footer BG">
-            <div class="absolute inset-0 footer-bg-overlay"></div>
-        </div>
-
-        <div class="relative z-10 max-w-7xl mx-auto px-6 py-16">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-left">
-                <div>
-                    <div class="flex items-center gap-3 mb-6">
-                         <div class="bg-blue-600 p-2 rounded-lg">
-                            <i class="fas fa-hard-hat text-white text-xl"></i>
-                         </div>
-                         <h2 class="text-xl font-black tracking-tighter uppercase italic">Regina Al Barakah Group</h2>
+            <!-- FORMULIR HITUNG KEBUTUHAN & PENAWARAN SEWA DESKTOP -->
+            <section class="mb-24 bg-white rounded-3xl p-8 md:p-14 border border-slate-200 shadow-sm" id="form-sewa">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+                    <!-- Left Column Context -->
+                    <div class="lg:col-span-5 flex flex-col justify-between">
+                        <div>
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-[#5084C4] text-[12px] font-bold mb-4 font-display">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                <span class="">Konsultasi Sewa & Pemesanan</span>
+                            </div>
+                            <h2 class="text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight mb-5 font-display leading-tight">Formulir Konsultasi Sewa Scaffolding</h2>
+                            <p class="text-[15px] text-slate-600 leading-relaxed mb-8">Kirimkan spesifikasi atau kebutuhan proyek Anda. Tim teknis kami segera membantu menyusun rincian kebutuhan sewa scaffolding terbaik secara cuma-cuma.</p>
+                            
+                            <!-- Process step indicators -->
+                            <div class="space-y-5 pt-6 border-t border-slate-100">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-8 h-8 rounded-full bg-[#1E1E1E] text-white text-sm font-bold flex items-center justify-center font-display">1</div>
+                                    <span class="text-[15px] font-medium text-slate-900">Isi rincian lokasi dan perkiraan durasi sewa</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-8 h-8 rounded-full bg-slate-100 text-slate-400 text-sm font-bold flex items-center justify-center font-display">2</div>
+                                    <span class="text-[15px] font-medium text-slate-500">Terima breakdown harga transparan via WhatsApp</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-8 h-8 rounded-full bg-slate-100 text-slate-400 text-sm font-bold flex items-center justify-center font-display">3</div>
+                                    <span class="text-[15px] font-medium text-slate-500">Konfirmasi dan jadwal pengiriman armada mandiri</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Guarantee badge -->
+                        <div class="mt-10 p-5 rounded-2xl bg-emerald-50 border border-emerald-100 flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center shrink-0 shadow-sm">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <p class="text-[15px] font-bold text-slate-900 font-display">Jaminan Ketersediaan Stok</p>
+                                <p class="text-[13px] text-slate-600 mt-0.5">Siap kirim ke seluruh pelosok Buton dan sekitarnya.</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-8">
-                        Pusat persewaan scaffolding terbesar dan terlengkap di wilayah Kabupaten Buton.
-                    </p>
-                    <div class="flex gap-4">
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all"><i class="fab fa-tiktok text-xs"></i></a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all"><i class="fab fa-instagram text-xs"></i></a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all"><i class="fab fa-youtube text-xs"></i></a>
+                    
+                    <!-- Right Column: Interactive Form -->
+                    <div class="lg:col-span-7 bg-slate-50 rounded-[2rem] p-8 md:p-10 border border-slate-200">
+                        <form class="space-y-6" onsubmit="event.preventDefault(); alert('Permintaan konsultasi sewa telah terkirim! Tim kami akan menghubungi nomor WhatsApp Anda dalam waktu 15 menit.');">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Nama Pemesan / Perusahaan *</label>
+                                    <input class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Contoh: Bpk. Ridwan (PT Konstruksi Mandiri)" required="" type="text">
+                                </div>
+                                <div>
+                                    <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Nomor WhatsApp Aktif *</label>
+                                    <input class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="08xxxxxxxxxx" required="" type="tel">
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Jenis Konstruksi / Proyek</label>
+                                    <select class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all">
+                                        <option>Gedung Bertingkat / Ruko</option>
+                                        <option>Jembatan & Infrastruktur</option>
+                                        <option>Pengecoran Plat & Balok</option>
+                                        <option>Pekerjaan Plafon & Finishing</option>
+                                        <option>Pabrik / Kawasan Industri</option>
+                                        <option>Renovasi Rumah Tinggal</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Estimasi Durasi Sewa</label>
+                                    <select class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all">
+                                        <option>1 Bulan (Standar)</option>
+                                        <option>2 - 3 Bulan</option>
+                                        <option>Kontrak Proyek > 6 Bulan</option>
+                                        <option>Harian / Mingguan Khusus</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Lokasi Titik Antar Proyek *</label>
+                                <input class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Kecamatan / Desa, Kota Bau-Bau, Buton, dsb." required="" type="text">
+                            </div>
+                            <div>
+                                <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Kebutuhan Komponen Modul (Opsional)</label>
+                                <textarea class="w-full p-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Sebutkan kebutuhan perkiraan (misal: Main Frame 1.7m 200 set, Catwalk 50 pcs, Jack Base, U-Head, dsb.)" rows="4"></textarea>
+                            </div>
+                            
+                            <button class="w-full py-4 rounded-full bg-[#1E1E1E] hover:bg-slate-800 text-white text-[15px] font-bold tracking-wide transition-all shadow-xl active:scale-[0.98] flex items-center justify-center gap-2 font-display mt-2" type="submit">
+                                <span class="">Kirim Konsultasi Sewa Gratis</span>
+                                <span class="w-6 h-6 rounded-full bg-white text-slate-900 flex items-center justify-center text-xs">↗</span>
+                            </button>
+                            <p class="text-center text-[12px] text-slate-500 flex items-center justify-center gap-1.5 mt-2">
+                                <svg class="w-4 h-4 text-emerald-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                                Data Anda aman dan hanya digunakan untuk keperluan konsultasi internal.
+                            </p>
+                        </form>
                     </div>
                 </div>
+            </section>
 
-                <div class="md:pl-10">
-                    <h3 class="text-sm font-black uppercase italic tracking-widest mb-6 text-blue-500">Menu Utama</h3>
-                    <ul class="space-y-3 text-slate-400 text-[13px] font-bold">
-                        <li><a href="index.php" class="hover:text-white transition">Beranda</a></li>
-                        <li><a href="product.php" class="hover:text-white transition">Produk</a></li>
-                        <li><a href="about.php" class="hover:text-white transition">Tentang Kami</a></li>
-                        <li><a href="contact.php" class="hover:text-white transition">Kontak</a></li>
-                    </ul>
+            <!-- BEGIN: MainFooter Desktop -->
+            <footer class="bg-white rounded-[32px] p-8 sm:p-10 border border-[#E0E0E0] subtle-shadow text-[#757575] text-sm" id="kontak-desktop">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-6">
+                    <div class="md:col-span-5 space-y-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr from-[#E53935] to-rose-500 flex items-center justify-center text-white shadow-md flex-shrink-0">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
+                            </div>
+                            <span class="font-extrabold text-base sm:text-lg tracking-tight text-[#1E1E1E] uppercase italic font-display">REGINA AL BARAKAH GROUP</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-slate-600 max-w-sm leading-relaxed">
+                            Pusat persewaan scaffolding terbesar dan terlengkap di wilayah Kabupaten Buton.
+                        </p>
+
+                        <div class="flex items-center gap-2 pt-2">
+                            <a aria-label="TikTok" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"></path></svg>
+                            </a>
+                            <a aria-label="Instagram" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path></svg>
+                            </a>
+                            <a aria-label="YouTube" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-3 space-y-3">
+                        <h4 class="font-bold text-[#5084C4] text-xs sm:text-sm uppercase tracking-wider font-display">MENU UTAMA</h4>
+                        <ul class="text-xs sm:text-sm space-y-2 text-slate-600 font-medium">
+                            <li><a href="index.php" class="hover:text-brand-blue transition-colors block py-0.5">Beranda</a></li>
+                            <li><a href="product.php" class="hover:text-brand-blue transition-colors block py-0.5">Produk</a></li>
+                            <li><a href="about.php" class="hover:text-brand-blue transition-colors block py-0.5">Tentang Kami</a></li>
+                            <li><a href="contact.php" class="text-[#E53935] font-bold block py-0.5">Kontak</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="md:col-span-4 space-y-3">
+                        <h4 class="font-bold text-[#1E1E1E] text-xs sm:text-sm uppercase tracking-wider font-display">HUBUNGI KAMI</h4>
+                        <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
+                            <div class="flex items-start gap-2.5">
+                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
+                            </div>
+                            <div class="flex items-center gap-2.5">
+                                <svg class="w-4 h-4 text-[#E53935] flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                <a class="font-bold text-slate-900" href="tel:081242207221">0812-4220-7221 (Admin 1)</a>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2" rel="noopener noreferrer" target="_blank">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
+                            <span>WHATSAPP KAMI</span>
+                        </a>
+                    </div>
                 </div>
-
-                <div>
-                    <h3 class="text-sm font-black uppercase italic tracking-widest mb-6 text-blue-500">Hubungi Kami</h3>
-                    <ul class="space-y-4 text-slate-400 text-[13px]">
-                        <li class="flex gap-3">
-                            <i class="fas fa-map-marker-alt text-blue-500 mt-1"></i>
-                            <span class="font-bold">Jl. Raya Trans Sulawesi, Bau-Bau, Buton.</span>
-                        </li>
-                        <li class="flex gap-3">
-                            <i class="fas fa-phone-alt text-blue-500 mt-1"></i>
-                            <span class="font-bold">0821-8825-3433</span>
-                        </li>
-                    </ul>
-                    <a href="https://wa.me/6282188253433" class="mt-6 bg-green-600/90 hover:bg-green-600 text-white px-5 py-3 rounded-xl font-black text-[10px] flex items-center justify-center gap-2 transition-all active:scale-95">
-                        <i class="fab fa-whatsapp text-base"></i> WHATSAPP KAMI
-                    </a>
+                
+                <div class="flex justify-between items-center w-full pt-6 border-t border-slate-100 mt-4 text-[10px] text-slate-500 gap-2">
+                    <p class="font-medium text-slate-700">© 2026 Regina Al Barakah Group</p>
+                    <p class="text-right">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
                 </div>
             </div>
+        </footer>
 
-            <div class="mt-20 pt-8 border-t border-white/5 text-center">
-                <div class="space-y-1">
-                    <p class="text-[10px] text-slate-500 font-bold tracking-[0.2em] uppercase">
-                        © 2026 Regina Al Barakah Group
-                    </p>
-                    <p class="text-[9px] text-slate-600 font-medium">
-                        Layanan Scaffolding Terpercaya di Sulawesi Tenggara.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div id="wa-menu" class="fixed bottom-24 right-6 bg-white border border-slate-200/80 rounded-2xl shadow-2xl p-4 z-[1000] hidden w-64 transform transition-all duration-300 scale-95 opacity-0 origin-bottom-right">
-        <p class="text-xs font-black text-slate-500 uppercase tracking-wider mb-3 px-1 italic">Pilih Admin Chat:</p>
-        <div class="flex flex-col gap-2">
-            <a href="https://wa.me/6282188253433" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
-                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white text-sm"><i class="fas fa-user-tie"></i></div>
-                <div>
-                    <h5 class="font-black text-xs text-slate-800 uppercase tracking-wide group-hover:text-green-600 transition">Admin 1</h5>
-                    <p class="text-[10px] text-slate-400 font-medium">Layanan Utama</p>
-                </div>
+        <!-- Desktop Premium Floating WhatsApp -->
+        <aside class="fixed bottom-6 right-6 z-50">
+            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+                <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
+                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
+                </svg>
+                <span class="z-10 relative">Tanya Sewa Cepat</span>
             </a>
-            <a href="https://wa.me/6282188253433" target="_blank" class="flex items-center gap-3 p-3 bg-slate-50 hover:bg-green-50 rounded-xl transition border border-slate-100 group">
-                <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center text-white text-sm"><i class="fas fa-user-cog"></i></div>
-                <div>
-                    <h5 class="font-black text-xs text-slate-800 uppercase tracking-wide group-hover:text-green-600 transition">Admin 2</h5>
-                    <p class="text-[10px] text-slate-400 font-medium">Layanan Alternatif</p>
-                </div>
-            </a>
-        </div>
+        </aside>
     </div>
-
-    <div id="wa-toggle" class="wa-float"><i class="fab fa-whatsapp"></i></div>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- LINK FILE JS EKSTERNAL -->
-     <script src="../assets/js/contact.js"></script>
 </body>
 </html>
