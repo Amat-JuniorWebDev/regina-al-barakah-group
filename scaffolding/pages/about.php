@@ -459,11 +459,11 @@ header_remove("X-Powered-By");
                             </div>
                         </a>
                         
-                        <nav class="hidden lg:flex items-center bg-[#1e293b]/80 backdrop-blur-md border border-white/10 rounded-full p-1.5 space-x-1 shadow-inner font-display">
-                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="index.php">Home</a>
-                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="product.php">Product</a>
-                            <a class="px-5 py-2 text-sm font-semibold text-white bg-slate-700/80 rounded-full shadow-sm" href="about.php" aria-current="page">About Us</a>
-                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="contact.php">Contact</a>
+                        <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="index.php">Home</a>
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="product.php">Product</a>
+                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="about.php" aria-current="page">About Us</a>
+                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="contact.php">Contact</a>
                         </nav>
                         
                         <div class="flex items-center gap-2">
@@ -834,7 +834,6 @@ header_remove("X-Powered-By");
                     <div class="lg:col-span-5 bg-[#2C2C2C] border border-white/10 rounded-2xl p-6 shadow-xl space-y-5">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 rounded-xl bg-[#5084C4] flex items-center justify-center text-white">
-                                <!-- Location Tick SVG seperti screenshot referensi -->
                                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                             </div>
                             <div>
@@ -847,7 +846,7 @@ header_remove("X-Powered-By");
                         </p>
                         <a class="w-full flex items-center justify-center gap-2 bg-white text-slate-900 py-3.5 px-6 rounded-full text-[15px] font-bold hover:bg-slate-100 hover:shadow-lg active:scale-95 transition-all duration-150 font-display" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
                             <span class="">Hubungi Hotline 0821-8825-3433</span>
-                            <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                            <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </a>
                     </div>
                 </div>
