@@ -46,16 +46,15 @@ header_remove("X-Powered-By");
                         <svg class="w-5 h-5 text-white fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 2H9c-1.1 0-2 .9-2 2v3H5c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM5 9h2v2H5V9zm0 4h2v2H5v-2zm0 4h2v2H5v-2zm14 2H9v-2h2v-2H9v-2h2v-2H9V9h2V7H9V4h10v15zm-6-8h2v2h-2v-2zm0 4h2v2h-2v-2zm0-8h2v2h-2V7zm4 0h2v2h-2V7zm0 4h2v2h-2v-2zm0 4h2v2h-2v-2z"></path></svg>
                     </div>
                     <div class="flex flex-col">
-                        <span class="text-white text-[13px] tracking-tight leading-none font-bold font-display">REGINA AL BARAKAH</span>
-                        <span class="text-slate-400 text-[9px] tracking-wider uppercase leading-tight mt-1 font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                        <span class="text-white font-display text-[13px] tracking-tight leading-none font-bold">REGINA AL BARAKAH</span>
+                        <span class="text-slate-400 font-sans text-[9px] tracking-wider uppercase leading-tight mt-1">SCAFFOLDING & KONSTRUKSI</span>
                     </div>
                 </a>
                 <div class="flex items-center space-x-2.5">
-                    <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm font-display" href="https://wa.me/6282188253433?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20sewa%20scaffolding" aria-label="Sewa Scaffolding via WhatsApp">
+                    <a class="bg-white text-slate-900 px-4 py-1.5 rounded-full font-display text-xs font-semibold inline-flex items-center space-x-1 hover:bg-slate-100 active:scale-95 transition-all shadow-sm" href="https://wa.me/6281242207221" aria-label="Hubungi WhatsApp">
                         <span>Sewa</span>
                         <svg class="w-3 h-3 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7V17"></path></svg>
                     </a>
-                    
                     <button id="mobile-menu-btn" aria-label="Buka Menu Navigasi" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-white/20 active:scale-95 transition-all" type="button">
                         <div class="flex flex-col space-y-1">
                             <span class="w-4 h-0.5 bg-white rounded-full"></span>
@@ -105,7 +104,7 @@ header_remove("X-Powered-By");
                     <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
                     <div class="grid grid-cols-2 gap-3 relative z-10">
                         <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl text-center">
-                            <svg class="w-6 h-6 text-[#5084C4] mx-auto mb-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <svg class="w-6 h-6 text-[#5084C4] mx-auto mb-1.5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                             <div class="font-display text-xl font-bold text-white tracking-tight mb-0.5">24/7 Siaga</div>
                             <div class="text-[9px] text-slate-400 uppercase tracking-wider font-semibold">Layanan Darurat</div>
                         </div>
@@ -445,14 +444,14 @@ header_remove("X-Powered-By");
     <div class="hidden lg:block">
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
-            <!-- Hero Banner Desktop (IDENTIK 100% DENGAN INDEX.PHP & PRODUCT.PHP UNTUK MENCEGAH LOMPATAN) -->
+            <!-- Hero Banner Desktop (IDENTIK 100% DENGAN INDEX.PHP & ABOUT.PHP UNTUK MENCEGAH LOMPATAN) -->
             <section class="relative overflow-hidden rounded-[32px] bg-[#0A0F1C] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl border border-white/5" id="hero">
                 <div class="absolute inset-0 z-0 pointer-events-none">
                     <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
                     <div class="absolute inset-0 bg-gradient-to-r from-[#0A0F1C] via-[#0A0F1C]/90 to-[#0A0F1C]/60 z-[1]"></div>
                 </div>
                 
-                <!-- NavigationBar Desktop (Penyamaan Padding & Layout) -->
+                <!-- NavigationBar Desktop -->
                 <header class="relative z-20 px-5 sm:px-8 pt-5 sm:pt-6">
                     <div class="flex items-center justify-between gap-4">
                         <a class="flex items-center gap-3 group" href="index.php" title="Regina Al Barakah Group" aria-label="Beranda Regina Al Barakah">
@@ -467,11 +466,12 @@ header_remove("X-Powered-By");
                             </div>
                         </a>
                         
-                        <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="index.php">Home</a>
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="product.php">Product</a>
-                            <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="about.php">About Us</a>
-                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="contact.php" aria-current="page">Contact</a>
+                        <nav class="hidden lg:flex items-center bg-[#1e293b]/80 backdrop-blur-md border border-white/10 rounded-full p-1.5 space-x-1 shadow-inner font-display">
+                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="index.php">Home</a>
+                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="product.php">Product</a>
+                            <a class="px-5 py-2 text-sm font-medium text-slate-300 hover:text-white transition" href="about.php">About Us</a>
+                            <!-- Menu Kontak Aktif -->
+                            <a class="px-5 py-2 text-sm font-semibold text-white bg-slate-700/80 rounded-full shadow-sm" href="contact.php" aria-current="page">Contact</a>
                         </nav>
                         
                         <div class="flex items-center gap-2">
@@ -485,7 +485,7 @@ header_remove("X-Powered-By");
                     </div>
                 </header>
 
-                <div class="relative z-10 px-5 sm:px-8 py-12 lg:py-16 my-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                <div class="relative z-10 px-5 sm:px-8 py-12 lg:py-16 my-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center flex-grow">
                     <!-- Text Area (Left) -->
                     <div class="lg:col-span-7 flex flex-col items-start gap-6">
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
@@ -510,40 +510,49 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <!-- Trust Point Spec Card (Right) -->
+                    <!-- Trust Point Spec Card (Right) IDENTIK DENGAN ABOUT.PHP -->
                     <div class="lg:col-span-5 relative w-full">
-                        <div class="bg-[#16202e]/90 backdrop-blur-xl border border-white/10 rounded-3xl p-7 shadow-2xl relative overflow-hidden">
+                        <div class="bg-white/[0.04] backdrop-blur-xl border border-white/10 rounded-[2rem] p-6 md:p-8 shadow-2xl relative overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-50 pointer-events-none"></div>
+                            
                             <div class="relative z-10">
                                 <div class="flex items-center justify-between pb-5 border-b border-white/10">
                                     <div class="flex items-center gap-3.5">
-                                        <div class="w-12 h-12 rounded-2xl bg-[#5084C4] flex items-center justify-center text-white shadow-md">
+                                        <div class="w-11 h-11 rounded-2xl bg-[#5084C4] flex items-center justify-center text-white shadow-md">
                                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                         </div>
                                         <div>
-                                            <h2 class="text-[15px] font-bold text-white font-display">24/7 Siaga Proyek</h2>
-                                            <p class="text-[12px] text-slate-400 mt-0.5">Layanan darurat teknis</p>
+                                            <h2 class="text-base font-bold text-white font-display">24/7 Siaga Proyek</h2>
+                                            <p class="text-xs text-slate-300">Layanan darurat teknis</p>
                                         </div>
                                     </div>
-                                    <span class="px-3 py-1 rounded-full bg-[#5084C4]/20 text-[#a3c9ff] text-[11px] font-semibold border border-[#5084C4]/40">Fast Response</span>
+                                    <span class="px-3 py-1 rounded-full bg-blue-500/20 text-[#5084C4] text-xs font-bold border border-blue-400/30">Fast Response</span>
                                 </div>
 
                                 <div class="grid grid-cols-2 gap-3.5 pt-5">
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-emerald-400 block font-display leading-none">100%</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">STANDAR SNI</p>
+                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
+                                        <span class="text-2xl md:text-3xl font-bold text-emerald-400 block font-display">100%</span>
+                                        <p class="text-[10px] text-slate-400 mt-1 uppercase font-semibold tracking-wider">STANDAR SNI</p>
                                     </div>
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-white block font-display leading-none">Mandiri</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">ARMADA TRUK</p>
+                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
+                                        <span class="text-2xl md:text-3xl font-bold text-white block font-display">Mandiri</span>
+                                        <p class="text-[10px] text-slate-400 mt-1 uppercase font-semibold tracking-wider">ARMADA TRUK</p>
                                     </div>
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-amber-400 block font-display leading-none">< 15 Mnt</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">RESPON CS</p>
+                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
+                                        <span class="text-2xl md:text-3xl font-bold text-amber-400 block font-display">< 15 Mnt</span>
+                                        <p class="text-[10px] text-slate-400 mt-1 uppercase font-semibold tracking-wider">RESPON CS</p>
                                     </div>
-                                    <div class="bg-white/[0.03] rounded-2xl p-4.5 border border-white/5 text-center flex flex-col justify-center min-h-[90px]">
-                                        <span class="text-2xl lg:text-[26px] font-bold text-[#E53935] block font-display leading-none">Gratis</span>
-                                        <p class="text-[10px] text-slate-400 mt-2 uppercase tracking-wider font-semibold">KONSULTASI BOQ</p>
+                                    <div class="bg-white/5 rounded-2xl p-4 border border-white/5 text-center">
+                                        <span class="text-2xl md:text-3xl font-bold text-[#E53935] block font-display">Gratis</span>
+                                        <p class="text-[10px] text-slate-400 mt-1 uppercase font-semibold tracking-wider">KONSULTASI BOQ</p>
                                     </div>
+                                </div>
+
+                                <div class="mt-5 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-slate-300">
+                                    <span class="">Layanan & Respon Cepat</span>
+                                    <span class="text-white font-semibold flex items-center gap-1.5">
+                                        Bantuan Darurat 24 Jam
+                                    </span>
                                 </div>
                             </div>
                         </div>
