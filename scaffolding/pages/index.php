@@ -10,25 +10,23 @@ header_remove("X-Powered-By");
     
     <meta content="Penyedia sewa dan jual scaffolding standar industri terpercaya di Bau-Bau, Buton dan sekitarnya. Unit ready 1000+ set pipa baja SNI, pengiriman cepat dan aman." name="description">
     
-    <!-- Preconnect -->
-    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <!-- Preconnect ke Font Server -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://lh3.googleusercontent.com">
 
-    <!-- Preload gambar hero HANYA untuk desktop -->
-    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" media="(min-width: 1024px)" fetchpriority="high">
+    <!-- Preload Gambar LCP Hero Utama (tanpa media query agar optimal di Mobile & Desktop) -->
+    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" fetchpriority="high">
 
-    <!-- Google Fonts: tidak lagi memblokir render -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"></noscript>
-
-    <!-- Tailwind CDN (plugin forms & container-queries dibuang, tidak dipakai di halaman ini) -->
+    <!-- Google Fonts dengan font-display=swap -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- JS & CSS lokal (urutan sengaja dipertahankan agar prioritas CSS tetap sama) -->
-    <script src="../assets/js/index.js" defer></script>
+    <!-- Panggil File JS & CSS lokal -->
     <link rel="stylesheet" href="../assets/css/index.css">
+    <script src="../assets/js/index.js" defer></script>
 </head>
 
 <body class="antialiased font-sans selection:bg-brand-blue lg:selection:bg-[#E53935] selection:text-white bg-[#F8F9FB] lg:bg-[#F4F5F7] text-slate-800 lg:text-[#1E1E1E] pb-24 lg:pb-0 overflow-x-hidden">
@@ -37,6 +35,7 @@ header_remove("X-Powered-By");
     <!-- 📱 TAMPILAN MOBILE & TABLET (Sembunyi di Desktop) -->
     <!-- ============================================================== -->
     <div class="block lg:hidden">
+        <!-- Hero Section -->
         <section class="pt-24 pb-8 px-4 bg-[#1E1E1E] text-white relative rounded-b-[2rem] overflow-hidden max-w-md mx-auto border-x border-b border-slate-800 shadow-2xl">
             <div class="absolute -top-10 -right-10 w-52 h-52 pointer-events-none" style="background:radial-gradient(circle,rgba(59,130,246,.2) 0%,rgba(59,130,246,0) 70%)"></div>
             <div class="absolute bottom-0 -left-12 w-48 h-48 pointer-events-none" style="background:radial-gradient(circle,rgba(219,50,47,.16) 0%,rgba(219,50,47,0) 70%)"></div>
@@ -71,7 +70,7 @@ header_remove("X-Powered-By");
                 <!-- Dropdown Menu Mobile -->
                 <div id="mobile-menu" class="hidden absolute top-14 left-0 w-full bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden transform transition-all font-display z-40 mt-2">
                     <div class="flex flex-col">
-                        <a href="index.php" class="px-5 py-4 text-sm font-extrabold text-[#E53935] bg-rose-50 border-b border-slate-100 flex items-center justify-between">Beranda <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                        <a href="index.php" class="px-5 py-4 text-sm font-extrabold text-[#E53935] bg-rose-50 border-b border-slate-100 flex items-center justify-between" aria-current="page">Beranda <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
                         <a href="product.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Produk & Komponen <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
                         <a href="about.php" class="px-5 py-4 text-sm font-bold text-slate-900 border-b border-slate-100 flex items-center justify-between hover:bg-slate-50">Tentang Kami <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
                         <a href="contact.php" class="px-5 py-4 text-sm font-bold text-slate-900 flex items-center justify-between hover:bg-slate-50">Kontak <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
@@ -82,7 +81,7 @@ header_remove("X-Powered-By");
             <div class="relative z-10 flex flex-col space-y-4">
                 <div class="inline-flex items-center space-x-2 px-3 py-1 bg-white/10 border border-white/15 rounded-full w-fit backdrop-blur-md">
                     <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                    <span class="text-white text-[11px] tracking-wide font-medium uppercase">STOK READY 1.000+ SET SNI SIAP ANTAR</span>
+                    <span class="text-white text-[11px] tracking-wide font-medium uppercase font-display">STOK READY 1.000+ SET SNI SIAP ANTAR</span>
                 </div>
                 <h1 class="text-white font-extrabold text-[36px] leading-[44px] tracking-tight font-display">Sewa & Jual Scaffolding <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-[#E53935]">Standar Industri</span></h1>
                 <p class="text-slate-200 text-[13px] leading-relaxed">Penyedia perancah pipa baja berkualitas untuk keamanan infrastruktur dan efisiensi proyek Anda di wilayah Kota Bau-Bau, Kabupaten Buton, dan sekitarnya.</p>
@@ -94,9 +93,11 @@ header_remove("X-Powered-By");
                 </div>
 
                 <div class="space-y-2.5 pt-2">
+                    <!-- Glass Card Mobile 1 -->
                     <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
                         <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
-                            <img src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U=w112-h112-c" alt="Armada Cepat Bau-Bau Pasarwajo" width="56" height="56" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=this.src.replace('=w112-h112-c','')" class="w-full h-full object-cover">
+                            <!-- HAPUS ONERROR, TAMBAHKAN LAZY LOADING -->
+                            <img src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U" alt="Armada Cepat Bau-Bau Pasarwajo" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1 min-w-0">
                             <div class="flex items-center justify-between gap-1 mb-0.5">
@@ -109,9 +110,11 @@ header_remove("X-Powered-By");
                             <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-amber-300">⏱</span> Estimasi 1 - 2 Jam Tiba di Lokasi</p>
                         </div>
                     </div>
+                    
+                    <!-- Glass Card Mobile 2 -->
                     <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
                         <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
-                            <img src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8=w112-h112-c" alt="Kawasan Proyek Buton Unit Ready" width="56" height="56" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=this.src.replace('=w112-h112-c','')" class="w-full h-full object-cover">
+                            <img src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" alt="Kawasan Proyek Buton Unit Ready" width="56" height="56" loading="lazy" decoding="async" class="w-full h-full object-cover">
                         </div>
                         <div class="flex-1 min-w-0">
                             <div class="flex items-center justify-between gap-1 mb-0.5">
@@ -189,7 +192,7 @@ header_remove("X-Powered-By");
             
             <div class="relative w-full rounded-2xl overflow-hidden mb-6 border border-slate-200 shadow-sm">
                 <div class="w-full h-44 sm:h-52">
-                    <img alt="Gudang & Armada Regina Al Barakah" width="400" height="200" loading="lazy" onerror="this.onerror=null;this.src=this.src.replace('=w832-h416-c','')" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U=w832-h416-c">
+                    <img alt="Gudang & Armada Regina Al Barakah" width="400" height="200" loading="lazy" decoding="async" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
                 </div>
                 <div class="absolute bottom-2.5 right-2.5 max-w-[190px] bg-white/95 backdrop-blur-md p-2 rounded-lg border border-slate-200 shadow-md flex items-start gap-1.5 z-10">
                     <div class="w-5 h-5 rounded bg-emerald-50 text-emerald-600 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -292,7 +295,7 @@ header_remove("X-Powered-By");
         </section>
 
         <!-- BEGIN: Mobile Footer -->
-        <footer class="bg-white text-slate-600 border-t border-slate-200 pt-8 pb-24 px-4">
+        <footer class="bg-white text-slate-600 border-t border-slate-200 pt-8 pb-24 px-4" id="kontak-mobile">
             <div class="max-w-md mx-auto space-y-6">
                 <div>
                     <div class="flex items-center gap-2.5 mb-2.5">
@@ -344,24 +347,25 @@ header_remove("X-Powered-By");
                         <span>WHATSAPP KAMI</span>
                     </a>
                 </div>
-
-                <div class="border-t border-slate-100 pt-4 text-[10px] text-slate-500 flex flex-col gap-1 text-center mt-4">
+                
+                <div class="flex justify-between items-center w-full pt-6 border-t border-slate-100 mt-4 text-[10px] text-slate-500 gap-2">
                     <p class="font-medium text-slate-700">© 2026 Regina Al Barakah Group</p>
-                    <p>Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
+                    <p class="text-right">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
                 </div>
             </div>
         </footer>
 
         <!-- Mobile Premium Floating WhatsApp -->
-        <aside class="fixed bottom-4 right-4 z-50">
-            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-xs tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221">
+        <aside class="fixed bottom-6 right-6 z-50">
+            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank">
                 <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
-                <svg class="w-4 h-4 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
                 </svg>
-                <span class="text-xs font-bold tracking-wide z-10 relative">Tanya Sewa Cepat</span>
+                <span class="z-10 relative">Tanya Sewa Cepat</span>
             </a>
         </aside>
+
     </div>
 
     <!-- ============================================================== -->
@@ -370,12 +374,8 @@ header_remove("X-Powered-By");
     <div class="hidden lg:block">
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
-            <!-- Hero Banner Desktop (SAMA PERSIS DENGAN INDEX.PHP UNTUK MENGHINDARI LOMPATAN) -->
             <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
-                <picture class="contents">
-                    <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
-                    <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                </picture>
+                <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30 z-[1]"></div>
 
@@ -395,15 +395,14 @@ header_remove("X-Powered-By");
                         </a>
                         
                         <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
-                            <!-- KOREKSI: Class aktif dipindah ke menu "Home" -->
-                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="index.php">Home</a>
+                            <a class="px-4 py-1.5 rounded-full bg-white/20 text-white font-semibold shadow-sm transition" href="index.php" aria-current="page">Home</a>
                             <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="product.php">Product</a>
                             <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="about.php">About Us</a>
                             <a class="px-4 py-1.5 rounded-full hover:bg-white/20 transition text-slate-200" href="contact.php">Contact</a>
                         </nav>
                         
                         <div class="flex items-center gap-2">
-                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221" target="_blank" aria-label="Konsultasi Sewa">
+                            <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding">
                                 <span>Konsultasi / Sewa</span>
                                 <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
                             </a>
@@ -415,7 +414,7 @@ header_remove("X-Powered-By");
                     <div class="lg:col-span-7 space-y-6">
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm font-display">
                             <span class="w-2 h-2 rounded-full bg-rose-400 animate-ping"></span>
-                            STOK READY 1.000+ SET SNI SIAP ANTAR
+                            ● STOK READY 1.000+ SET SNI SIAP ANTAR
                         </div>
                         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-extrabold text-white tracking-tight leading-[1.12] font-display">
                             Sewa & Jual Scaffolding <br class="hidden sm:inline">
@@ -434,6 +433,7 @@ header_remove("X-Powered-By");
 
                     <div class="lg:col-span-5 relative w-full">
                         <div class="space-y-3 relative">
+                            <!-- Floating Card 1 -->
                             <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
                                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10">
                                     <img alt="Armada Truk Pengiriman" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
@@ -450,7 +450,7 @@ header_remove("X-Powered-By");
                                     </div>
                                 </div>
                             </div>
-
+                            <!-- Floating Card 2 -->
                             <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
                                 <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10">
                                     <img alt="Unit Main Frame Proyek" width="80" height="80" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
@@ -472,51 +472,51 @@ header_remove("X-Powered-By");
                 </div>
 
                 <div class="relative z-10 px-5 sm:px-8 pb-6 pt-3 border-t border-white/10 flex flex-wrap items-center gap-2">
-                    <span class="px-4 py-1.5 rounded-full bg-white/20 text-white text-xs font-medium backdrop-blur-md shadow-sm">Main Frame</span>
-                    <span class="px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-medium backdrop-blur-md shadow-sm">Jack Base</span>
-                    <span class="px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-medium backdrop-blur-md shadow-sm">Catwalk Plat</span>
-                    <span class="px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-medium backdrop-blur-md shadow-sm">Roda Caster</span>
-                    <span class="px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-medium backdrop-blur-md shadow-sm">Aksesoris & Pipa</span>
+                    <a class="px-4 py-1.5 rounded-full bg-white/20 hover:bg-white/30 text-white text-xs font-medium backdrop-blur-md transition" href="#katalog">Main Frame</a>
+                    <a class="px-4 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white text-xs font-medium backdrop-blur-md transition" href="#katalog">Jack Base</a>
+                    <a class="px-4 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white text-xs font-medium backdrop-blur-md transition" href="#katalog">Catwalk Plat</a>
+                    <a class="px-4 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white text-xs font-medium backdrop-blur-md transition" href="#katalog">Roda Caster</a>
+                    <a class="px-4 py-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white text-xs font-medium backdrop-blur-md transition" href="#katalog">Aksesoris & Pipa</a>
                 </div>
             </section>
 
             <!-- Features Desktop -->
             <section class="py-2 mb-16">
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow flex items-start gap-4">
+                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center flex-shrink-0 text-[#E53935] shadow-sm">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E] font-display">7+ Tahun</h2>
-                            <p class="text-xs text-slate-600 mt-1 leading-snug">Pengalaman Proyek Sipil</p>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Pengalaman Proyek Sipil</p>
                         </div>
                     </div>
-                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow flex items-start gap-4">
+                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center flex-shrink-0 text-[#E53935] shadow-sm">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E] font-display">1.000+ Unit</h2>
-                            <p class="text-xs text-slate-600 mt-1 leading-snug">Ready Stock Gudang</p>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Ready Stock Gudang</p>
                         </div>
                     </div>
-                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow flex items-start gap-4">
+                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center flex-shrink-0 text-[#E53935] shadow-sm">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E] font-display">Transparan</h2>
-                            <p class="text-xs text-slate-600 mt-1 leading-snug">Tanpa Biaya Siluman</p>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Tanpa Biaya Siluman</p>
                         </div>
                     </div>
-                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow flex items-start gap-4">
+                    <div class="bg-white rounded-2xl p-5 border border-[#E0E0E0] subtle-shadow hover:border-slate-300 transition-all flex items-start gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 border border-rose-100 flex items-center justify-center flex-shrink-0 text-[#E53935] shadow-sm">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         </div>
                         <div>
                             <h2 class="font-bold text-sm text-[#1E1E1E] font-display">Standar K3</h2>
-                            <p class="text-xs text-slate-600 mt-1 leading-snug">Baja SNI Teruji Aman</p>
+                            <p class="text-xs text-[#757575] mt-1 leading-snug">Baja SNI Teruji Aman</p>
                         </div>
                     </div>
                 </div>
@@ -540,7 +540,7 @@ header_remove("X-Powered-By");
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                     <span class="text-xs font-bold text-[#1E1E1E] font-display">Keamanan Teruji & Terawat</span>
                                 </div>
-                                <p class="text-[11px] text-slate-600 leading-tight">
+                                <p class="text-[11px] text-[#757575] leading-tight">
                                     Inspeksi fisik ketat sebelum material dikirim ke proyek
                                 </p>
                             </div>
@@ -548,7 +548,7 @@ header_remove("X-Powered-By");
                     </div>
                     
                     <div class="lg:col-span-7 flex flex-col divide-y divide-slate-100">
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4">
+                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
                             <div class="flex items-start gap-4 sm:gap-6">
                                 <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">01</span>
                                 <div>
@@ -557,7 +557,7 @@ header_remove("X-Powered-By");
                                 </div>
                             </div>
                         </div>
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4">
+                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
                             <div class="flex items-start gap-4 sm:gap-6">
                                 <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">02</span>
                                 <div>
@@ -566,7 +566,7 @@ header_remove("X-Powered-By");
                                 </div>
                             </div>
                         </div>
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4">
+                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
                             <div class="flex items-start gap-4 sm:gap-6">
                                 <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">03</span>
                                 <div>
@@ -575,72 +575,13 @@ header_remove("X-Powered-By");
                                 </div>
                             </div>
                         </div>
-                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4">
+                        <div class="py-5 sm:py-6 flex items-center justify-between gap-4 group">
                             <div class="flex items-start gap-4 sm:gap-6">
                                 <span class="text-lg sm:text-xl font-bold text-[#5084C4] font-display">04</span>
                                 <div>
                                     <h3 class="text-base sm:text-lg font-bold text-[#1E1E1E] font-display">Pendampingan & Jemput Bongkar</h3>
                                     <p class="text-xs sm:text-sm text-slate-600 mt-1 max-w-md">Setelah proyek tuntas, tim logistik siap jemput material kembali.</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Dark Catalog Cards Section Desktop -->
-            <section class="bg-[#1E1E1E] rounded-[32px] p-6 sm:p-10 lg:p-12 text-white shadow-2xl" id="katalog">
-                <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
-                    <div>
-                        <div class="inline-block px-3.5 py-1 rounded-full bg-white/10 text-white border border-white/10 text-xs font-semibold tracking-wide mb-3 uppercase font-display">Katalog Produk & Komponen</div>
-                        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight text-white font-display">Koleksi Scaffolding Utama</h2>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
-                        <div>
-                            <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Scaffolding Main Frame T170" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1V9gCLSJNAA3R2EejB2XAQL0X7FR4cj0r5kwSGlRpKveUncktc4J7GDwtjBFmOwR5lhHk3OucI8CvxvRrVi5yw-aQ7FhIUOyEOpYqOnXeKcepIeRBhQfi-2yZMB8sF3WA0WKzz2NalakMYCa9mH50cOR0xopt5IE_uVpghs7MTEPgnlvW-Kmup9JVZupxSy5xubGJDr6GLACqmOZ8Zew0NkzqJN4QcoULf6qp_GRDHMizUJZcyzUlkvoyXw">
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap gap-1.5 mb-3">
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30">Frame Utama</span>
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30">Baja SNI</span>
-                                </div>
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-rose-400 transition font-display">Scaffolding Main Frame T170 / T190</h3>
-                                <p class="text-xs text-slate-400 mt-2 leading-relaxed">Pipa baja galvanis presisi, presisi sambungan tinggi untuk stabilitas beban konstruksi bertingkat.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
-                        <div>
-                            <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap gap-1.5 mb-3">
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Platform Kerja</span>
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Anti-Slip</span>
-                                </div>
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-blue-400 transition font-display">Catwalk Plat Pijakan Besi</h3>
-                                <p class="text-xs text-slate-400 mt-2 leading-relaxed">Lantai pijakan baja berlubang perforasi anti selip, dilengkapi pengait kunci aman antar frame.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
-                        <div>
-                            <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Roda Caster Scaffolding Heavy Duty" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VM7yA82kNuE6pGkc22kBGWxihZjwX1KKvVC4lgL-T4NSd35dWNmi5RQN65jl8VuDdXUgnOiInOUO1z33qsr7mDfrBRuuM-FSkksGhSvMtZCO_oP3ofTpCqQgJnn8eX5ybOBuwVEHd4PyWusrzeqJvfXKwL4R8nShRvOCgpkoNYV7M7oaBOICavzkiXPhQjBNHJ_oJc4rESiTNELVBbKezsDWoM-wTRJBjanOK_mWJASdN5GjCPTZ1b79cY">
-                            </div>
-                            <div class="p-5">
-                                <div class="flex flex-wrap gap-1.5 mb-3">
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Aksesoris Mobile</span>
-                                    <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Brake Lock</span>
-                                </div>
-                                <h3 class="text-base sm:text-lg font-bold text-white group-hover:text-emerald-400 transition font-display">Roda Caster 6" & Jack Base Ulir</h3>
-                                <p class="text-xs text-slate-400 mt-2 leading-relaxed">Mobilitas tinggi untuk pengerjaan plafon/dinding serta penyesuaian level elevasi kontur tanah miring.</p>
                             </div>
                         </div>
                     </div>
@@ -754,24 +695,25 @@ header_remove("X-Powered-By");
                     </div>
                 </div>
                 
-                <div class="border-t border-slate-100 pt-4 text-[10px] text-slate-500 flex flex-col gap-1 text-center mt-4">
+                <div class="flex justify-between items-center w-full pt-6 border-t border-slate-100 mt-4 text-[10px] text-slate-500 gap-2">
                     <p class="font-medium text-slate-700">© 2026 Regina Al Barakah Group</p>
-                    <p>Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
+                    <p class="text-right">Layanan Scaffolding Terpercaya di Sulawesi Tenggara</p>
                 </div>
+            </footer>
+            <!-- END: MainFooter Desktop -->
+            
+            <!-- Desktop Premium Floating WhatsApp -->
+            <div class="fixed bottom-6 right-6 z-50">
+                <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank">
+                    <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
+                    <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
+                    </svg>
+                    <span class="z-10 relative">Tanya Sewa Cepat</span>
+                </a>
             </div>
-        </footer>
 
-        <!-- Desktop Premium Floating WhatsApp -->
-        <aside class="fixed bottom-6 right-6 z-50">
-            <a aria-label="Tanya Sewa Cepat" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank">
-                <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
-                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
-                </svg>
-                <span class="z-10 relative">Tanya Sewa Cepat</span>
-            </a>
-        </aside>
-
+        </div>
     </div>
 </body>
 </html>
