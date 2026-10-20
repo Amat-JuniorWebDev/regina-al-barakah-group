@@ -409,7 +409,7 @@ header_remove("X-Powered-By");
             <!-- Hero Banner Desktop -->
             <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
                 <picture class="contents">
-                    <source media="(min-width: 1024px)" srcset="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
+                    <source media="(min-width: 1024px)"src="../assets/image/hero-section.jpg">
                     <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                 </picture>
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
@@ -654,7 +654,7 @@ header_remove("X-Powered-By");
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="../assets/image/catwalk.jpg">
                             </div>
                             <div class="p-5">
                                 <div class="flex flex-wrap gap-1.5 mb-3">
