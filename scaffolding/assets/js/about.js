@@ -1,36 +1,41 @@
-/* ==========================================================================
-   ABOUT SCRIPT - REGINA AL BARAKAH GROUP
-   ========================================================================== */
-
-// 1. INITIALIZE AOS (Animate On Scroll)
-AOS.init({ 
-    duration: 1000, 
-    once: true 
-});
-
-// 2. ELEMENT SELECTORS
-const menuBtn = document.getElementById('menu-btn');
-const mobileMenu = document.getElementById('mobile-menu');
-const mobileLinks = document.querySelectorAll('.mobile-link');
-
-// 3. MOBILE MENU NAVIGATION TOGGLE
-if (menuBtn && mobileMenu) {
-    menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('active');
-        
-        // Ganti icon tombol menu (hamburger / times)
-        if (mobileMenu.classList.contains('active')) {
-            menuBtn.innerHTML = '<i class="fas fa-times"></i>';
-        } else {
-            menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+/* Konfigurasi Tailwind CSS Custom untuk Halaman About (Mobile & Desktop) */
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                brand: {
+                    red: '#E53935',
+                    crimson: '#BE123C',
+                    dark: '#1E1E1E',
+                    card: '#2C2C2C',
+                    surface: '#1A1D20',
+                    accent: '#5084C4',
+                    muted: '#757575',
+                    border: '#E0E0E0'
+                }
+            },
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                display: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+                body: ['Inter', 'sans-serif']
+            },
+            borderRadius: {
+                '3xl': '1.5rem',
+                '4xl': '2rem',
+                '5xl': '2.5rem',
+            }
         }
-    });
+    }
+};
 
-    // Close menu saat link navigasi di klik
-    mobileLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.remove('active');
-            menuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+/* Logic Menu Mobile Hamburger */
+document.addEventListener("DOMContentLoaded", () => {
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
         });
-    });
-}
+    }
+});
