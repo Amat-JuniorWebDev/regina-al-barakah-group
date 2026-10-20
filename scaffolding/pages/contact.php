@@ -6,9 +6,9 @@ header_remove("X-Powered-By");
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0" name="viewport">
-    <title>Kontak Kami — Regina Al Barakah Group</title>
+    <title>Kontak & Lokasi — Regina Al Barakah Group</title>
     
-    <meta content="Hubungi kami untuk konsultasi kebutuhan sewa scaffolding di Bau-Bau dan sekitarnya. Respon cepat, harga transparan, dan pengiriman tepat waktu." name="description">
+    <meta content="Hubungi Regina Al Barakah Group untuk konsultasi dan sewa scaffolding di Bau-Bau, Buton dan sekitarnya. Respon cepat, harga transparan, pengiriman tepat waktu." name="description">
     
     <!-- OPTIMASI PERFORMA: Preconnect -->
     <link rel="preconnect" href="https://cdn.tailwindcss.com">
@@ -19,7 +19,7 @@ header_remove("X-Powered-By");
     <!-- OPTIMASI PERFORMA: Preload gambar hero HANYA untuk desktop -->
     <link rel="preload" as="image" href="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" media="(min-width: 1024px)" fetchpriority="high">
 
-    <!-- Google Fonts dengan strategi Non-Blocking -->
+    <!-- Google Fonts Premium (Non-blocking method) -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
@@ -90,7 +90,7 @@ header_remove("X-Powered-By");
                 
                 <h1 class="text-white font-display font-extrabold text-[32px] leading-[40px] tracking-tight">Hubungi Layanan Persewaan Scaffolding Terpercaya Buton</h1>
                 
-                <p class="text-slate-300 text-[13px] leading-relaxed">Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya. Konsultasikan kebutuhan proyek konstruksi Anda langsung dengan tim spesialis kami.</p>
+                <p class="text-slate-300 text-[13px] leading-relaxed italic border-l-2 border-[#E53935] pl-3">“Pusat Jasa Sewa Scaffolding Bulanan Terbesar Dan Terlengkap Di Wilayah Kabupaten Buton Dan Sekitarnya.”</p>
                 
                 <div class="pt-2 flex flex-col space-y-3">
                     <a class="w-full bg-white text-slate-900 py-3.5 px-6 rounded-full font-bold text-[14px] flex items-center justify-center space-x-2 shadow-md hover:bg-slate-100 active:scale-95 transition-all tracking-wide uppercase font-display" href="#channels">
@@ -99,17 +99,17 @@ header_remove("X-Powered-By");
                     </a>
                 </div>
 
-                <!-- Keunggulan Layanan Cepat (Mobile Grid) -->
+                <!-- Trust Metrics (Mobile) -->
                 <div class="mt-4 p-4 rounded-3xl bg-white/[0.04] backdrop-blur-md border border-white/10 shadow-inner relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
-                    <div class="grid grid-cols-1 gap-3 relative z-10">
+                    <div class="grid grid-cols-2 gap-3 relative z-10">
                         <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
                             <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             </div>
                             <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">24/7 Siaga Proyek</h3>
-                                <p class="text-[11px] text-slate-400 mt-0.5">Layanan darurat teknis</p>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">24/7 Siaga</h3>
+                                <p class="text-[10px] text-slate-400 mt-0.5">Layanan darurat</p>
                             </div>
                         </div>
                         <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
@@ -117,8 +117,8 @@ header_remove("X-Powered-By");
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                             </div>
                             <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">100% Standar SNI</h3>
-                                <p class="text-[11px] text-slate-400 mt-0.5">Pipa baja uji kekuatan</p>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">100% SNI</h3>
+                                <p class="text-[10px] text-slate-400 mt-0.5">Uji kekuatan pipa</p>
                             </div>
                         </div>
                         <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
@@ -126,8 +126,17 @@ header_remove("X-Powered-By");
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
                             </div>
                             <div>
-                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">Armada Mandiri</h3>
-                                <p class="text-[11px] text-slate-400 mt-0.5">Pengiriman tepat waktu</p>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">Armada</h3>
+                                <p class="text-[10px] text-slate-400 mt-0.5">Kirim tepat waktu</p>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-md border border-white/10 p-3.5 rounded-xl flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-xl bg-white/10 text-white flex items-center justify-center shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="font-display font-bold text-white text-[13px] leading-tight">&lt; 15 Menit</h3>
+                                <p class="text-[10px] text-slate-400 mt-0.5">Respon CS cepat</p>
                             </div>
                         </div>
                     </div>
@@ -140,7 +149,7 @@ header_remove("X-Powered-By");
             <div class="grid grid-cols-2 gap-2.5">
                 <div class="bg-white rounded-2xl p-3.5 border border-slate-200 shadow-sm flex flex-col justify-between">
                     <div class="w-9 h-9 rounded-xl bg-[#5084C4]/10 border border-[#5084C4]/20 flex items-center justify-center text-[#5084C4] mb-2.5 shadow-sm">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                     </div>
                     <div>
                         <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Stok > 15.000 Set</span>
@@ -170,7 +179,7 @@ header_remove("X-Powered-By");
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
                     </div>
                     <div>
-                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Konsultasi BOQ Gratis</span>
+                        <span class="block text-[13px] font-extrabold text-slate-900 leading-tight font-display">Konsultasi Gratis</span>
                         <span class="text-[10px] text-slate-500 font-medium">Bantuan hitung kubikasi</span>
                     </div>
                 </div>
@@ -268,24 +277,27 @@ header_remove("X-Powered-By");
         <section class="px-4 py-8 bg-slate-50 border-y border-slate-200" id="form-sewa">
             <div class="max-w-md mx-auto flex flex-col gap-4">
                 <div>
-                    <div class="inline-flex items-center gap-1.5 bg-white text-[#5084C4] border border-slate-200 px-3 py-1 rounded-full font-bold text-[10px] uppercase tracking-wider mb-2 shadow-sm font-display">Konsultasi Sewa & Pemesanan</div>
+                    <div class="inline-flex items-center gap-1.5 bg-white text-[#5084C4] border border-slate-200 px-3 py-1 rounded-full font-bold text-[10px] uppercase tracking-wider mb-2 shadow-sm font-display">
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        <span class="">Konsultasi Sewa & Pemesanan</span>
+                    </div>
                     <h2 class="font-display text-xl font-extrabold text-slate-900 tracking-tight">Formulir Konsultasi Sewa Scaffolding</h2>
                     <p class="text-xs text-slate-500 mt-1.5 leading-relaxed">Kirimkan spesifikasi proyek Anda. Tim teknis kami akan membantu menyusun rincian kebutuhan sewa secara gratis.</p>
                 </div>
                 
                 <div class="bg-white rounded-xl p-3 border border-slate-200 flex items-center justify-between text-center shadow-sm">
                     <div class="flex flex-col items-center flex-1">
-                        <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white text-[10px] font-bold flex items-center justify-center mb-1">1</span>
-                        <span class="text-[10px] font-semibold text-slate-900 leading-tight">Isi Rincian Proyek</span>
+                        <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white text-[10px] font-bold flex items-center justify-center mb-1 font-display">1</span>
+                        <span class="text-[10px] font-semibold text-slate-900 leading-tight">Isi Rincian</span>
                     </div>
                     <span class="text-slate-300 text-xs">→</span>
                     <div class="flex flex-col items-center flex-1">
-                        <span class="w-5 h-5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold flex items-center justify-center mb-1">2</span>
-                        <span class="text-[10px] font-semibold text-slate-500 leading-tight">Terima Estimasi WA</span>
+                        <span class="w-5 h-5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold flex items-center justify-center mb-1 font-display">2</span>
+                        <span class="text-[10px] font-semibold text-slate-500 leading-tight">Estimasi WA</span>
                     </div>
                     <span class="text-slate-300 text-xs">→</span>
                     <div class="flex flex-col items-center flex-1">
-                        <span class="w-5 h-5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold flex items-center justify-center mb-1">3</span>
+                        <span class="w-5 h-5 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold flex items-center justify-center mb-1 font-display">3</span>
                         <span class="text-[10px] font-semibold text-slate-500 leading-tight">Kirim Armada</span>
                     </div>
                 </div>
@@ -318,8 +330,12 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
                     <div>
+                        <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Lokasi Titik Antar Proyek *</label>
+                        <input class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Kecamatan / Desa, Kota Bau-Bau..." required="" type="text">
+                    </div>
+                    <div>
                         <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Kebutuhan Komponen Modul</label>
-                        <textarea class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame 1.7m, Catwalk, U-Head, dsb..." rows="3"></textarea>
+                        <textarea class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame, Catwalk, dsb..." rows="3"></textarea>
                     </div>
                     <button class="w-full bg-[#1E1E1E] text-white font-display text-[13px] font-bold py-3.5 rounded-full text-center flex items-center justify-center gap-2 hover:bg-slate-800 active:scale-95 transition-all shadow-md mt-1" type="submit">
                         <span class="">Kirim Konsultasi Sewa</span>
@@ -329,7 +345,7 @@ header_remove("X-Powered-By");
             </div>
         </section>
 
-        <!-- Area Operasional (Mobile) - Menggunakan Ikon SVG Premium Pin Lokasi & Truk -->
+        <!-- Area Operasional (Mobile) -->
         <section class="bg-[#1E1E1E] text-white py-8 px-4 max-w-md mx-auto rounded-3xl mt-8 mb-8 relative overflow-hidden shadow-2xl">
             <div class="absolute -right-20 -bottom-20 w-64 h-64 rounded-full bg-[#5084C4]/20 blur-3xl pointer-events-none"></div>
             
@@ -357,9 +373,9 @@ header_remove("X-Powered-By");
                             <div class="text-[11px] text-slate-300">Konsultasi cepat via WhatsApp</div>
                         </div>
                     </div>
-                    <a class="w-full bg-white hover:bg-slate-100 text-slate-900 font-bold py-3 rounded-full text-[13px] flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
-                        <span>Hubungi Hotline 0821-8825-3433</span>
-                        <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    <a class="w-full bg-[#059669] hover:bg-emerald-500 text-white font-bold py-3 rounded-full text-[13px] flex items-center justify-center gap-2 transition-transform active:scale-95 font-display shadow-lg" href="tel:081242207221">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        <span class="">Hotline: 0812-4220-7221</span>
                     </a>
                 </div>
             </div>
@@ -444,7 +460,7 @@ header_remove("X-Powered-By");
     <div class="hidden lg:block">
         <div class="max-w-[1360px] mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 space-y-6">
             
-            <!-- Hero Banner Desktop (Dark Aesthetic Identik dengan Laman Lain) -->
+            <!-- Hero Banner Desktop -->
             <section class="relative overflow-hidden rounded-[32px] bg-[#0A0F1C] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl border border-white/5" id="hero">
                 <div class="absolute inset-0 z-0 pointer-events-none">
                     <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="w-full h-full object-cover object-center opacity-30 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8">
@@ -574,12 +590,12 @@ header_remove("X-Powered-By");
                         </div>
                         
                         <div class="relative w-full h-[380px] md:h-[400px] rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
-                            <!-- Peta -->
+                            <!-- Peta (Lazy Loaded) -->
                             <iframe class="w-full h-full border-0 filter contrast-[1.05]" loading="lazy" src="https://maps.google.com/maps?q=Jl.+Pahlawan+Blk.+A+No.+11,+BTN+Medy+Brata,+Wolio,+Bau-Bau+93711&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Peta Lokasi Workshop Scaffolding Bau-Bau"></iframe>
                             
                             <div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-5 py-3 rounded-2xl shadow-lg border border-slate-200 flex items-center gap-3">
                                 <div class="w-10 h-10 rounded-full bg-[#E53935] flex items-center justify-center text-white">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                                 </div>
                                 <div>
                                     <p class="text-[13px] font-bold text-slate-900 font-display">Regina Al Barakah Yard</p>
@@ -592,7 +608,7 @@ header_remove("X-Powered-By");
                             <svg class="w-6 h-6 text-[#5084C4] mt-0.5 shrink-0" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
                             <div>
                                 <p class="text-sm font-bold text-slate-900 font-display">Alamat Lengkap Depot Logistik</p>
-                                <p class="text-[13px] text-slate-600 mt-1 leading-relaxed">Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711 (<a href="https://share.google/IsgymSdhtia7GD1qG" target="_blank" class="text-[#5084C4] hover:underline font-bold inline-flex items-center gap-1">Buka Peta ↗</a>)</p>
+                                <p class="text-[13px] text-slate-600 mt-1 leading-relaxed">Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711 (<a href="https://share.google/IsgymSdhtia7GD1qG" target="_blank" class="text-[#5084C4] hover:underline font-bold inline-flex items-center gap-1" rel="noopener noreferrer">Buka Peta ↗</a>)</p>
                             </div>
                         </div>
                     </div>
@@ -604,7 +620,7 @@ header_remove("X-Powered-By");
                             <div class="flex items-center justify-between mb-6">
                                 <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3 font-display">
                                     <span class="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center">
-                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
                                     </span>
                                     <span class="">WhatsApp Customer Service</span>
                                 </h3>
@@ -776,6 +792,73 @@ header_remove("X-Powered-By");
                                 Data Anda aman dan hanya digunakan untuk keperluan konsultasi internal.
                             </p>
                         </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Area Operasional & Jangkauan Desktop (Ikon Premium SVG) -->
+            <section class="bg-[#1E1E1E] rounded-3xl p-8 md:p-14 text-white shadow-2xl border border-white/10 relative overflow-hidden mb-24" id="coverage">
+                <div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full bg-[#5084C4]/20 blur-3xl pointer-events-none"></div>
+                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-7 space-y-6">
+                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15">
+                            <svg class="w-4 h-4 text-[#5084C4]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <span class="text-[12px] font-bold uppercase text-white font-display">JANGKAUAN LOGISTIK</span>
+                        </div>
+                        <h2 class="text-3xl lg:text-4xl font-extrabold text-white tracking-tight font-display">
+                            Wilayah Operasional Regina Al Barakah Group
+                        </h2>
+                        <p class="text-[15px] text-slate-300 max-w-xl leading-relaxed">
+                            Kami siap memobilisasi peralatan perancah ke berbagai lokasi proyek strategis di seluruh penjuru Sulawesi Tenggara dengan jangkauan pengiriman prima.
+                        </p>
+                        
+                        <div class="flex flex-wrap gap-2.5 pt-2">
+                            <!-- Opsi SVG Elegan dengan Ikon Pin dan Truk -->
+                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                Kota Bau-Bau
+                            </span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                Kab. Buton (Pasarwajo)
+                            </span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                Buton Selatan (Batauga)
+                            </span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                Buton Tengah (Labungkari)
+                            </span>
+                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                Kab. Muna & Raha
+                            </span>
+                            <span class="px-4 py-2 rounded-full bg-[#5084C4]/40 border border-[#5084C4] text-[14px] font-semibold text-[#a3c9ff] flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg>
+                                Seluruh Sulawesi Tenggara
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="lg:col-span-5 bg-[#2C2C2C] border border-white/10 rounded-2xl p-6 shadow-xl space-y-5">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-xl bg-[#5084C4] flex items-center justify-center text-white">
+                                <!-- Location Tick SVG seperti screenshot referensi -->
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-white font-display">Mulai Sewa Hari Ini</h3>
+                                <p class="text-[13px] text-slate-400">Konsultasi cepat via WhatsApp</p>
+                            </div>
+                        </div>
+                        <p class="text-[14px] text-slate-300 leading-relaxed">
+                            Dapatkan perhitungan volume set scaffolding dan surat penawaran harga resmi (SPH) untuk kebutuhan tender atau proyek swasta Anda.
+                        </p>
+                        <a class="w-full flex items-center justify-center gap-2 bg-white text-slate-900 py-3.5 px-6 rounded-full text-[15px] font-bold hover:bg-slate-100 hover:shadow-lg active:scale-95 transition-all duration-150 font-display" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
+                            <span class="">Hubungi Hotline 0821-8825-3433</span>
+                            <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        </a>
                     </div>
                 </div>
             </section>
