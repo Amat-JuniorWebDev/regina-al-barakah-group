@@ -569,7 +569,7 @@ header_remove("X-Powered-By");
                             Kami mudahkan manajemen perancah agar proyek Anda berjalan aman tepat waktu.
                         </p>
                         <div class="relative rounded-2xl overflow-hidden shadow-lg mt-4 group">
-                            <img alt="Gudang Operasional Scaffolding" width="600" height="400" loading="lazy" decoding="async" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U">
+                            <img alt="Gudang Operasional Scaffolding" width="600" height="400" loading="lazy" decoding="async" class="w-full h-64 sm:h-72 object-cover group-hover:scale-105 transition duration-500"  src="../assets/image/kantor.jpg">
                             <div class="absolute bottom-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl shadow-xl max-w-[210px] border border-slate-100">
                                 <div class="flex items-center gap-2 text-emerald-600 mb-1">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
