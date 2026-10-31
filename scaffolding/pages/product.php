@@ -661,7 +661,7 @@ header_remove("X-Powered-By");
                     <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#E53935]/40 transition-all duration-300 flex flex-col" data-category="Frame Utama" data-desc="Main frame scaffolding dengan tinggi 170cm. Komponen utama penahan beban yang sangat kokoh standar industri." data-img="../assets/image/mf17.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#E53935] border border-[#E53935]/20 shadow-sm font-display">Frame Utama</span>
-                            <img alt="Scaffolding T170" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500"  src="../assets/image/mf17.jpg">
+                            <img alt="Scaffolding T170" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/mf17.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#E53935] transition-colors font-display">Scaffolding T170</h3>
@@ -676,10 +676,10 @@ header_remove("X-Powered-By");
                     </article>
 
                     <!-- 2. Aksesoris Kaki -->
-                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Kaki" data-desc="Dudukan kaki scaffolding ukuran 60cm yang dapat diatur ketinggiannya untuk meratakan posisi pada lantai miring." data-img="../assets/image/jb60.jpg"
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Kaki" data-desc="Dudukan kaki scaffolding ukuran 60cm yang dapat diatur ketinggiannya untuk meratakan posisi pada lantai miring." data-img="../assets/image/jb60.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#5084C4] border border-[#5084C4]/20 shadow-sm font-display">Aksesoris Kaki</span>
-                            <img alt="Jack Base T60" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/jb60.jpg"
+                            <img alt="Jack Base T60" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/jb60.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#5084C4] transition-colors font-display">Jack Base T60</h3>
@@ -694,10 +694,10 @@ header_remove("X-Powered-By");
                     </article>
 
                     <!-- 3. Platform -->
-                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-blue-500/40 transition-all duration-300 flex flex-col" data-category="Platform" data-desc="Lantai pijakan besi anti-slip yang dipasang pada frame sebagai tempat berdiri pekerja dengan aman di area ketinggian." data-img="../assets/image/catwalk.jpg"
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-blue-500/40 transition-all duration-300 flex flex-col" data-category="Platform" data-desc="Lantai pijakan besi anti-slip yang dipasang pada frame sebagai tempat berdiri pekerja dengan aman di area ketinggian." data-img="../assets/image/catwalk.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-blue-600 border border-blue-500/20 shadow-sm font-display">Platform</span>
-                            <img alt="Catwalk Plat" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/catwalk.jpg"
+                            <img alt="Catwalk Plat" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/catwalk.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors font-display">Catwalk Plat Besi</h3>
@@ -712,10 +712,10 @@ header_remove("X-Powered-By");
                     </article>
 
                     <!-- 4. Roda -->
-                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Mobilisasi" data-desc="Roda berbahan nylon berukuran 6 inci yang dilengkapi pengunci untuk mempermudah pemindahan rangkaian scaffolding." data-img="../assets/image/roda6.jpg"
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Mobilisasi" data-desc="Roda berbahan nylon berukuran 6 inci yang dilengkapi pengunci untuk mempermudah pemindahan rangkaian scaffolding." data-img="../assets/image/roda6.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-emerald-600 border border-emerald-500/20 shadow-sm font-display">Aksesoris Mobilisasi</span>
-                            <img alt="Roda Nylon 6 Inch" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/roda6.jpg"
+                            <img alt="Roda Nylon 6 Inch" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/roda6.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition-colors font-display">Roda Nylon 6 Inch</h3>
@@ -730,10 +730,10 @@ header_remove("X-Powered-By");
                     </article>
 
                     <!-- 5. Ladder Frame -->
-                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Frame Tambahan" data-desc="Frame tambahan setinggi 90cm yang berfungsi sebagai tangga akses vertikal naik turun bagi para pekerja." data-img="../assets/image/ts90.jpg"
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Frame Tambahan" data-desc="Frame tambahan setinggi 90cm yang berfungsi sebagai tangga akses vertikal naik turun bagi para pekerja." data-img="../assets/image/lf90.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#5084C4] border border-[#5084C4]/20 shadow-sm font-display">Frame Tambahan</span>
-                            <img alt="Ladder Frame T90" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/ts90.jpg"
+                            <img alt="Ladder Frame T90" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/lf90.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#5084C4] transition-colors font-display">Ladder Frame T90</h3>
@@ -748,10 +748,10 @@ header_remove("X-Powered-By");
                     </article>
 
                     <!-- 6. U-Head -->
-                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#E53935]/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Atas" data-desc="Penyangga bagian atas ukuran 60cm berbentuk U untuk menahan gelagar balok kayu atau hollow pada cetakan beton." data-img="../assets/image/uh.jpg"
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#E53935]/40 transition-all duration-300 flex flex-col" data-category="Aksesoris Atas" data-desc="Penyangga bagian atas ukuran 60cm berbentuk U untuk menahan gelagar balok kayu atau hollow pada cetakan beton." data-img="../assets/image/uh.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#E53935] border border-[#E53935]/20 shadow-sm font-display">Aksesoris Atas</span>
-                            <img alt="U-Head T60" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/uh60.jpg"
+                            <img alt="U-Head T60" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/uh60.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#E53935] transition-colors font-display">U-Head T60</h3>
@@ -766,10 +766,10 @@ header_remove("X-Powered-By");
                     </article>
 
                     <!-- 7. Pipe Support -->
-                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Penyangga Tunggal" data-desc="Tiang penyangga tunggal besi (shoring pipe) yang dapat disetel tinggi-rendahnya untuk menyokong bekisting atau dak lantai." data-img="../assets/image/ts90.jpg"
+                    <article class="product-card-desktop group bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#5084C4]/40 transition-all duration-300 flex flex-col" data-category="Penyangga Tunggal" data-desc="Tiang penyangga tunggal besi (shoring pipe) yang dapat disetel tinggi-rendahnya untuk menyokong bekisting atau dak lantai." data-img="../assets/image/ts90.jpg">
                         <div class="relative bg-[#F8F9FB] aspect-[4/3] flex items-center justify-center overflow-hidden p-6 border-b border-slate-100">
                             <span class="absolute top-4 left-4 z-10 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-white/90 backdrop-blur-md text-[#5084C4] border border-[#5084C4]/20 shadow-sm font-display">Penyangga Tunggal</span>
-                            <img alt="Pipe Support Ts-90" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/ts90.jpg"
+                            <img alt="Pipe Support Ts-90" width="300" height="200" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition-transform duration-500" src="../assets/image/ts90.jpg">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
                             <h3 class="text-lg font-bold text-slate-900 group-hover:text-[#5084C4] transition-colors font-display">Pipe Support Ts-90</h3>
@@ -783,7 +783,6 @@ header_remove("X-Powered-By");
                         </div>
                     </article>
                 </div>
-            </section>
 
             <!-- FAQ Desktop Section -->
             <section class="bg-white rounded-[32px] p-6 sm:p-10 lg:p-12 border border-[#E0E0E0] subtle-shadow max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 mb-24" id="faq">
