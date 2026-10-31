@@ -254,10 +254,10 @@ header_remove("X-Powered-By");
                         </div>
                         <div class="flex flex-wrap gap-1.5 mb-2">
                             <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30">Frame Utama</span>
+                            <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30">Baja SNI</span>
                         </div>
-                        <h3 class="text-sm font-bold text-white mb-1 font-display">Scaffolding Main Frame T170</h3>
+                        <h3 class="text-sm font-bold text-white mb-1 font-display">Scaffolding Main Frame T170 / T190</h3>
                         <p class="text-[11px] text-slate-300 leading-normal mb-3">Pipa baja galvanis presisi, presisi sambungan tinggi untuk stabilitas beban konstruksi bertingkat.</p>
-                        <a class="w-full py-2.5 px-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors border border-white/10 font-display" href="product.php" aria-label="Lihat Selengkapnya Produk Utama">Selengkapnya ↗</a>
                     </div>
                     <!-- Produk 2 -->
                     <div class="bg-white/[0.05] border border-white/10 rounded-2xl p-3.5">
@@ -266,10 +266,22 @@ header_remove("X-Powered-By");
                         </div>
                         <div class="flex flex-wrap gap-1.5 mb-2">
                             <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Platform Kerja</span>
+                            <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-blue-500/20 text-blue-300 border border-blue-500/30">Anti-Slip</span>
                         </div>
                         <h3 class="text-sm font-bold text-white mb-1 font-display">Catwalk Plat Pijakan Besi</h3>
                         <p class="text-[11px] text-slate-300 leading-normal mb-3">Lantai pijakan baja berlubang perforasi anti selip, dilengkapi pengait kunci aman antar frame.</p>
-                        <a class="w-full py-2.5 px-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-xs flex items-center justify-center gap-1.5 transition-colors border border-white/10 font-display" href="product.php" aria-label="Lihat Selengkapnya Catwalk">Selengkapnya ↗</a>
+                    </div>
+                    <!-- Produk 3 -->
+                    <div class="bg-white/[0.05] border border-white/10 rounded-2xl p-3.5">
+                        <div class="w-full h-44 rounded-xl overflow-hidden bg-white mb-3 flex items-center justify-center p-2">
+                            <img alt="Roda Caster Scaffolding Heavy Duty" width="300" height="200" loading="lazy" decoding="async" class="w-full h-full object-contain" src="../assets/image/roda6.jpg">
+                        </div>
+                        <div class="flex flex-wrap gap-1.5 mb-2">
+                            <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Aksesoris Mobile</span>
+                            <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Brake Lock</span>
+                        </div>
+                        <h3 class="text-sm font-bold text-white mb-1 font-display">Roda Caster 6" & Jack Base Ulir</h3>
+                        <p class="text-[11px] text-slate-300 leading-normal mb-3">Mobilitas tinggi untuk pengerjaan plafon/dinding serta penyesuaian level elevasi kontur tanah miring.</p>
                     </div>
                 </div>
             </div>
@@ -340,8 +352,9 @@ header_remove("X-Powered-By");
                         <a href="#" aria-label="Ikuti kami di TikTok" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98v7.92a7.61 7.61 0 01-3.69 6.55 7.63 7.63 0 01-8.79-.82A7.58 7.58 0 012.3 14.5a7.63 7.63 0 018.25-7.59v4.06c-1.89-.37-3.92.51-4.7 2.22a3.67 3.67 0 001.37 4.54c1.47 1.05 3.59.88 4.88-.38.45-.44.73-1.02.73-1.64V.02h-.31z"></path></svg>
                         </a>
-                        <a href="#" aria-label="Ikuti kami di Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
-                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 2.163c-3.15 0-3.526.012-4.767.068-2.316.106-3.418 1.218-3.524 3.524-.056 1.241-.068 1.617-.068 4.767 0 3.15.012 3.526.068 4.768.106 2.305 1.208 3.417 3.524 3.523 1.241.056 1.617.069 4.767.069 3.15 0 3.526-.013 4.768-.069 2.316-.106 3.418-1.218 3.524-3.523.056-1.242.068-1.618.068-4.768-.068zm0 4.148a5.526 5.526 0 100 11.052 5.526 5.526 0 000-11.052zm0 8.889a3.363 3.363 0 110-6.726 3.363 3.363 0 010 6.726zm5.226-9.068a1.44 1.44 0 10-2.88 0 1.44 1.44 0 002.88 0z"></path></svg>
+                        <!-- IKON INSTAGRAM DIPERBAIKI -->
+                        <a aria-label="Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
+                            <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/instagram/mono.svg" alt="Instagram" class="w-4 h-4 opacity-70" />
                         </a>
                         <a href="#" aria-label="Tonton video kami di YouTube" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
@@ -420,7 +433,7 @@ header_remove("X-Powered-By");
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
