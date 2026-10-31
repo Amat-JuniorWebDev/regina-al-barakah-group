@@ -651,7 +651,7 @@ header_remove("X-Powered-By");
                     <div class="bg-[#2C2C2C] rounded-2xl overflow-hidden border border-white/10 flex flex-col justify-between group">
                         <div>
                             <div class="relative h-60 sm:h-64 bg-white/5 p-4 flex items-center justify-center overflow-hidden border-b border-white/10">
-                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1XvQUGeV6onxd5LI8gkQyvmwA4ihmJ-MVewvIhTQJoDXHuVOsRUWrQjhFWcraPfjMMVlTBl3QnD4PFEi9w2_yMb_RtLrQv52k-0W-OkLXq0bDe-ZJIxvcN1AVIxAvQs9G57UDYH9uPRa0nnhDPJnSu_qJuTU-NgtD6VSVbWAVyZBCHMUV2339zbZNi6e29hEYeScPUwGZ5-GA1x9dtViO4e3L-zOHP99JqiNQwQP4OKqbdoAKl9efaOirU">
+                                <img alt="Catwalk Plat Pijakan Besi" width="400" height="300" loading="lazy" decoding="async" class="max-h-full w-auto object-contain group-hover:scale-105 transition duration-500" src="../assets/image/catwalk.jpg">
                             </div>
                             <div class="p-5">
                                 <div class="flex flex-wrap gap-1.5 mb-3">
