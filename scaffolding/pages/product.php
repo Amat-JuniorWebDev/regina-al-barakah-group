@@ -99,42 +99,34 @@ header_remove("X-Powered-By");
                             <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
                                 <img src="https://lh3.googleusercontent.com/aida/AEtjO1WyxhuY4dW_dy6Ur74s_eFGTLeiPpHhwR1YkP80R1Vp7wSHz6XwpnYStqGo2Qvkt2BFTumtMZPiKYWBXlKP7FK98W9OTTdkhBevnZgRwWBtBRfOhEh_CPpyLDVVvu5imXBhovvBdxNG2qevj86-NuG-AH8Kc9FcWh-ao2tU79iv9_RKey-SjC4w7i0XFMPisDRJxi9ZU0f8oGR5rfdgQyWfoPJ9rgdLUsMkJRGJph_0KFV3nJp4_Kie8_U" alt="Armada Cepat Bau-Bau Pasarwajo" width="56" height="56" fetchpriority="high" class="w-full h-full object-cover">
                             </div>
-                            <!-- Glass Card Mobile 1 -->
-                    <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
-                        <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10 flex items-center justify-center bg-blue-500/20 text-[#5084C4]">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <div class="flex items-center justify-between gap-1 mb-0.5">
-                                <div class="flex items-center gap-1 text-white text-[12px] font-bold tracking-tight font-display">
-                                    <span class="truncate">Bau-Bau</span><span class="text-rose-300">➔</span><span class="truncate">Pasarwajo</span>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-1 mb-0.5">
+                                    <div class="flex items-center gap-1 text-white text-[12px] font-bold tracking-tight font-display">
+                                        <span class="truncate">Bau-Bau</span><span class="text-rose-300">➔</span><span class="truncate">Pasarwajo</span>
+                                    </div>
+                                    <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30 flex-shrink-0">Armada Cepat</span>
                                 </div>
-                                <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30 flex-shrink-0">Armada Cepat</span>
+                                <p class="text-slate-200 text-[11px] font-medium leading-tight">Pengiriman Cepat Armada Mandiri</p>
+                                <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-amber-300">⏱</span> Estimasi 1 - 2 Jam Tiba di Lokasi</p>
                             </div>
-                            <p class="text-slate-200 text-[11px] font-medium leading-tight">Pengiriman Cepat Armada Mandiri</p>
-                            <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-amber-300">⏱</span> Estimasi 1 - 2 Jam Tiba di Lokasi</p>
                         </div>
-                    </div>
-                    
-                    <!-- Glass Card Mobile 2 -->
-                    <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
-                        <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10 flex items-center justify-center bg-emerald-500/20 text-emerald-400">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <div class="flex items-center justify-between gap-1 mb-0.5">
-                                <div class="flex items-center gap-1 text-white text-[12px] font-bold tracking-tight font-display">
-                                    <span class="truncate">Kawasan Proyek Buton</span>
+                        <div class="p-3 rounded-2xl bg-white/[0.05] border border-white/10 flex items-center gap-3">
+                            <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10">
+                                <img src="https://lh3.googleusercontent.com/aida/AEtjO1XLL7JA-z61-OMS0T38Ms4PhXgPZLxn5FB58SFcp_C0AG6DxWcVrm8jQDUYB3MB8UPsi975FFblDLhjAaOuTdJ-nDi5nCAXX2ktHhVd5VUNi9HCRbWO0z1mOdvWMB2LsKUN9gw8ErI2jLfFbsg2FGeUlrHUtZuohQKwqc9CrqBxZWwEOZ6qjBINXlFP79jcyZs6XyGFPGG_jjeUR_5MhEv8JhMyP_kCYa0VFuo2NbWycKi_V-pLmlarAc8" alt="Kawasan Proyek Buton Unit Ready" width="56" height="56" fetchpriority="high" class="w-full h-full object-cover">
+                            </div>
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center justify-between gap-1 mb-0.5">
+                                    <div class="flex items-center gap-1 text-white text-[12px] font-bold tracking-tight font-display">
+                                        <span class="truncate">Kawasan Proyek Buton</span>
+                                    </div>
+                                    <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex-shrink-0">SNI Ready</span>
                                 </div>
-                                <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex-shrink-0">SNI Ready</span>
+                                <p class="text-slate-200 text-[11px] font-medium leading-tight">Unit Ready 1.000+ Set Lengkap</p>
+                                <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-emerald-400">✔</span> Layanan Bongkar Pasang Ahli</p>
                             </div>
-                            <p class="text-slate-200 text-[11px] font-medium leading-tight">Unit Ready 1.000+ Set Lengkap</p>
-                            <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-emerald-400">✔</span> Layanan Bongkar Pasang Ahli</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
                 
                 <div class="pt-1">
                     <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 w-full">
