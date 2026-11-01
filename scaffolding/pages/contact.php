@@ -420,10 +420,10 @@ header_remove("X-Powered-By");
                                     <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path>
                                 </svg>
                             </div>
-                            <div class="flex flex-col">
-                            <span class="text-white text-[13px] tracking-tight leading-none font-bold font-display">REGINA AL BARAKAH</span>
-                            <span class="text-slate-300 text-[9px] tracking-wider uppercase leading-tight mt-1 font-sans">SCAFFOLDING & KONSTRUKSI</span>
-                        </div>
+                            <div>
+                                <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
+                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                            </div>
                         </a>
                         
                         <nav class="hidden lg:flex items-center glass-nav px-5 py-2 rounded-full text-xs xl:text-sm font-medium text-slate-100 space-x-1 shadow-inner font-display">
@@ -471,38 +471,32 @@ header_remove("X-Powered-By");
                     <!-- Trust Point Spec Card (Right) IDENTIK DENGAN ABOUT.PHP & PRODUCT.PHP -->
                     <div class="lg:col-span-5 relative w-full mt-auto"> <!-- DIPERBAIKI: Tambah mt-auto -->
                         <div class="space-y-3 relative">
-                           <!-- Glass Card Mobile 1 -->
-                    <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
-                        <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10 flex items-center justify-center bg-blue-500/20 text-[#5084C4]">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <div class="flex items-center justify-between gap-1 mb-0.5">
-                                <div class="flex items-center gap-1 text-white text-[12px] font-bold tracking-tight font-display">
-                                    <span class="truncate">Bau-Bau</span><span class="text-rose-300">➔</span><span class="truncate">Pasarwajo</span>
+                            <!-- Floating Card 1 -->
+                            <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
+                                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-blue-500/20 text-[#5084C4]">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                 </div>
-                                <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-[#E53935]/20 text-rose-300 border border-[#E53935]/30 flex-shrink-0">Armada Cepat</span>
-                            </div>
-                            <p class="text-slate-200 text-[11px] font-medium leading-tight">Pengiriman Cepat Armada Mandiri</p>
-                            <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-amber-300">⏱</span> Estimasi 1 - 2 Jam Tiba di Lokasi</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Glass Card Mobile 2 -->
-                    <div class="p-3 rounded-2xl bg-white/[0.08] border border-white/15 backdrop-blur-md flex items-center gap-3">
-                        <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10 flex items-center justify-center bg-emerald-500/20 text-emerald-400">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                        </div>
-                        <div class="flex-1 min-w-0">
-                            <div class="flex items-center justify-between gap-1 mb-0.5">
-                                <div class="flex items-center gap-1 text-white text-[12px] font-bold tracking-tight font-display">
-                                    <span class="truncate">Kawasan Proyek Buton</span>
+                                <div class="flex-1 min-w-0">
+                                    <div class="flex items-center justify-between">
+                                        <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">24/7 Siaga Proyek</h2>
+                                        <span class="text-[11px] font-semibold bg-[#E53935]/20 text-rose-300 px-2 py-0.5 rounded-md border border-[#E53935]/30">Fast Response</span>
+                                    </div>
+                                    <p class="text-xs text-slate-300 mt-0.5">Layanan darurat teknis dan keluhan</p>
                                 </div>
-                                <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 flex-shrink-0">SNI Ready</span>
                             </div>
-                            <p class="text-slate-200 text-[11px] font-medium leading-tight">Unit Ready 1.000+ Set Lengkap</p>
-                            <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-emerald-400">✔</span> Layanan Bongkar Pasang Ahli</p>
-                        </div>
+                            
+                            <!-- Floating Card 2 -->
+                            <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
+                                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-emerald-500/20 text-emerald-400">
+                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                                </div>
+                                <div class="flex-1 min-w-0">
+                                    <div class="flex items-center justify-between">
+                                        <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">100% Standar SNI</h2>
+                                        <span class="text-[11px] font-semibold bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-500/30">Uji Kuat Pipa</span>
+                                    </div>
+                                    <p class="text-xs text-slate-300 mt-0.5">Semua material lolos seleksi kelayakan</p>
+                                </div>
                             </div>
                         </div>
                     </div>
