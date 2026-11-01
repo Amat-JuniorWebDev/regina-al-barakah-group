@@ -38,7 +38,7 @@ header_remove("X-Powered-By");
     <!-- ============================================================== -->
     <div class="block lg:hidden">
         
-        <!-- Header & Hamburger Menu Mobile (IDENTIK DENGAN INDEX.PHP & PRODUCT.PHP) -->
+        <!-- Header & Hamburger Menu Mobile -->
         <section class="pt-24 pb-8 px-4 bg-[#1E1E1E] text-white relative rounded-b-[2rem] overflow-hidden max-w-md mx-auto border-x border-b border-slate-800 shadow-2xl">
             <div class="absolute -top-10 -right-10 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
             <div class="absolute bottom-0 -left-12 w-48 h-48 bg-[#db322f]/15 rounded-full blur-3xl pointer-events-none"></div>
@@ -324,42 +324,6 @@ header_remove("X-Powered-By");
             </div>
         </section>
 
-        <!-- Area Operasional (Mobile) -->
-        <section class="bg-[#1E1E1E] text-white py-8 px-4 max-w-md mx-auto rounded-3xl mt-8 mb-8 relative overflow-hidden shadow-2xl" id="coverage">
-            <div class="absolute -right-20 -bottom-20 w-64 h-64 rounded-full bg-[#5084C4]/20 blur-3xl pointer-events-none"></div>
-            
-            <div class="relative z-10">
-                <span class="inline-block px-3 py-1 rounded-full text-[9px] font-bold uppercase tracking-wider bg-white/10 border border-white/20 text-[#5084C4] mb-3 font-display">JANGKAUAN LOGISTIK</span>
-                <h2 class="text-xl font-extrabold text-white font-display leading-tight mb-2">Wilayah Operasional Regina Al Barakah</h2>
-                <p class="text-[12px] text-slate-300 mb-5">Kami siap memobilisasi peralatan perancah ke berbagai lokasi proyek strategis di seluruh Sultra.</p>
-                
-                <div class="flex flex-wrap gap-2 mb-6">
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kota Bau-Bau</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kab. Buton</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Buton Selatan</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Buton Tengah</span>
-                    <span class="px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>Kab. Muna</span>
-                    <span class="px-3 py-1.5 rounded-full bg-[#5084C4]/40 border border-[#5084C4] text-[#a3c9ff] text-[11px] font-medium flex items-center gap-1.5"><svg class="w-3.5 h-3.5 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg>Seluruh Sulawesi Tenggara</span>
-                </div>
-                
-                <div class="bg-white/5 border border-white/10 p-4 rounded-2xl backdrop-blur-md">
-                    <div class="flex items-center gap-3 mb-3">
-                        <div class="w-10 h-10 rounded-xl bg-[#5084C4] flex items-center justify-center text-white shrink-0 shadow-sm">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-                        </div>
-                        <div>
-                            <div class="font-display text-[14px] font-bold text-white">Mulai Sewa Hari Ini</div>
-                            <div class="text-[11px] text-slate-300">Konsultasi cepat via WhatsApp</div>
-                        </div>
-                    </div>
-                    <a class="w-full bg-white hover:bg-slate-100 text-slate-900 font-bold py-3 rounded-full text-[13px] flex items-center justify-center gap-2 transition-transform active:scale-95 shadow-md font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
-                        <span>Hubungi Hotline 0821-8825-3433</span>
-                        <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-
         <!-- Mobile Footer -->
         <footer class="bg-white text-slate-600 border-t border-slate-200 pt-8 pb-24 px-4" id="kontak-mobile">
             <div class="max-w-md mx-auto space-y-6">
@@ -398,7 +362,7 @@ header_remove("X-Powered-By");
 
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3 font-display">HUBUNGI KAMI</h4>
-                    <div class="space-y-2.5 mb-4 text-xs text-slate-600">
+                    <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
                         <div class="flex items-start gap-2.5">
                             <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                             <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
