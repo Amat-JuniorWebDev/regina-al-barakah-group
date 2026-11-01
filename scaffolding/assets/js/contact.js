@@ -40,37 +40,51 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // 2. Form Submit ke WhatsApp Logic
-    const form = document.getElementById('sewaForm');
-    
-    if (form) {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault(); // Mencegah form melakukan refresh halaman (submit tradisional)
-            
-            // Mengambil nilai dari input form berdasarkan ID
-            const nama = document.getElementById('inputNama')?.value || '-';
-            const wa = document.getElementById('inputWA')?.value || '-';
-            const proyek = document.getElementById('inputProyek')?.value || '-';
-            const durasi = document.getElementById('inputDurasi')?.value || '-';
-            const lokasi = document.getElementById('inputLokasi')?.value || '-';
-            const modul = document.getElementById('inputModul')?.value || '-';
+    // Fungsi Utama Eksekusi WhatsApp
+    function handleFormSubmit(e, isDesktop = false) {
+        e.preventDefault(); // Mencegah form melakukan refresh halaman (submit tradisional)
+        
+        const suffix = isDesktop ? 'Desktop' : ''; // Membedakan ID Mobile dan Desktop
+        
+        // Mengambil nilai dari input form berdasarkan ID
+        const nama = document.getElementById('inputNama' + suffix)?.value || '-';
+        const wa = document.getElementById('inputWA' + suffix)?.value || '-';
+        const proyek = document.getElementById('inputProyek' + suffix)?.value || '-';
+        const durasi = document.getElementById('inputDurasi' + suffix)?.value || '-';
+        const lokasi = document.getElementById('inputLokasi' + suffix)?.value || '-';
+        const modul = document.getElementById('inputModul' + suffix)?.value || '-';
 
-            // Merangkai teks pesan agar rapi saat dibaca di WhatsApp
-            const textWA = `Halo Admin Regina Al Barakah, saya ingin konsultasi sewa scaffolding dengan rincian berikut:%0A%0A` +
-                           `*Nama/Perusahaan:* ${nama}%0A` +
-                           `*No. WhatsApp:* ${wa}%0A` +
-                           `*Jenis Proyek:* ${proyek}%0A` +
-                           `*Estimasi Durasi:* ${durasi}%0A` +
-                           `*Lokasi Titik Antar:* ${lokasi}%0A` +
-                           `*Kebutuhan Tambahan:* ${modul}%0A%0A` +
-                           `Mohon dibantu informasi ketersediaan dan estimasi harganya. Terima kasih.`;
+        // Merangkai teks pesan agar rapi saat dibaca di WhatsApp
+        const textWA = `Halo Admin Regina Al Barakah, saya ingin konsultasi sewa scaffolding dengan rincian berikut:%0A%0A` +
+                       `*Nama/Perusahaan:* ${nama}%0A` +
+                       `*No. WhatsApp:* ${wa}%0A` +
+                       `*Jenis Proyek:* ${proyek}%0A` +
+                       `*Estimasi Durasi:* ${durasi}%0A` +
+                       `*Lokasi Titik Antar:* ${lokasi}%0A` +
+                       `*Kebutuhan Tambahan:* ${modul}%0A%0A` +
+                       `Mohon dibantu informasi ketersediaan dan estimasi harganya. Terima kasih.`;
 
-            // Nomor tujuan WhatsApp Admin 1 (tanpa awalan 0 atau +, langsung gunakan format 62)
-            const noTujuan = "6282152316910"; 
+        // Nomor tujuan WhatsApp Admin 1 (tanpa awalan 0 atau +, langsung gunakan format 62)
+        const noTujuan = "6282152316910"; 
 
-            // Membuat link WA dan membukanya di tab/aplikasi baru
-            const waURL = `https://wa.me/${noTujuan}?text=${textWA}`;
-            window.open(waURL, '_blank');
+        // Membuat link WA dan membukanya di tab/aplikasi baru
+        const waURL = `https://wa.me/${noTujuan}?text=${textWA}`;
+        window.open(waURL, '_blank');
+    }
+
+    // 2. Form Submit ke WhatsApp Logic (Mobile)
+    const formMobile = document.getElementById('sewaForm');
+    if (formMobile) {
+        formMobile.addEventListener('submit', function(e) {
+            handleFormSubmit(e, false);
+        });
+    }
+
+    // 3. Form Submit ke WhatsApp Logic (Desktop)
+    const formDesktop = document.getElementById('sewaFormDesktop');
+    if (formDesktop) {
+        formDesktop.addEventListener('submit', function(e) {
+            handleFormSubmit(e, true);
         });
     }
 });

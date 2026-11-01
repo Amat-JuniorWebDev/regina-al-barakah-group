@@ -280,19 +280,20 @@ header_remove("X-Powered-By");
                     </div>
                 </div>
                 
-                <form class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm flex flex-col gap-3.5" onsubmit="event.preventDefault(); alert('Permintaan Anda terkirim! Admin akan membalas di WhatsApp Anda.');">
+                <!-- IDENTIFIER: ID="sewaForm" DITAMBAHKAN AGAR JS BERJALAN -->
+                <form id="sewaForm" class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm flex flex-col gap-3.5">
                     <div>
                         <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Nama Pemesan / Perusahaan *</label>
-                        <input class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Contoh: Bpk. Hendra / PT. Karya" required="" type="text">
+                        <input id="inputNama" class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Contoh: Bpk. Hendra / PT. Karya" required="" type="text">
                     </div>
                     <div>
                         <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Nomor WhatsApp Aktif *</label>
-                        <input class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="08xxxxxxxxxx" required="" type="tel">
+                        <input id="inputWA" class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="08xxxxxxxxxx" required="" type="tel">
                     </div>
                     <div class="grid grid-cols-2 gap-2.5">
                         <div>
                             <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Jenis Proyek</label>
-                            <select class="w-full h-11 px-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50">
+                            <select id="inputProyek" class="w-full h-11 px-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50">
                                 <option>Gedung / Ruko</option>
                                 <option>Infrastruktur</option>
                                 <option>Rumah Tinggal</option>
@@ -300,7 +301,7 @@ header_remove("X-Powered-By");
                         </div>
                         <div>
                             <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Durasi Sewa</label>
-                            <select class="w-full h-11 px-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50">
+                            <select id="inputDurasi" class="w-full h-11 px-2.5 rounded-xl border border-slate-200 text-slate-700 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50">
                                 <option>1 Bulan (Reguler)</option>
                                 <option>> 2 Bulan</option>
                                 <option>Harian/Mingguan</option>
@@ -309,11 +310,11 @@ header_remove("X-Powered-By");
                     </div>
                     <div>
                         <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Lokasi Titik Antar Proyek *</label>
-                        <input class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Kecamatan / Desa, Kota Bau-Bau..." required="" type="text">
+                        <input id="inputLokasi" class="w-full h-11 px-3.5 rounded-xl border border-slate-200 text-slate-900 text-sm focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Kecamatan / Desa, Kota Bau-Bau..." required="" type="text">
                     </div>
                     <div>
                         <label class="block font-display text-[11px] font-bold text-slate-900 mb-1.5">Kebutuhan Komponen Modul</label>
-                        <textarea class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame, Catwalk, dsb..." rows="3"></textarea>
+                        <textarea id="inputModul" class="w-full p-3 rounded-xl border border-slate-200 text-slate-900 text-xs focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] outline-none transition-all bg-slate-50" placeholder="Sebutkan perkiraan set Main Frame, Catwalk, dsb..." rows="3"></textarea>
                     </div>
                     <button class="w-full bg-[#1E1E1E] text-white font-display text-[13px] font-bold py-3.5 rounded-full text-center flex items-center justify-center gap-2 hover:bg-slate-800 active:scale-95 transition-all shadow-md mt-1" type="submit">
                         <span class="">Kirim Konsultasi Sewa</span>
@@ -375,8 +376,9 @@ header_remove("X-Powered-By");
                         <a href="#" aria-label="Ikuti kami di TikTok" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98v7.92a7.61 7.61 0 01-3.69 6.55 7.63 7.63 0 01-8.79-.82A7.58 7.58 0 012.3 14.5a7.63 7.63 0 018.25-7.59v4.06c-1.89-.37-3.92.51-4.7 2.22a3.67 3.67 0 001.37 4.54c1.47 1.05 3.59.88 4.88-.38.45-.44.73-1.02.73-1.64V.02h-.31z"></path></svg>
                         </a>
-                        <a href="#" aria-label="Ikuti kami di Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path></svg>
+                        <!-- IKON INSTAGRAM DIPERBAIKI -->
+                        <a aria-label="Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
+                            <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/instagram/mono.svg" alt="Instagram" class="w-4 h-4 opacity-70" />
                         </a>
                         <a href="#" aria-label="Tonton video kami di YouTube" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
@@ -396,7 +398,7 @@ header_remove("X-Powered-By");
 
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3 font-display">HUBUNGI KAMI</h4>
-                    <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
+                    <div class="space-y-2.5 mb-4 text-xs text-slate-600">
                         <div class="flex items-start gap-2.5">
                             <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                             <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
@@ -407,7 +409,7 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2" rel="noopener noreferrer" target="_blank">
+                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2">
                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
                         <span>WHATSAPP KAMI</span>
                     </a>
@@ -421,13 +423,13 @@ header_remove("X-Powered-By");
         </footer>
 
         <!-- Mobile Premium Floating WhatsApp -->
-        <aside class="fixed bottom-6 right-6 z-50">
-            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-sm tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221" target="_blank" rel="noopener noreferrer">
+        <aside class="fixed bottom-4 right-4 z-50">
+            <a aria-label="Tanya Sewa Cepat via WhatsApp" class="relative flex items-center gap-2.5 px-5 py-3 rounded-full bg-gradient-to-r from-[#128C7E] to-[#25D366] text-white shadow-[0_8px_25px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_35px_rgba(37,211,102,0.6)] border border-emerald-400/30 backdrop-blur-sm transition-all duration-300 transform hover:-translate-y-1.5 active:scale-95 group font-semibold text-xs tracking-wide overflow-hidden font-display" href="https://wa.me/6281242207221">
                 <span class="absolute inset-0 w-full h-full -ml-[100%] bg-gradient-to-r from-transparent via-white/30 to-transparent group-hover:translate-x-[200%] transition-transform duration-1000 ease-in-out"></span>
-                <svg class="w-5 h-5 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
+                <svg class="w-4 h-4 fill-current flex-shrink-0 z-10 relative" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path>
                 </svg>
-                <span class="z-10 relative">Tanya Sewa Cepat</span>
+                <span class="text-xs font-bold tracking-wide z-10 relative">Tanya Sewa Cepat</span>
             </a>
         </aside>
     </div>
@@ -712,21 +714,22 @@ header_remove("X-Powered-By");
                     
                     <!-- Right Column: Interactive Form -->
                     <div class="lg:col-span-7 bg-slate-50 rounded-[2rem] p-8 md:p-10 border border-slate-200">
-                        <form class="space-y-6" onsubmit="event.preventDefault(); alert('Permintaan konsultasi sewa telah terkirim! Tim kami akan menghubungi nomor WhatsApp Anda dalam waktu 15 menit.');">
+                        <!-- IDENTIFIER: ID="sewaForm" DITAMBAHKAN UNTUK DESKTOP JUGA (Tapi JS akan membaca elemen pertama, kita bisa menggunakan id alternatif seperti 'sewaFormDesktop' jika konflik, namun kita sesuaikan saja ID nya) -->
+                        <form id="sewaFormDesktop" class="space-y-6">
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Nama Pemesan / Perusahaan *</label>
-                                    <input class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Contoh: Bpk. Ridwan (PT Konstruksi Mandiri)" required="" type="text">
+                                    <input id="inputNamaDesktop" class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Contoh: Bpk. Ridwan (PT Konstruksi Mandiri)" required="" type="text">
                                 </div>
                                 <div>
                                     <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Nomor WhatsApp Aktif *</label>
-                                    <input class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="08xxxxxxxxxx" required="" type="tel">
+                                    <input id="inputWADesktop" class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="08xxxxxxxxxx" required="" type="tel">
                                 </div>
                             </div>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Jenis Konstruksi / Proyek</label>
-                                    <select class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all">
+                                    <select id="inputProyekDesktop" class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all">
                                         <option>Gedung Bertingkat / Ruko</option>
                                         <option>Jembatan & Infrastruktur</option>
                                         <option>Pengecoran Plat & Balok</option>
@@ -737,7 +740,7 @@ header_remove("X-Powered-By");
                                 </div>
                                 <div>
                                     <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Estimasi Durasi Sewa</label>
-                                    <select class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all">
+                                    <select id="inputDurasiDesktop" class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-700 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all">
                                         <option>1 Bulan (Standar)</option>
                                         <option>2 - 3 Bulan</option>
                                         <option>Kontrak Proyek > 6 Bulan</option>
@@ -747,11 +750,11 @@ header_remove("X-Powered-By");
                             </div>
                             <div>
                                 <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Lokasi Titik Antar Proyek *</label>
-                                <input class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Kecamatan / Desa, Kota Bau-Bau, Buton, dsb." required="" type="text">
+                                <input id="inputLokasiDesktop" class="w-full h-12 px-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Kecamatan / Desa, Kota Bau-Bau, Buton, dsb." required="" type="text">
                             </div>
                             <div>
                                 <label class="block text-[13px] font-bold text-slate-900 mb-2 font-display">Kebutuhan Komponen Modul (Opsional)</label>
-                                <textarea class="w-full p-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Sebutkan kebutuhan perkiraan (misal: Main Frame 1.7m 200 set, Catwalk 50 pcs, Jack Base, U-Head, dsb.)" rows="4"></textarea>
+                                <textarea id="inputModulDesktop" class="w-full p-4 rounded-xl border border-slate-300 bg-white text-slate-900 focus:outline-none focus:border-[#5084C4] focus:ring-1 focus:ring-[#5084C4] text-[14px] transition-all" placeholder="Sebutkan kebutuhan perkiraan (misal: Main Frame 1.7m 200 set, Catwalk 50 pcs, Jack Base, U-Head, dsb.)" rows="4"></textarea>
                             </div>
                             
                             <button class="w-full py-4 rounded-full bg-[#1E1E1E] hover:bg-slate-800 text-white text-[15px] font-bold tracking-wide transition-all shadow-xl active:scale-[0.98] flex items-center justify-center gap-2 font-display mt-2" type="submit">
@@ -763,73 +766,6 @@ header_remove("X-Powered-By");
                                 Data Anda aman dan hanya digunakan untuk keperluan konsultasi internal.
                             </p>
                         </form>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Area Operasional & Jangkauan Desktop (Ikon Premium SVG) -->
-            <section class="bg-[#1E1E1E] rounded-3xl p-8 md:p-14 text-white shadow-2xl border border-white/10 relative overflow-hidden mb-24" id="coverage">
-                <div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full bg-[#5084C4]/20 blur-3xl pointer-events-none"></div>
-                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                    <div class="lg:col-span-7 space-y-6">
-                        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/15">
-                            <svg class="w-4 h-4 text-[#5084C4]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                            <span class="text-[12px] font-bold uppercase text-white font-display">JANGKAUAN LOGISTIK</span>
-                        </div>
-                        <h2 class="text-3xl lg:text-4xl font-extrabold text-white tracking-tight font-display">
-                            Wilayah Operasional Regina Al Barakah Group
-                        </h2>
-                        <p class="text-[15px] text-slate-300 max-w-xl leading-relaxed">
-                            Kami siap memobilisasi peralatan perancah ke berbagai lokasi proyek strategis di seluruh penjuru Sulawesi Tenggara dengan jangkauan pengiriman prima.
-                        </p>
-                        
-                        <div class="flex flex-wrap gap-2.5 pt-2">
-                            <!-- Opsi SVG Elegan dengan Ikon Pin dan Truk -->
-                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                Kota Bau-Bau
-                            </span>
-                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                Kab. Buton (Pasarwajo)
-                            </span>
-                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                Buton Selatan (Batauga)
-                            </span>
-                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                Buton Tengah (Labungkari)
-                            </span>
-                            <span class="px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 border border-white/15 text-[14px] font-medium text-white transition-colors flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-[#E53935]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                Kab. Muna & Raha
-                            </span>
-                            <span class="px-4 py-2 rounded-full bg-[#5084C4]/40 border border-[#5084C4] text-[14px] font-semibold text-[#a3c9ff] flex items-center gap-1.5">
-                                <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1"></path></svg>
-                                Seluruh Sulawesi Tenggara
-                            </span>
-                        </div>
-                    </div>
-                    
-                    <div class="lg:col-span-5 bg-[#2C2C2C] border border-white/10 rounded-2xl p-6 shadow-xl space-y-5">
-                        <div class="flex items-center gap-3">
-                            <div class="w-12 h-12 rounded-xl bg-[#5084C4] flex items-center justify-center text-white">
-                                <!-- Location Tick SVG seperti screenshot referensi -->
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-bold text-white font-display">Mulai Sewa Hari Ini</h3>
-                                <p class="text-[13px] text-slate-400">Konsultasi cepat via WhatsApp</p>
-                            </div>
-                        </div>
-                        <p class="text-[14px] text-slate-300 leading-relaxed">
-                            Dapatkan perhitungan volume set scaffolding dan surat penawaran harga resmi (SPH) untuk kebutuhan tender atau proyek swasta Anda.
-                        </p>
-                        <a class="w-full flex items-center justify-center gap-2 bg-white text-slate-900 py-3.5 px-6 rounded-full text-[15px] font-bold hover:bg-slate-100 hover:shadow-lg active:scale-95 transition-all duration-150 font-display" href="https://wa.me/6282188253433" target="_blank" rel="noopener noreferrer">
-                            <span class="">Hubungi Hotline 0821-8825-3433</span>
-                            <svg class="w-4 h-4 text-slate-900" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                        </a>
                     </div>
                 </div>
             </section>
@@ -875,7 +811,7 @@ header_remove("X-Powered-By");
                         <h4 class="font-bold text-[#1E1E1E] text-xs sm:text-sm uppercase tracking-wider font-display">HUBUNGI KAMI</h4>
                         <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
                             <div class="flex items-start gap-2.5">
-                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                                 <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
                             </div>
                             <div class="flex items-center gap-2.5">
