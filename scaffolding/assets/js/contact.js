@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                        `Mohon dibantu informasi ketersediaan dan estimasi harganya. Terima kasih.`;
 
         // Nomor tujuan WhatsApp Admin 1 (tanpa awalan 0 atau +, langsung gunakan format 62)
-        const noTujuan = "6282152316910"; 
+        const noTujuan = "6281242207221"; 
 
         // Membuat link WA dan membukanya di tab/aplikasi baru
         const waURL = `https://wa.me/${noTujuan}?text=${textWA}`;
