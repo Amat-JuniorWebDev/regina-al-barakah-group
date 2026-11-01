@@ -472,31 +472,31 @@ header_remove("X-Powered-By");
                     <div class="lg:col-span-5 relative w-full mt-auto"> <!-- DIPERBAIKI: Tambah mt-auto -->
                         <div class="space-y-3 relative">
                             <!-- Floating Card 1 -->
-                            <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
-                                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-blue-500/20 text-[#5084C4]">
-                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                </div>
-                                <div class="flex-1 min-w-0">
-                                    <div class="flex items-center justify-between">
-                                        <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">24/7 Siaga Proyek</h2>
-                                        <span class="text-[11px] font-semibold bg-[#E53935]/20 text-rose-300 px-2 py-0.5 rounded-md border border-[#E53935]/30">Fast Response</span>
-                                    </div>
-                                    <p class="text-xs text-slate-300 mt-0.5">Layanan darurat teknis dan keluhan</p>
-                                </div>
-                            </div>
-                            
-                            <!-- Floating Card 2 -->
-                            <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
-                                <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-emerald-500/20 text-emerald-400">
-                                    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                                </div>
-                                <div class="flex-1 min-w-0">
-                                    <div class="flex items-center justify-between">
-                                        <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">100% Standar SNI</h2>
-                                        <span class="text-[11px] font-semibold bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-500/30">Uji Kuat Pipa</span>
-                                    </div>
-                                    <p class="text-xs text-slate-300 mt-0.5">Semua material lolos seleksi kelayakan</p>
-                                </div>
+    <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
+        <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-blue-500/20 text-[#5084C4]">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        </div>
+        <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">24/7 Siaga Proyek</h2>
+                <span class="text-[11px] font-semibold bg-[#E53935]/20 text-rose-300 px-2 py-0.5 rounded-md border border-[#E53935]/30">Fast Response</span>
+            </div>
+            <p class="text-xs text-slate-300 mt-0.5">Layanan darurat teknis dan keluhan</p>
+        </div>
+    </div>
+    
+    <!-- Floating Card 2 -->
+    <div class="glass-card-dark rounded-2xl p-3 sm:p-4 text-white flex items-center gap-3 sm:gap-4 transition-all hover:bg-white/10 group">
+        <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 relative border border-white/10 flex items-center justify-center bg-emerald-500/20 text-emerald-400">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+        </div>
+        <div class="flex-1 min-w-0">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bold text-sm sm:text-base text-white truncate font-display">100% Standar SNI</h2>
+                <span class="text-[11px] font-semibold bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-md border border-emerald-500/30">Uji Kuat Pipa</span>
+            </div>
+            <p class="text-xs text-slate-300 mt-0.5">Semua material lolos seleksi kelayakan</p>
+        </div>
                             </div>
                         </div>
                     </div>
