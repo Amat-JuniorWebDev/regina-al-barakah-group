@@ -398,7 +398,7 @@ header_remove("X-Powered-By");
 
                 <div class="border-t border-slate-100 pt-4">
                     <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3 font-display">HUBUNGI KAMI</h4>
-                    <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
+                    <div class="space-y-2.5 mb-4 text-xs text-slate-600">
                         <div class="flex items-start gap-2.5">
                             <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
                             <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
