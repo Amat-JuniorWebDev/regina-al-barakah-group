@@ -37,7 +37,6 @@ header_remove("X-Powered-By");
     <!-- 📱 TAMPILAN MOBILE & TABLET (Sembunyi di Desktop) -->
     <!-- ============================================================== -->
     <div class="block lg:hidden">
-        <!-- Hero Section -->
         <section class="pt-24 pb-8 px-4 bg-[#1E1E1E] text-white relative rounded-b-[2rem] overflow-hidden max-w-md mx-auto border-x border-b border-slate-800 shadow-2xl">
             <div class="absolute -top-10 -right-10 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
             <div class="absolute bottom-0 -left-12 w-48 h-48 bg-[#db322f]/15 rounded-full blur-3xl pointer-events-none"></div>
@@ -96,6 +95,7 @@ header_remove("X-Powered-By");
                 <div class="mt-4 p-4 rounded-3xl bg-white/[0.04] backdrop-blur-md border border-white/10 shadow-inner relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent pointer-events-none"></div>
                     <div class="space-y-2.5 relative z-10">
+                        <!-- Perbaikan Icon Tanda Tanya Mobile 1 -->
                         <div class="p-3 rounded-2xl bg-white/[0.05] border border-white/10 flex items-center gap-3">
                             <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10 flex items-center justify-center bg-blue-500/20 text-[#5084C4]">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -111,6 +111,7 @@ header_remove("X-Powered-By");
                                 <p class="text-slate-300 text-[10px] mt-1 flex items-center gap-1 font-medium"><span class="text-amber-300">⏱</span> Estimasi 1 - 2 Jam Tiba di Lokasi</p>
                             </div>
                         </div>
+                        <!-- Perbaikan Icon Tanda Tanya Mobile 2 -->
                         <div class="p-3 rounded-2xl bg-white/[0.05] border border-white/10 flex items-center gap-3">
                             <div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0 border border-white/10 flex items-center justify-center bg-emerald-500/20 text-emerald-400">
                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
@@ -190,7 +191,7 @@ header_remove("X-Powered-By");
                     <span class="text-slate-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ready Stock</span>
                     <button class="bg-slate-50 hover:bg-[#5084C4] border border-slate-200 hover:border-[#5084C4] hover:text-white text-slate-700 px-4 py-2 rounded-full font-bold text-[11px] inline-flex items-center space-x-1.5 transition-all font-display shadow-sm" onclick="openModalMobile(this)">
                         <span class="">Detail Alat</span>
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </button>
                 </div>
             </article>
@@ -209,7 +210,7 @@ header_remove("X-Powered-By");
                     <span class="text-slate-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ready Stock</span>
                     <button class="bg-slate-50 hover:bg-blue-600 hover:text-white border border-slate-200 hover:border-blue-600 text-slate-700 px-4 py-2 rounded-full font-bold text-[11px] inline-flex items-center space-x-1.5 transition-all font-display shadow-sm" onclick="openModalMobile(this)">
                         <span class="">Detail Alat</span>
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </button>
                 </div>
             </article>
@@ -228,7 +229,7 @@ header_remove("X-Powered-By");
                     <span class="text-slate-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ready Stock</span>
                     <button class="bg-slate-50 hover:bg-emerald-500 border border-slate-200 hover:border-emerald-500 hover:text-white text-slate-700 px-4 py-2 rounded-full font-bold text-[11px] inline-flex items-center space-x-1.5 transition-all font-display shadow-sm" onclick="openModalMobile(this)">
                         <span class="">Detail Alat</span>
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </button>
                 </div>
             </article>
@@ -247,7 +248,7 @@ header_remove("X-Powered-By");
                     <span class="text-slate-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ready Stock</span>
                     <button class="bg-slate-50 hover:bg-[#5084C4] border border-slate-200 hover:border-[#5084C4] hover:text-white text-slate-700 px-4 py-2 rounded-full font-bold text-[11px] inline-flex items-center space-x-1.5 transition-all font-display shadow-sm" onclick="openModalMobile(this)">
                         <span class="">Detail Alat</span>
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </button>
                 </div>
             </article>
@@ -266,7 +267,7 @@ header_remove("X-Powered-By");
                     <span class="text-slate-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ready Stock</span>
                     <button class="bg-slate-50 hover:bg-[#E53935] border border-slate-200 hover:border-[#E53935] hover:text-white text-slate-700 px-4 py-2 rounded-full font-bold text-[11px] inline-flex items-center space-x-1.5 transition-all font-display shadow-sm" onclick="openModalMobile(this)">
                         <span class="">Detail Alat</span>
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </button>
                 </div>
             </article>
@@ -285,7 +286,7 @@ header_remove("X-Powered-By");
                     <span class="text-slate-500 font-bold text-[10px] uppercase tracking-wider flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Ready Stock</span>
                     <button class="bg-slate-50 hover:bg-[#5084C4] border border-slate-200 hover:border-[#5084C4] hover:text-white text-slate-700 px-4 py-2 rounded-full font-bold text-[11px] inline-flex items-center space-x-1.5 transition-all font-display shadow-sm" onclick="openModalMobile(this)">
                         <span class="">Detail Alat</span>
-                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     </button>
                 </div>
             </article>
@@ -333,7 +334,7 @@ header_remove("X-Powered-By");
                         <a href="#" aria-label="Ikuti kami di TikTok" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98v7.92a7.61 7.61 0 01-3.69 6.55 7.63 7.63 0 01-8.79-.82A7.58 7.58 0 012.3 14.5a7.63 7.63 0 018.25-7.59v4.06c-1.89-.37-3.92.51-4.7 2.22a3.67 3.67 0 001.37 4.54c1.47 1.05 3.59.88 4.88-.38.45-.44.73-1.02.73-1.64V.02h-.31z"></path></svg>
                         </a>
-                        <a href="#" aria-label="Ikuti kami di Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
+                        <a aria-label="Instagram" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition border border-[#E0E0E0]" href="#">
                             <img src="https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/instagram/mono.svg" alt="Instagram" class="w-4 h-4 opacity-70" />
                         </a>
                         <a href="#" aria-label="Tonton video kami di YouTube" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600 transition-colors">
@@ -365,7 +366,7 @@ header_remove("X-Powered-By");
                         </div>
                     </div>
 
-                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2" rel="noopener noreferrer" target="_blank">
+                    <a href="https://wa.me/6281242207221" aria-label="Kirim Pesan WhatsApp" class="w-full py-3.5 px-4 rounded-xl bg-[#059669] hover:bg-emerald-600 text-white font-bold text-xs tracking-wider uppercase flex items-center justify-center gap-2 shadow-md transition-all active:scale-[0.99] font-display mt-2">
                         <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.777.784 2.796.784 3.182 0 5.769-2.587 5.769-5.767 0-3.181-2.587-5.769-5.769-5.769zm3.385 8.169c-.143.402-.823.771-1.15.823-.326.052-.751.074-2.18-.519-1.723-.715-2.825-2.477-2.91-2.592-.085-.115-.694-.925-.694-1.765s.439-1.252.595-1.424c.157-.172.342-.215.457-.215.114 0 .229 0 .329.006.105.006.244-.04.382.292.143.344.49 1.194.533 1.28.043.086.072.186.014.3-.057.115-.086.187-.172.287-.086.101-.182.224-.26.302-.086.086-.176.18-.076.353.1.172.443.731.952 1.185.655.584 1.208.766 1.38.852.172.086.273.072.373-.043.101-.115.43-.502.544-.674.115-.172.229-.144.387-.086.158.058 1.002.473 1.174.559.172.086.287.129.329.201.043.072.043.416-.1 1.018z"></path></svg>
                         <span>WHATSAPP KAMI</span>
                     </a>
@@ -398,7 +399,7 @@ header_remove("X-Powered-By");
             
             <!-- Hero Banner Desktop -->
             <section class="relative overflow-hidden rounded-[32px] bg-[#111827] text-white min-h-[640px] lg:min-h-[720px] flex flex-col justify-between shadow-2xl" id="hero">
-                <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0"  src="../assets/image/hero-section.jpg">
+                <img alt="Gudang Logistik & Scaffolding Regina Al Barakah" width="1360" height="720" fetchpriority="high" class="absolute inset-0 w-full h-full object-cover object-center z-0" src="../assets/image/hero-section.jpg">
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-950/40 z-[1]"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-slate-950/30 z-[1]"></div>
 
@@ -413,7 +414,7 @@ header_remove("X-Powered-By");
                             </div>
                             <div>
                                 <span class="font-extrabold text-base sm:text-lg tracking-tight block text-white leading-tight font-display">REGINA AL BARAKAH</span>
-                                <span class="text-[#E53935] text-[10px] sm:text-xs font-semibold tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
+                                <span class="text-[10px] sm:text-xs font-medium text-rose-300 tracking-wider uppercase block font-sans">SCAFFOLDING & KONSTRUKSI</span>
                             </div>
                         </a>
                         
@@ -427,7 +428,7 @@ header_remove("X-Powered-By");
                         <div class="flex items-center gap-2">
                             <a class="inline-flex items-center gap-2 bg-white text-[#1E1E1E] hover:bg-slate-100 font-bold px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm transition-all shadow-lg hover:shadow-xl active:scale-95 group font-display" href="https://wa.me/6281242207221?text=Halo%20Regina%20Al%20Barakah,%20saya%20ingin%20konsultasi%20dan%20sewa%20scaffolding." target="_blank" aria-label="Konsultasi Sewa Scaffolding" rel="noopener noreferrer">
                                 <span>Konsultasi / Sewa</span>
-                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] shrink-0 group-hover:rotate-45 transition-transform duration-300">↗</span>
+                                <span class="w-5 h-5 rounded-full bg-[#1E1E1E] text-white flex items-center justify-center text-[10px] group-hover:rotate-45 transition-transform duration-300">↗</span>
                             </a>
                         </div>
                     </div>
@@ -598,7 +599,7 @@ header_remove("X-Powered-By");
                             <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
                                 <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
                                 <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-blue-600 hover:text-white border border-slate-200 hover:border-blue-600 text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
-                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </button>
                             </div>
                         </div>
@@ -616,7 +617,7 @@ header_remove("X-Powered-By");
                             <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
                                 <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
                                 <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-emerald-500 hover:text-white border border-slate-200 hover:border-emerald-500 text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
-                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </button>
                             </div>
                         </div>
@@ -634,7 +635,7 @@ header_remove("X-Powered-By");
                             <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
                                 <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
                                 <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#5084C4] hover:text-white border border-slate-200 hover:border-[#5084C4] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
-                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </button>
                             </div>
                         </div>
@@ -652,7 +653,7 @@ header_remove("X-Powered-By");
                             <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
                                 <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
                                 <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#E53935] hover:text-white border border-slate-200 hover:border-[#E53935] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
-                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </button>
                             </div>
                         </div>
@@ -670,7 +671,7 @@ header_remove("X-Powered-By");
                             <div class="pt-5 mt-5 border-t border-slate-100 flex items-center justify-between">
                                 <span class="text-xs text-slate-500 font-semibold flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Ready Stock</span>
                                 <button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-50 hover:bg-[#5084C4] hover:text-white border border-slate-200 hover:border-[#5084C4] text-slate-700 text-xs font-bold transition-all duration-300 font-display shadow-sm" onclick="openModalDesktop(this)">
-                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                                    Detail Alat <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                                 </button>
                             </div>
                         </div>
@@ -678,7 +679,7 @@ header_remove("X-Powered-By");
                 </div>
             </section>
 
-            <!-- Desktop Footer -->
+            <!-- Footer Desktop -->
             <footer class="bg-white rounded-[32px] p-8 sm:p-10 border border-[#E0E0E0] subtle-shadow text-[#757575] text-sm" id="kontak-desktop">
                 <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-6">
                     <div class="md:col-span-5 space-y-4">
@@ -719,7 +720,7 @@ header_remove("X-Powered-By");
                         <h4 class="font-bold text-[#1E1E1E] text-xs sm:text-sm uppercase tracking-wider font-display">HUBUNGI KAMI</h4>
                         <div class="space-y-2.5 mb-4 text-xs sm:text-sm text-slate-600 leading-snug">
                             <div class="flex items-start gap-2.5">
-                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+                                <svg class="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
                                 <span>Jl. Pahlawan Blk. A No. 11, BTN Medy Brata, Wolio, Bau-Bau 93711</span>
                             </div>
                             <div class="flex items-center gap-2.5">
